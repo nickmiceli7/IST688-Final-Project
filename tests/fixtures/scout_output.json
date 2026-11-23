@@ -1,0 +1,201 @@
+{
+  "restaurants": [
+    {
+      "restaurant_id": 8,
+      "name": "Sakana-Ya Sushi Bar",
+      "cuisine": "Japanese",
+      "phone": "(315) 475-0117",
+      "website": "http://www.syracusesushi.com",
+      "address": "215 Walton St.",
+      "menu_collected": "2026-11-22",
+      "best_score": 8.0,
+      "dishes": [
+        {
+          "name": "L. Mixed Vegetables",
+          "section": "Lunch Special",
+          "price": "$11.95",
+          "price_known": true,
+          "menu_says": "",
+          "score": 8.0,
+          "dish_id": "8-16"
+        },
+        {
+          "name": "L. Pad Thai",
+          "section": "Lunch Special",
+          "price": "$11.95",
+          "price_known": true,
+          "menu_says": "",
+          "score": 7.5,
+          "dish_id": "8-20"
+        },
+        {
+          "name": "L. Thai Curry",
+          "section": "Lunch Special",
+          "price": "$11.95",
+          "price_known": true,
+          "menu_says": "",
+          "score": 7.0,
+          "dish_id": "8-22"
+        }
+      ]
+    },
+    {
+      "restaurant_id": 2,
+      "name": "Inka’s",
+      "cuisine": "Latin American",
+      "phone": "(315) 214-4664",
+      "website": "https://inkassyracuse.com/",
+      "address": "201 S. Salina",
+      "menu_collected": "2026-11-22",
+      "best_score": 7.0,
+      "dishes": [
+        {
+          "name": "Ceviche de Hongos",
+          "section": "Apps",
+          "price": "$12.00",
+          "price_known": true,
+          "menu_says": "(V, GF)",
+          "score": 7.0,
+          "dish_id": "2-2"
+        },
+        {
+          "name": "Papa a la Huancaina",
+          "section": "Apps",
+          "price": "$9.00",
+          "price_known": true,
+          "menu_says": "(Veg, GF)",
+          "score": 6.5,
+          "dish_id": "2-9"
+        },
+        {
+          "name": "Ensalada de Quinoa y Manzana",
+          "section": "Entrees",
+          "price": "$17.00",
+          "price_known": true,
+          "menu_says": "(Veg, GF, Nuts)",
+          "score": 6.0,
+          "dish_id": "2-19"
+        }
+      ]
+    },
+    {
+      "restaurant_id": 22,
+      "name": "The Evergreen",
+      "cuisine": "American",
+      "phone": "(315) 870-3500",
+      "website": "http://www.theevergreen.co/",
+      "address": "125 E. Water St.",
+      "menu_collected": "2026-11-22",
+      "best_score": 6.0,
+      "dishes": [
+        {
+          "name": "SPICY BLACK BEAN CHILI",
+          "section": "Specials",
+          "price": "$7.00",
+          "price_known": true,
+          "menu_says": "ve/gf",
+          "score": 6.0,
+          "dish_id": "22-1"
+        },
+        {
+          "name": "SQUASH & KALE ORZO",
+          "section": "Specials",
+          "price": "$16.00",
+          "price_known": true,
+          "menu_says": "v",
+          "score": 5.5,
+          "dish_id": "22-4"
+        },
+        {
+          "name": "Cauliflower Wings",
+          "section": "STARTERS",
+          "price": "$8.00",
+          "price_known": true,
+          "menu_says": "v/ve*",
+          "score": 5.0,
+          "dish_id": "22-7"
+        }
+      ]
+    },
+    {
+      "restaurant_id": 5,
+      "name": "Three Lives",
+      "cuisine": "American",
+      "phone": "(315) 218-5001",
+      "website": "http://threelivesbar.com/",
+      "address": "316 S. Clinton St.",
+      "menu_collected": "2026-11-22",
+      "best_score": 5.0,
+      "dishes": [
+        {
+          "name": "DORITO LOADED TOTS",
+          "section": "MultiplayerShareable options for 2-4 players",
+          "price": "price unknown",
+          "price_known": false,
+          "menu_says": "",
+          "score": 5.0,
+          "dish_id": "5-3"
+        },
+        {
+          "name": "VEGAN LOADED TOTS",
+          "section": "MultiplayerShareable options for 2-4 players",
+          "price": "price unknown",
+          "price_known": false,
+          "menu_says": "",
+          "score": 4.5,
+          "dish_id": "5-4"
+        },
+        {
+          "name": "Tater Tots",
+          "section": "sides & sauces",
+          "price": "price unknown",
+          "price_known": false,
+          "menu_says": "",
+          "score": 4.0,
+          "dish_id": "5-15"
+        }
+      ]
+    },
+    {
+      "restaurant_id": 7,
+      "name": "Byblos Mediterranean Cafe",
+      "cuisine": "Mediterranean / Middle Eastern",
+      "phone": "(315) 478-3333",
+      "website": "http://byblossyr.com/clinton/",
+      "address": "223 N. Clinton St.",
+      "menu_collected": "2026-11-22",
+      "best_score": 5.0,
+      "dishes": [
+        {
+          "name": "Hummus",
+          "section": "Mazza (Appetizers)",
+          "price": "$7.49",
+          "price_known": true,
+          "menu_says": "",
+          "score": 5.0,
+          "dish_id": "7-1"
+        },
+        {
+          "name": "Falafel \"Vegetable Patties\"",
+          "section": "Mazza (Appetizers)",
+          "price": "$7.49",
+          "price_known": true,
+          "menu_says": "",
+          "score": 4.5,
+          "dish_id": "7-3"
+        },
+        {
+          "name": "Falafel Poppers",
+          "section": "Mazza (Appetizers)",
+          "price": "$17.99",
+          "price_known": true,
+          "menu_says": "",
+          "score": 4.0,
+          "dish_id": "7-13"
+        }
+      ]
+    }
+  ],
+  "reranked": true,
+  "relaxed": null
+}
