@@ -12,6 +12,7 @@ import tempfile
 import unittest
 from datetime import datetime
 from pathlib import Path
+from unittest import mock
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
@@ -173,8 +174,45 @@ class CheckPlace(unittest.TestCase):
         r = places.check_place(2, fetch=boom, key="k", place_ids={2: "abc"})
         self.assertFalse(r["ok"])
         self.assertIn("TimeoutError", r["error"])
-        self.assertFalse(places.check_place(3, key="k", place_ids={})["ok"])
+        self.assertFalse(places.check_place(3, key="k", place_ids={}, auto_match=False)["ok"])
         self.assertEqual(places._cache, {})
+
+    def test_no_key_fails_without_any_call(self):
+        def never(*a):
+            raise AssertionError("no network call without a key")
+        with mock.patch.object(places, "get_google_key", return_value=None):
+            r = places.check_place(1, fetch=never, search=never, place_ids={1: "abc"})
+        self.assertEqual(r["error"], "no Google Places API key is set")
+
+    def test_plug_and_play_live_match_used_only_when_clear(self):
+        def search(query, key):
+            if query.startswith("Kitty Hoynes"):
+                return [{"id": "live-1", "displayName": {"text": "Kitty Hoynes Irish Pub & Restaurant"},
+                         "formattedAddress": "301 W Fayette St, Syracuse, NY 13202, USA"}]
+            return [{"id": "wrong", "displayName": {"text": "Mr. Pho"},
+                     "formattedAddress": "216 Walton St, Syracuse, NY 13202, USA"}]
+        fetched = []
+
+        def fetch(pid, key):
+            fetched.append(pid)
+            return google_json(periods=daily(11, 21))
+        ok = places.check_place(1, fetch=fetch, key="k", place_ids={}, search=search, now=NOW)
+        self.assertTrue(ok["ok"])
+        self.assertEqual((ok["place_id"], ok["place_id_source"]), ("live-1", "matched live"))
+        bad = places.check_place(17, fetch=fetch, key="k", place_ids={}, search=search, now=NOW)
+        self.assertFalse(bad["ok"])
+        self.assertIn("place ID", bad["error"])
+        self.assertEqual(fetched, ["live-1"])                 # the unclear match was never used
+        stored = places.check_place(2, fetch=fetch, key="k", place_ids={2: "reviewed-2"}, search=search, now=NOW)
+        self.assertEqual(stored["place_id_source"], "reviewed")
+
+    def test_rows_still_marked_for_review_are_not_used(self):
+        with tempfile.TemporaryDirectory() as d:
+            path = Path(d) / "place_ids.csv"
+            path.write_text("restaurant_id,name,place_id,resolved_on,needs_review\n"
+                            "1,Kitty Hoynes,abc,2026-11-22,\n"
+                            "17,Dakshin Indian Cuisine,xyz,2026-11-22,name differs\n", encoding="utf-8")
+            self.assertEqual(places.load_place_ids(path), {1: "abc"})
 
     def test_only_the_small_field_mask(self):
         self.assertNotIn("*", places.FIELD_MASK)

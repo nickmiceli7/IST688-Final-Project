@@ -1,10 +1,11 @@
 # Ashish Chaudhary: Part C (Live Checks: Checker and Auditor)
 
-**Status as of Nov 22, 2026:** all Part C code is written and passes 40 offline tests (fakes for Google, the county data and web pages). Inspections and action links work on real data. The Google Places calls are built but not yet run against Google, because the API key isn't set up yet. Code is on branch `part-c-checker`: `check_candidates.py`, `places.py`, `resolve_place_ids.py`, `timecheck.py`, `action_links.py`, `statements.py`, `inspections.py`, `audit.py`, `checker_tool.py`, `matching.py`, `tests/test_checker.py`.
+**Status as of Nov 22, 2026:** all Part C code is written and passes 43 offline tests (fakes for Google, the county data and web pages). Inspections and action links work on real data. The Google Places part is plug-and-play: it hasn't run against Google yet (no key), and it starts working as soon as `GOOGLE_PLACES_API_KEY` is set, with no code changes or extra steps. Until then, every restaurant is kept as "not verified" with a phone link. Code is on branch `part-c-checker`: `check_candidates.py`, `places.py`, `resolve_place_ids.py`, `timecheck.py`, `action_links.py`, `statements.py`, `inspections.py`, `audit.py`, `checker_tool.py`, `matching.py`, `tests/test_checker.py`.
 
 ## Completed
 - `check_place(restaurant_id)`: reads Google Places (New) Place Details live with a small field mask (status, hours, dine-in, takeout, delivery, reservable, phone, website, Maps link). Results are cached in memory for 30 minutes. Nothing from Google is written to disk
-- `resolve_place_ids.py`: finds each restaurant's place ID once with Text Search limited to downtown, and marks rows whose name or address doesn't clearly match A's list for review
+- Plug-and-play key: `GOOGLE_PLACES_API_KEY` is read from the environment, Streamlit secrets (on Streamlit Cloud) or `.streamlit/secrets.toml`. With a key and no reviewed place IDs yet, `check_place` matches each restaurant live by A's name and address and uses the match only when both clearly agree (kept in memory). Reviewed IDs in `place_ids.csv` take priority
+- `resolve_place_ids.py`: finds each restaurant's place ID once with Text Search limited to downtown, and marks rows whose name or address doesn't clearly match A's list for review. Rows still marked for review are never used
 - `check_candidates(candidates, request)`: chooses the checks the request needs, removes failing candidates and gives a plain-English reason for each one (e.g. "Closed Friday at 7 PM according to Google Places.")
   - Always checks business status. Checks hours only when "when" gives a day and time. Checks dine-in, takeout or delivery based on the mode
   - When Google doesn't say (None), the restaurant is never removed; it is kept with a note. When the Google call fails, the restaurant is kept with `verified: False`, so an outage can't empty the results
@@ -16,7 +17,7 @@
 - LangChain `StructuredTool` wrapper (`checker_tool.py`) so the Host can call the Checker as a tool
 
 ## Not done yet (planned by Dec 6)
-- Run with a Google key: resolve place IDs, review them, and run `python places.py --first10` (the milestone demo)
+- Google key: once it's set, run `python places.py --first10` (the milestone demo). Then, to store reviewed IDs: `python resolve_place_ids.py`, review `place_ids.csv`, `python resolve_place_ids.py --strip`
 - Fill and verify `action_links.csv` (reservation and delivery links are blank; the 10 prefilled ordering pages are not yet verified)
 - Review Dakshin (17): no county inspection record, and **Mr. Pho** was inspected at its address (216 Walton) on Nov 3. It may have closed
 - The audit run and its log (listed under Part A in the plan; the Auditor is ready for it)
@@ -69,5 +70,5 @@ def build_reply(request: dict) -> str:
 ## Needs from teammates
 - **Abhishek (D):** the current `build_reply` uses keys `dish`, `price`, `hours`, `link` that B's real output doesn't have (see the snippet above). Please also replace the line "No dish is guaranteed safe." with `allergy_note`: the ethics rules say never to call a dish safe, even in the negative. For the report link, reports go in `reports.csv` (`restaurant_id, reported_on, text`) and the Auditor picks them up
 - **Part A:** check Dakshin (above). Three Lives and Margaritas show "closed every day" on Toast, which is likely paused online ordering; please verify their pickup links in `action_links.csv`. The audit run: `python audit.py`, then log each check with `python audit.py --record <id> "<finding>" "<action>" --by <name>`
-- **Part E:** add `GOOGLE_PLACES_API_KEY` to the Streamlit secrets. `requirements.txt` still lacks B's packages (chromadb, openai). Note: `.gitignore` was missing a newline (`.streamlit/secrets.toml.DS_Store`), so `secrets.toml` was **not** ignored; fixed on this branch. Anyone who committed a key before this fix should rotate it
+- **Part E:** add `GOOGLE_PLACES_API_KEY` to the Streamlit secrets. `requirements.txt` still lacks B's packages (chromadb, openai). Note: `.gitignore` was missing a newline (`.streamlit/secrets.toml.DS_Store`), so `secrets.toml` was **not** ignored. It's fixed, and it now also covers `.env*`, virtual environments and editor files. The fix is in this branch and in a small separate PR that can merge first. No keys were found in the git history
 - **Everyone:** Google key setup: in Google Cloud, enable **Places API (New)**, create a key restricted to that API, and set it as `GOOGLE_PLACES_API_KEY`. The dine-in, takeout, delivery and reservable fields put Place Details in a higher billing tier with a smaller free monthly allowance, so the 30-minute cache matters
