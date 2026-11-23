@@ -255,6 +255,7 @@ class Checker(unittest.TestCase):
         self.assertEqual(out["removed"], [{"restaurant_id": 22, "name": "The Evergreen",
                                            "reason": "Closed Friday at 7 PM according to Google Places."}])
         self.assertIn("open_at_time", out["checks_run"])
+        self.assertEqual(out["requested_time"], "2026-11-27T19:00-05:00")
 
     def test_no_time_skips_the_hours_check_and_says_so(self):
         table = dict(ALL_OPEN)

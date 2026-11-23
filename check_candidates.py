@@ -106,8 +106,8 @@ def check_candidates(candidates, request, place_lookup=None, inspection_lookup=N
     candidates: find_restaurants() output (dict) or its "restaurants" list.
     request:    the Host's request dict (party, when, mode, budget, cuisine, diet).
     The keyword arguments are for tests; the defaults call Google, the county data and our CSVs.
-    Returns {"restaurants", "removed", "checks_run", "checked_at", "source_note", "allergy_note",
-             "inspection_note", "when_note"}.
+    Returns {"restaurants", "removed", "checks_run", "checked_at", "requested_time" (ISO or None),
+             "when_note", "source_note", "allergy_note", "inspection_note"}.
     """
     if place_lookup is None:
         from places import check_place as place_lookup
@@ -152,6 +152,7 @@ def check_candidates(candidates, request, place_lookup=None, inspection_lookup=N
         "removed": removed,
         "checks_run": checks_for(request.get("mode"), when_dt),
         "checked_at": checked_at,
+        "requested_time": when_dt.isoformat(timespec="minutes") if when_dt else None,
         "when_note": when_note,
         "source_note": source_note(checked_at, any_verified or not (kept or removed)),
         "allergy_note": ALLERGY_NOTE,

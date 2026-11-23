@@ -34,41 +34,21 @@
 `check_candidates(candidates, request)` takes B's whole `find_restaurants` output (or its `restaurants` list) and the Host's `ss.summary`. It returns:
 - `restaurants`: B's records unchanged, in B's order, each with a `checks` dict: `verified`, `business_status`, `hours_text`, `open_at_requested_time`, `services`, `action_link` (`type`, `label`, `url`), `inspection` (`date`, `violations`, `critical_count`, `record_url`, `source`) or None, `last_verified`, `notes`
 - `removed`: `restaurant_id`, `name`, `reason`
-- `checks_run`, `checked_at`, `when_note`, `source_note`, `allergy_note`, `inspection_note`
+- `checks_run`, `checked_at`, `requested_time`, `when_note`, `source_note`, `allergy_note`, `inspection_note`
 
-Wiring it into `app.py`:
-```python
-from find_restaurants import find_restaurants
-from check_candidates import check_candidates
+**Wired into `app.py` (Nov 22).** `build_reply` now calls `find_restaurants`, then `check_candidates`, and `format_reply` shows up to 3 picks:
+- dishes with prices and the menu's own dietary wording
+- that day's hours from Google Places
+- the menu date and last verification date
+- the last county inspection with a link to the record
+- one action link
+- the restaurants that were removed, with their reasons
+- the source, inspection and allergy statements
 
-def build_reply(request: dict) -> str:
-    text = (f"Party of {request.get('party')}, {request.get('when')}, {request.get('mode')}, "
-            f"about ${request.get('budget')} each, {request.get('cuisine')}, {request.get('diet')}")
-    found = find_restaurants(text, max_price=request.get("budget") or None)
-    checked = check_candidates(found, request)
-    picks = checked["restaurants"][:3]
-    if not picks:
-        return "I couldn't find a match. Try a different cuisine, time or budget."
-    lines = ["Here are my top picks:"]
-    for r in picks:
-        c = r["checks"]
-        dishes = "; ".join(f"{d['name']} ({d['price']}"
-                           + (f", menu says {d['menu_says']}" if d["menu_says"] else "") + ")"
-                           for d in r["dishes"])
-        link = f"[{c['action_link']['label']}]({c['action_link']['url']})" if c["action_link"] else ""
-        hours = "; ".join(c["hours_text"]) or "hours not listed"
-        lines.append(f"- **{r['name']}**: {dishes}. Hours: {hours}. "
-                     f"Menu collected {r['menu_collected']}. {link}")
-        for note in c["notes"]:
-            lines.append(f"  - {note}")
-    if found.get("relaxed"):
-        lines.append(found["relaxed"])
-    lines += ["", checked["source_note"], checked["allergy_note"]]
-    return "\n".join(lines)
-```
+If the search fails (for example, no OpenAI key), the app shows a short apology instead of crashing.
 
 ## Needs from teammates
-- **Abhishek (D):** the current `build_reply` uses keys `dish`, `price`, `hours`, `link` that B's real output doesn't have (see the snippet above). Please also replace the line "No dish is guaranteed safe." with `allergy_note`: the ethics rules say never to call a dish safe, even in the negative. For the report link, reports go in `reports.csv` (`restaurant_id, reported_on, text`) and the Auditor picks them up
+- **Abhishek (D):** `app.py` now uses the real tools. The old `build_reply` expected keys B doesn't return, and its "No dish is guaranteed safe." line is replaced by `allergy_note`. Your Dec 6 items are unchanged: Supabase, the LLM chat, the follow-up on the last choice and the report link. For the report link, reports go in `reports.csv` (`restaurant_id, reported_on, text`) and the Auditor picks them up
 - **Part A:** check Dakshin (above). Three Lives and Margaritas show "closed every day" on Toast, which is likely paused online ordering; please verify their pickup links in `action_links.csv`. The audit run: `python audit.py`, then log each check with `python audit.py --record <id> "<finding>" "<action>" --by <name>`
-- **Part E:** add `GOOGLE_PLACES_API_KEY` to the Streamlit secrets. `requirements.txt` still lacks B's packages (chromadb, openai). Note: `.gitignore` was missing a newline (`.streamlit/secrets.toml.DS_Store`), so `secrets.toml` was **not** ignored. It's fixed, and it now also covers `.env*`, virtual environments and editor files. The fix is in this branch and in a small separate PR that can merge first. No keys were found in the git history
+- **Part E:** add `GOOGLE_PLACES_API_KEY` to the Streamlit secrets. `requirements.txt` still lacks B's packages (chromadb, openai). Note: `.gitignore` was missing a newline (`.streamlit/secrets.toml.DS_Store`), so `secrets.toml` was **not** ignored. It's fixed on `main` and now also covers `.env*`, virtual environments and editor files. No keys were found in the git history
 - **Everyone:** Google key setup: in Google Cloud, enable **Places API (New)**, create a key restricted to that API, and set it as `GOOGLE_PLACES_API_KEY`. The dine-in, takeout, delivery and reservable fields put Place Details in a higher billing tier with a smaller free monthly allowance, so the 30-minute cache matters

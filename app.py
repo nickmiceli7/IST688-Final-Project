@@ -1,38 +1,41 @@
-"""Grubbz AI - Part D (Host) blueprint.
+"""Grubbz AI - Part D (Host).
 
 Runs with: streamlit run app.py
-Uses SAMPLE results and a local JSON file for profiles.
-Later: replace find_restaurants / check_candidates with B's and C's real tools,
-and replace load_profile / save_profile / delete_profile with Supabase.
+The Host calls two tools: the Scout (find_restaurants, Part B) and the Checker
+(check_candidates, Part C). Profiles are in a local JSON file for now.
+Later: replace load_profile / save_profile / delete_profile with Supabase.
 """
 import json
 import os
 import hashlib
+import re
+from datetime import datetime
+
 import streamlit as st
+
+from check_candidates import check_candidates
+from timecheck import TZ
 
 PROFILE_FILE = "profiles.json"
 
 # ---------------------------------------------------------------
-# Placeholder tools (replace with real ones from B and C)
+# Tools: the Scout (Part B) and the Checker (Part C)
 # ---------------------------------------------------------------
-def find_restaurants(request: dict) -> list:
-    """TODO (Dominick, Part B): Scout. Returns up to 5 restaurants."""
-    return [
-        {"name": "Byblos Mediterranean Cafe", "dish": "Chicken shawarma plate",
-         "price": 16, "hours": "11am-9pm", "data_date": "Nov 22",
-         "link": "https://menupages.com/byblos-mediterranean-cafe/223-n-clinton-st-syracuse"},
-        {"name": "Sakana-Ya Sushi Bar", "dish": "Veggie roll combo",
-         "price": 18, "hours": "12pm-10pm", "data_date": "Nov 22",
-         "link": "https://menupages.com/sakana-ya-sushi-bar/215-walton-st-syracuse"},
-        {"name": "Inka's", "dish": "Lomo saltado",
-         "price": 20, "hours": "11am-9pm", "data_date": "Nov 22",
-         "link": "https://inkassyracuse.com/food-menu"},
-    ]
+def request_text(request: dict) -> str:
+    """The stored request as one sentence for the Scout's search."""
+    parts = [f"Party of {request['party']}" if request.get("party") else "",
+             request.get("when", ""), request.get("mode", ""),
+             f"about ${request['budget']} each" if request.get("budget") else "",
+             request.get("cuisine", ""), request.get("diet", "")]
+    return ", ".join(str(p) for p in parts if p)
 
 
-def check_candidates(candidates: list, request: dict) -> list:
-    """TODO (Ashish, Part C): Checker. Removes closed places."""
-    return candidates
+def run_tools(request: dict):
+    """Scout, then Checker. Returns (scout output, checker output)."""
+    from find_restaurants import find_restaurants  # needs the OpenAI key and chroma_db/
+    budget = request.get("budget")
+    found = find_restaurants(request_text(request), max_price=float(budget) if budget else None)
+    return found, check_candidates(found, request)
 
 
 # ---------------------------------------------------------------
@@ -92,19 +95,83 @@ def update_summary(summary: dict, new_info: dict) -> dict:
     return merged
 
 
-def build_reply(request: dict) -> str:
-    results = check_candidates(find_restaurants(request), request)[:3]
-    if not results:
-        return "I couldn't find a match. Try a different cuisine or budget."
-    lines = ["Here are my top picks:"]
-    for r in results:
-        lines.append(
-            f"- **{r['name']}**: {r['dish']} (${r['price']}), open {r['hours']}. "
-            f"Menu collected {r['data_date']}. [Order or reserve]({r['link']})"
-        )
-    lines.append("\nPlease confirm allergies with the restaurant. "
-                 "No dish is guaranteed safe.")
+ITEM_CODE = re.compile(r"^Item\s+\w+-\s*")
+
+
+def _md(text) -> str:
+    """Escape Markdown so menu text like '8-BIT BURGER*D,G' or '$7 ... $9' displays as written
+    (Streamlit reads * and _ as emphasis and $...$ as math)."""
+    return re.sub(r"([\\`*_\[\]#|~$<>])", r"\\\1", str(text))
+
+
+def _hours_line(checks: dict, requested_time) -> str:
+    if not checks["verified"]:
+        return "Hours: not checked with Google Places this time; please call to confirm."
+    lines = checks["hours_text"]
+    if not lines:
+        return "Hours: not listed on Google Places; please call to confirm."
+    day = datetime.fromisoformat(requested_time) if requested_time else datetime.now(TZ)
+    line = lines[day.weekday()] if len(lines) == 7 else "; ".join(lines)
+    if checks["open_at_requested_time"] is True:
+        line += " (open at your requested time)"
+    return f"Hours (Google Places): {_md(line)}"
+
+
+def format_reply(found: dict, checked: dict) -> str:
+    """Up to 3 recommendations: dishes, prices, hours, data dates, inspection, one action link."""
+    picks = checked["restaurants"][:3]
+    if picks:
+        lines = ["Here are my top picks:", f"_{_md(checked['when_note'])}_"]
+    else:
+        lines = ["I couldn't find a match that passed the live checks. "
+                 "Try a different time, cuisine or budget."]
+    for r in picks:
+        c = r["checks"]
+        lines.append(f"\n**{_md(r['name'])}** ({_md(r['cuisine'])})")
+        for d in r["dishes"]:
+            extra = f" · menu says: {_md(d['menu_says'])}" if d.get("menu_says") else ""
+            if d.get("over_budget"):
+                extra += " · over your budget"
+            lines.append(f"- {_md(d['name'])}: {_md(d['price'])}{extra}")
+        lines.append(f"- {_hours_line(c, checked.get('requested_time'))}")
+        dates = f"Menu collected {r['menu_collected']}"
+        if c.get("last_verified"):
+            dates += f" · last verified {c['last_verified']}"
+        lines.append(f"- {dates}")
+        ins = c.get("inspection")
+        if ins:
+            lines.append(f"- Last county inspection: {ins['date']} "
+                         f"([official record]({ins['record_url']}))")
+            for v in ins["violations"]:
+                lines.append("    - " + _md(ITEM_CODE.sub("", v)))  # county text, minus "Item 8A-"
+            if not ins["violations"]:
+                lines.append("    - No violations listed")
+        link = c.get("action_link")
+        if link:
+            lines.append(f"- [{_md(link['label'])}]({link['url']})")
+        for note in c["notes"]:
+            # The time note is shown once above; "not checked" is already in the hours line.
+            if note != checked["when_note"] and not note.startswith("Not checked with Google Places"):
+                lines.append(f"- _{_md(note)}_")
+    for x in checked["removed"]:
+        lines.append(f"\nNot shown: **{_md(x['name'])}**. {_md(x['reason'])}")
+    if found.get("relaxed"):
+        lines.append(f"\n{_md(found['relaxed'])}")
+    lines += ["", _md(checked["source_note"])]
+    if any(r["checks"].get("inspection") for r in picks):
+        lines.append(_md(checked["inspection_note"]))
+    lines.append(_md(checked["allergy_note"]))
     return "\n".join(lines)
+
+
+def build_reply(request: dict) -> str:
+    try:
+        found, checked = run_tools(request)
+    except (Exception, SystemExit) as e:  # B raises SystemExit when the OpenAI key is missing
+        print(f"build_reply: search failed: {e!r}")
+        return ("Sorry, the restaurant search isn't available right now. "
+                "Please try again in a moment.")
+    return format_reply(found, checked)
 
 
 # ---------------------------------------------------------------
