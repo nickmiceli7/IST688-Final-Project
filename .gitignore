@@ -1,4 +1,5 @@
 profiles.json
 .env
 __pycache__/
-.streamlit/secrets.toml.DS_Store
+.streamlit/secrets.toml
+.DS_Store
