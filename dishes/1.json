@@ -1,0 +1,519 @@
+{
+  "restaurant_id": 1,
+  "restaurant_name": "Kitty Hoynes",
+  "model": "gpt-5-mini",
+  "extracted_at": "2026-11-22 20:00",
+  "dishes": [
+    {
+      "dish_id": "1-1",
+      "restaurant_id": 1,
+      "name": "OYSTERS ON THE 1/2 SHELL",
+      "description": "1/2 Dz. Conway Royal (PEI, CAN) oysters on the Halfshell, cocktail sauce, lemon, crackers",
+      "section": "Today's Features",
+      "price": 18.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "1-2",
+      "restaurant_id": 1,
+      "name": "SOUP OF THE DAY",
+      "description": "Cream of Mushroom",
+      "section": "Today's Features",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "1-3",
+      "restaurant_id": 1,
+      "name": "SANDWICH OF THE DAY",
+      "description": "Smoked Corned Beef, cheddar cheese, fried egg, spinach, rosemary aioli, white bread, choice of side salad, Champ mashed or fries",
+      "section": "Today's Features",
+      "price": 16.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "1-4",
+      "restaurant_id": 1,
+      "name": "TODAY’S HOT PLATE",
+      "description": "Caribbean jerked  Coconut shrimp, sweet potato fries & sautéed vegetables, mango habanero dipping sauce",
+      "section": "Today's Features",
+      "price": 19.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "1-5",
+      "restaurant_id": 1,
+      "name": "FEATURE BREAD PUDDING",
+      "description": "Chocolate & Irish Cream bread pudding, maple custard glaze, vanilla ice cream, whipped cream",
+      "section": "Today's Features",
+      "price": 9.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "1-6",
+      "restaurant_id": 1,
+      "name": "BRUSSELS SPROUTS",
+      "description": "Honey white balsamic glaze and pork belly",
+      "section": "Starters",
+      "price": 15.0,
+      "price_known": true,
+      "dietary_text": "VG GF"
+    },
+    {
+      "dish_id": "1-7",
+      "restaurant_id": 1,
+      "name": "KILKENNY “BOXTY STYLE” POTATO CAKES",
+      "description": "House-made crispy potato cakes, Harp Lager cheese sauce, with crispy pork belly",
+      "section": "Starters",
+      "price": 15.0,
+      "price_known": true,
+      "dietary_text": "VG"
+    },
+    {
+      "dish_id": "1-8",
+      "restaurant_id": 1,
+      "name": "KINSALE CALAMARI",
+      "description": "Lemon pepper encrusted Calamari, tomato, basil, Thai chili lime sauce",
+      "section": "Starters",
+      "price": 16.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "1-9",
+      "restaurant_id": 1,
+      "name": "O’CONNOR’S POTATO SKINS",
+      "description": "Twice baked potato, champ, cheddar, bacon, scallions",
+      "section": "Starters",
+      "price": 14.0,
+      "price_known": true,
+      "dietary_text": "VG GF"
+    },
+    {
+      "dish_id": "1-10",
+      "restaurant_id": 1,
+      "name": "IRISH POUTINE",
+      "description": "House fries, NY cheese curds, Guinness onion gravy, scallion. Add pork belly +4",
+      "section": "Starters",
+      "price": 15.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "1-11",
+      "restaurant_id": 1,
+      "name": "GUINNESS BROWN BREAD",
+      "description": "In House Made Guinness Brown Bread with whipped Stout butter or Kerrygold butter",
+      "section": "Starters",
+      "price": 8.0,
+      "price_known": true,
+      "dietary_text": "VG"
+    },
+    {
+      "dish_id": "1-12",
+      "restaurant_id": 1,
+      "name": "REUBEN FRITTERS",
+      "description": "Handmade corned beef \"Irish Cannonballs\", Swiss, cream cheese, sauerkraut, Guinness whole grain honey mustard",
+      "section": "Starters",
+      "price": 14.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "1-13",
+      "restaurant_id": 1,
+      "name": "CHICKEN WINGS",
+      "description": "Mild, medium, hot,  Guinness BBQ, garlic parmesan, or tequila lime, with bleu cheese and celery",
+      "section": "Starters",
+      "price": 16.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "1-14",
+      "restaurant_id": 1,
+      "name": "FLATBREAD",
+      "description": "Creamy burrata, tomato relish, and roasted garlic spread topped with cheddar cheese, peppers, onions and artichokes. Add grilled chicken +4",
+      "section": "Starters",
+      "price": 15.0,
+      "price_known": true,
+      "dietary_text": "VG"
+    },
+    {
+      "dish_id": "1-15",
+      "restaurant_id": 1,
+      "name": "ARTHUR’S BAKED ONION STOUT SOUP",
+      "description": "An Irish version of French onion made with Guinness & 4 different type of onions",
+      "section": "Starters",
+      "price": 7.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "1-16",
+      "restaurant_id": 1,
+      "name": "SMOKED CORNED BEEF",
+      "description": "In-house smoked smoked corned beef, swiss cheese, pickled onions, arugula, rosemary aioli, multigrain wheat bread",
+      "section": "Sandwiches",
+      "price": 17.0,
+      "price_known": true,
+      "dietary_text": "GF"
+    },
+    {
+      "dish_id": "1-17",
+      "restaurant_id": 1,
+      "name": "REUBEN",
+      "description": "Sliced corned beef, sauerkraut, Swiss cheese, Thousand Island dressing, marble rye",
+      "section": "Sandwiches",
+      "price": 17.0,
+      "price_known": true,
+      "dietary_text": "GF"
+    },
+    {
+      "dish_id": "1-18",
+      "restaurant_id": 1,
+      "name": "CRANBERRY TURKEY",
+      "description": "Turkey, cranberry aioli, bacon, brie cheese, arugula, sourdough",
+      "section": "Sandwiches",
+      "price": 16.0,
+      "price_known": true,
+      "dietary_text": "GF"
+    },
+    {
+      "dish_id": "1-19",
+      "restaurant_id": 1,
+      "name": "CRISPY CHICKEN",
+      "description": "Crispy breaded chicken cutlet, pepperoncini, serious slaw, cheddar, hot honey aioli, toasted baguette",
+      "section": "Sandwiches",
+      "price": 16.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "1-20",
+      "restaurant_id": 1,
+      "name": "STEAK SANDWICH",
+      "description": "Open faced 8 oz marinated steak, herb cream cheese, crispy straws, toasted baguette",
+      "section": "Sandwiches",
+      "price": 22.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "1-21",
+      "restaurant_id": 1,
+      "name": "LAMB SLIDERS",
+      "description": "(2) Lamb Sliders, onion cheddar cheese, crispy kale, tomato relish, Guinness whole grain mustard,  Dilauro's slider rolls",
+      "section": "Sandwiches",
+      "price": 18.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "1-22",
+      "restaurant_id": 1,
+      "name": "BEYOND MEAT™ VEGGIE BURGER",
+      "description": "Vegetarian burger, roasted red pepper & basil hummus, spinach, 7-grain roll",
+      "section": "Sandwiches",
+      "price": 18.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "1-23",
+      "restaurant_id": 1,
+      "name": "HOYNE’S PUB BURGER",
+      "description": "Choice of cheese, lettuce, tomato, Dilauro's roll",
+      "section": "Sandwiches",
+      "price": 17.0,
+      "price_known": true,
+      "dietary_text": "GF"
+    },
+    {
+      "dish_id": "1-24",
+      "restaurant_id": 1,
+      "name": "IRISH PORTER BURGER",
+      "description": "Cashel Irish Farmhouse Blue Cheese, onion straws, tomato relish, spinach, Di Lauro's roll",
+      "section": "Sandwiches",
+      "price": 20.0,
+      "price_known": true,
+      "dietary_text": "GF"
+    },
+    {
+      "dish_id": "1-25",
+      "restaurant_id": 1,
+      "name": "CAESAR SALAD",
+      "description": "Romaine, tomatoes, parmesan cheese, croutons, caesar dressing    add Steak, crumbled bleu cheese, & crispy onion straws +9",
+      "section": "Salads",
+      "price": 13.0,
+      "price_known": true,
+      "dietary_text": "GF VG"
+    },
+    {
+      "dish_id": "1-26",
+      "restaurant_id": 1,
+      "name": "JERPOINT SALAD",
+      "description": "Mixed Greens, Mandarin Oranges, Hard-boiled Egg, Tomatoes, Cucumber, Candied Walnuts, Pickled Red Onions, Grandma's Homemade Poppyseed Dressing",
+      "section": "Salads",
+      "price": 14.0,
+      "price_known": true,
+      "dietary_text": "GF VG"
+    },
+    {
+      "dish_id": "1-27",
+      "restaurant_id": 1,
+      "name": "RED BEET SALAD",
+      "description": "Baby Arugula, Red Beets, Fennel, Pickled Red Onions, Cherry Tomatoes, Mandarin Oranges, Candied Walnuts, Crumbled Goat Cheese, White Balsamic Vinaigrette",
+      "section": "Salads",
+      "price": 15.0,
+      "price_known": true,
+      "dietary_text": "GF VG"
+    },
+    {
+      "dish_id": "1-28",
+      "restaurant_id": 1,
+      "name": "ORCHARD SALAD",
+      "description": "Mixed greens, crispy pancetta, cherry tomatoes, apple, dubliner cheddar, dried cranberries, toasted pecans, maple fig vinaigrette",
+      "section": "Salads",
+      "price": 15.0,
+      "price_known": true,
+      "dietary_text": "GF VG"
+    },
+    {
+      "dish_id": "1-29",
+      "restaurant_id": 1,
+      "name": "HOUSE SALAD",
+      "description": "Mixed Greens, Tomatoes, Carrots, Red Bell Pepper, Cucumbers, Red Onion, Croutons, Choice Of Dressing",
+      "section": "Salads",
+      "price": 8.0,
+      "price_known": true,
+      "dietary_text": "GF VG"
+    },
+    {
+      "dish_id": "1-30",
+      "restaurant_id": 1,
+      "name": "SHEPHERD’S PIE",
+      "description": "Ground sirloin, herbs, peas, carrot, onion, champ",
+      "section": "Large Plates",
+      "price": 18.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "1-31",
+      "restaurant_id": 1,
+      "name": "HOYNE’S FISH & CHIPS",
+      "description": "Beer battered fresh haddock, house fries, tartar sauce, coleslaw, lemon wedge",
+      "section": "Large Plates",
+      "price": 20.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "1-32",
+      "restaurant_id": 1,
+      "name": "IRISH MEATLOAF",
+      "description": "Lamb, beef, Irish white pudding, Dubliner cheddar, cabbage cream sauce, champ, vegetables",
+      "section": "Large Plates",
+      "price": 20.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "1-33",
+      "restaurant_id": 1,
+      "name": "BANGERS & MASH",
+      "description": "Choice of Irish Breakfast or Guinness bangers, Guinness onion gravy, champ, smashed carrot & parsnip",
+      "section": "Large Plates",
+      "price": 20.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "1-34",
+      "restaurant_id": 1,
+      "name": "TRADITIONAL IRISH BREAKFAST",
+      "description": "Tommy Maloney's Irish bacon rashers, Irish breakfast sausage, black and white pudding, fried eggs, Irish soda bread, potato, & grilled tomato",
+      "section": "Large Plates",
+      "price": 20.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "1-35",
+      "restaurant_id": 1,
+      "name": "BAKED HADDOCK",
+      "description": "White wine, lemon, parmesan bread crumbs, Champ mashed, sauteed vegetables",
+      "section": "Large Plates",
+      "price": 20.0,
+      "price_known": true,
+      "dietary_text": "GF"
+    },
+    {
+      "dish_id": "1-36",
+      "restaurant_id": 1,
+      "name": "MAC n’ CHEESE",
+      "description": "Cavatappi pasta, house-cured pork belly, crispy kale, cheese blends, crumb topping. Add smoked salmon +4.",
+      "section": "Large Plates",
+      "price": 24.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "1-37",
+      "restaurant_id": 1,
+      "name": "IRISH SPICE BAG",
+      "description": "Born on the streets of Dublin, fries loaded with crispy chicken strips, stir fried onions, red & green peppers, signature spice blend, chip shop curry sauce",
+      "section": "Large Plates",
+      "price": 18.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "1-38",
+      "restaurant_id": 1,
+      "name": "WEST PORT SALMON",
+      "description": "Grilled maple cider glazed salmon, lemon basmati rice, grilled asparagus",
+      "section": "Large Plates",
+      "price": 32.0,
+      "price_known": true,
+      "dietary_text": "GF"
+    },
+    {
+      "dish_id": "1-39",
+      "restaurant_id": 1,
+      "name": "BUTCHER’S STEAK",
+      "description": "Grilled 12oz sirloin steak, mushroom-leek sauce, parmesan smashed salt potatoes and fresh market vegetables",
+      "section": "Large Plates",
+      "price": 38.0,
+      "price_known": true,
+      "dietary_text": "GF"
+    },
+    {
+      "dish_id": "1-40",
+      "restaurant_id": 1,
+      "name": "BARRY’S CHICKEN",
+      "description": "Pan seared Barry's Irish tea chicken thighs, roasted garlic whiskey cream sauce, Champ mashed, heirloom carrots, blistered cherry tomatoes",
+      "section": "Large Plates",
+      "price": 27.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "1-41",
+      "restaurant_id": 1,
+      "name": "ROSCREA PORK CHOP",
+      "description": "Pan seared 14oz frenched pork chop, bacon cran-apple chutney, sautéed shaved brussel sprouts and red onion, lager cheese scalloped potatoes",
+      "section": "Large Plates",
+      "price": 34.0,
+      "price_known": true,
+      "dietary_text": "GF"
+    },
+    {
+      "dish_id": "1-42",
+      "restaurant_id": 1,
+      "name": "WICKLOW RACK OF LAMB",
+      "description": "Grilled rack of lamb, cherry-rosemary-wine sauce, wholegrain mustard champ and fresh market vegetables",
+      "section": "Large Plates",
+      "price": 39.0,
+      "price_known": true,
+      "dietary_text": "GF"
+    },
+    {
+      "dish_id": "1-43",
+      "restaurant_id": 1,
+      "name": "FRENCH FRIES",
+      "description": "",
+      "section": "Extra Sides",
+      "price": 5.0,
+      "price_known": true,
+      "dietary_text": "VG"
+    },
+    {
+      "dish_id": "1-44",
+      "restaurant_id": 1,
+      "name": "SWEET POTATO FRIES",
+      "description": "",
+      "section": "Extra Sides",
+      "price": 6.0,
+      "price_known": true,
+      "dietary_text": "VG"
+    },
+    {
+      "dish_id": "1-45",
+      "restaurant_id": 1,
+      "name": "FRESH VEGETABLES",
+      "description": "",
+      "section": "Extra Sides",
+      "price": 5.0,
+      "price_known": true,
+      "dietary_text": "VG GF"
+    },
+    {
+      "dish_id": "1-46",
+      "restaurant_id": 1,
+      "name": "CHAMP MASHED",
+      "description": "",
+      "section": "Extra Sides",
+      "price": 4.0,
+      "price_known": true,
+      "dietary_text": "VG GF"
+    },
+    {
+      "dish_id": "1-47",
+      "restaurant_id": 1,
+      "name": "KID MEAL",
+      "description": "Chicken Fingers with fries, Grilled cheese with fries, Cheeseburger with fries, Fish n' Chips, Mac n' Cheese, or Shepherd's Pie",
+      "section": "Kids Menu",
+      "price": 8.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "1-48",
+      "restaurant_id": 1,
+      "name": "BAILEY’S IRISH CREAM CHOCOLATE CHIP CHEESECAKE",
+      "description": "",
+      "section": "Desserts",
+      "price": 8.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "1-49",
+      "restaurant_id": 1,
+      "name": "CARROT CAKE",
+      "description": "",
+      "section": "Desserts",
+      "price": 8.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "1-50",
+      "restaurant_id": 1,
+      "name": "MARY’S CHOCOLATE BUNDT CAKE",
+      "description": "",
+      "section": "Desserts",
+      "price": 8.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "1-51",
+      "restaurant_id": 1,
+      "name": "GLUTEN FREE CHOCOLATE CHIP BROWNIE A LA MODE",
+      "description": "",
+      "section": "Desserts",
+      "price": 9.0,
+      "price_known": true,
+      "dietary_text": ""
+    }
+  ],
+  "rejected": []
+}

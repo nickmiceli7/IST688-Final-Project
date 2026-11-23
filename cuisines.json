@@ -1,0 +1,52 @@
+{
+  "1": {
+    "name": "Kitty Hoynes",
+    "cuisine": "Other",
+    "evidence": "SHEPHERD’S PIE, BANGERS & MASH, GUINNESS BROWN BREAD"
+  },
+  "2": {
+    "name": "Inka’s",
+    "cuisine": "Latin American",
+    "evidence": "Ceviche Clasico; Lomo Saltado; Pollo A La Brasa"
+  },
+  "3": {
+    "name": "Eden",
+    "cuisine": "American",
+    "evidence": "Beef Tartare; Duck Confit; Pan Seared Salmon"
+  },
+  "4": {
+    "name": "Dinosaur Bar-B-Que",
+    "cuisine": "Barbecue",
+    "evidence": "Brisket plate; pulled pork; ½ RACK (6 Ribs)"
+  },
+  "5": {
+    "name": "Three Lives",
+    "cuisine": "American",
+    "evidence": "8-BIT BURGER, CHOCOBO WINGS, Mac & Cheese"
+  },
+  "6": {
+    "name": "Margaritas Mexican Cantina",
+    "cuisine": "Mexican",
+    "evidence": "Enchiladas Supreme; Al Pastor; Tacos De Birria"
+  },
+  "7": {
+    "name": "Byblos Mediterranean Cafe",
+    "cuisine": "Mediterranean / Middle Eastern",
+    "evidence": "Hummus; Chicken Shawarma; Tabbouleh Salad"
+  },
+  "8": {
+    "name": "Sakana-Ya Sushi Bar",
+    "cuisine": "Japanese",
+    "evidence": "Sushi Regular, Chirashi, Dragon Roll"
+  },
+  "9": {
+    "name": "Funk ’n Waffles",
+    "cuisine": "American",
+    "evidence": "Chicken & Waffles; Egg & Cheese Sandwich; Pulled Pork & Mozzarella Grilled Sandwich"
+  },
+  "22": {
+    "name": "The Evergreen",
+    "cuisine": "American",
+    "evidence": "Classic Burger; Evergreen Poutine; Chicken Wings"
+  }
+}

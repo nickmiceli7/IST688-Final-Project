@@ -1,0 +1,439 @@
+{
+  "restaurant_id": 22,
+  "restaurant_name": "The Evergreen",
+  "model": "gpt-5-mini",
+  "extracted_at": "2026-11-22 20:10",
+  "dishes": [
+    {
+      "dish_id": "22-1",
+      "restaurant_id": 22,
+      "name": "SPICY BLACK BEAN CHILI",
+      "description": "Black beans, tomatoes, jalapeños, bell peppers, onions, garlic and spices.",
+      "section": "Specials",
+      "price": 7.0,
+      "price_known": true,
+      "dietary_text": "ve/gf"
+    },
+    {
+      "dish_id": "22-2",
+      "restaurant_id": 22,
+      "name": "EVERGREEN POUTINE",
+      "description": "Crispy fries and cheese curds smothered in a rich mushroom and vegetable gravy.",
+      "section": "Specials",
+      "price": 8.0,
+      "price_known": true,
+      "dietary_text": "v"
+    },
+    {
+      "dish_id": "22-3",
+      "restaurant_id": 22,
+      "name": "POTATO SKINS",
+      "description": "Twice-baked potato skins with cheddar, bacon and scallion. Served with a side of ranch.",
+      "section": "Specials",
+      "price": 14.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "22-4",
+      "restaurant_id": 22,
+      "name": "SQUASH & KALE ORZO",
+      "description": "Orzo, squash, kale, goat cheese, pepitas, cranberries, maple, sage, browned butter.",
+      "section": "Specials",
+      "price": 16.0,
+      "price_known": true,
+      "dietary_text": "v"
+    },
+    {
+      "dish_id": "22-5",
+      "restaurant_id": 22,
+      "name": "CRITZ APPLE CRISP",
+      "description": "Critz Farms apples seasoned and baked, topped with a crispy brown sugar oat crumble, served with vanilla ice cream and caramel sauce.",
+      "section": "Specials",
+      "price": 9.0,
+      "price_known": true,
+      "dietary_text": "v"
+    },
+    {
+      "dish_id": "22-6",
+      "restaurant_id": 22,
+      "name": "Brussels",
+      "description": "Crispy fried Brussels sprouts, tossed in a garlic aioli and topped with grana cheese.",
+      "section": "STARTERS",
+      "price": 7.0,
+      "price_known": true,
+      "dietary_text": "v/ve*"
+    },
+    {
+      "dish_id": "22-7",
+      "restaurant_id": 22,
+      "name": "Cauliflower Wings",
+      "description": "Tempura-battered cauliflower served with Thai crema or your choice of wing sauce.",
+      "section": "STARTERS",
+      "price": 8.0,
+      "price_known": true,
+      "dietary_text": "v/ve*"
+    },
+    {
+      "dish_id": "22-8",
+      "restaurant_id": 22,
+      "name": "Pretzel Bites",
+      "description": "Soft pretzel bites tossed in everything seasoning, served with whole-grain horsey mustard & beer cheese",
+      "section": "STARTERS",
+      "price": 6.0,
+      "price_known": true,
+      "dietary_text": "v"
+    },
+    {
+      "dish_id": "22-9",
+      "restaurant_id": 22,
+      "name": "Chicken Wings",
+      "description": "Served with bleu cheese and celery. Choose your sauce:\nCreamy Buffalo, Medium, Hot,\nCajun Cayenne,\nTexas BBQ, Pickle Rub, Garlic Parmesan, Sweet Chili, Lemon Pepper, Szechuan.",
+      "section": "STARTERS",
+      "price": 9.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "22-10",
+      "restaurant_id": 22,
+      "name": "Beer Fries",
+      "description": "herb fries covered with beer cheese, garlic chili crisp and scallion.",
+      "section": "STARTERS",
+      "price": 11.0,
+      "price_known": true,
+      "dietary_text": "v"
+    },
+    {
+      "dish_id": "22-11",
+      "restaurant_id": 22,
+      "name": "Fried Pickles",
+      "description": "House-made pickle chips, battered and fried, drizzled in Szechuan sauce and served with house ranch.",
+      "section": "STARTERS",
+      "price": 12.0,
+      "price_known": true,
+      "dietary_text": "v/ve*"
+    },
+    {
+      "dish_id": "22-12",
+      "restaurant_id": 22,
+      "name": "Street Tacos",
+      "description": "Choice of three flour or corn tortillas filled with pickled red onions, cabbage slaw, cilantro lime crema, and pico de gallo.\nChoose your protein: tempura tofu, grilled chicken, pul\nled pork, shrimp (+2),\nor salmon (+3).",
+      "section": "STARTERS",
+      "price": 15.0,
+      "price_known": true,
+      "dietary_text": "v*/gf*"
+    },
+    {
+      "dish_id": "22-13",
+      "restaurant_id": 22,
+      "name": "Nachos",
+      "description": "Crispy corn tortilla chips, house beer cheese, cilantro lime crema, pickled red onions, candied jalapeños, scallion.",
+      "section": "STARTERS",
+      "price": 12.0,
+      "price_known": true,
+      "dietary_text": "v"
+    },
+    {
+      "dish_id": "22-14",
+      "restaurant_id": 22,
+      "name": "Burrata",
+      "description": "Fresh burrata with arugula, candied walnut, fig balsamic reduction, smoked sea salt, Bread Head sourdough crostinis.",
+      "section": "STARTERS",
+      "price": 15.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "22-15",
+      "restaurant_id": 22,
+      "name": "Grilled Cheese",
+      "description": "Blend of smoked cheeses, thick-cut white bread, covered in a blanket of cheddar crisp.",
+      "section": "SANDWICHES & WRAPS",
+      "price": 14.0,
+      "price_known": true,
+      "dietary_text": "v"
+    },
+    {
+      "dish_id": "22-16",
+      "restaurant_id": 22,
+      "name": "Southern Spicy Chicken",
+      "description": "Hand-breaded fried chicken, chipotle aioli, hot honey, and house pickles on Harrison Bakery roll.",
+      "section": "SANDWICHES & WRAPS",
+      "price": 15.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "22-17",
+      "restaurant_id": 22,
+      "name": "B.L.T.",
+      "description": "Classic bacon, lettuce and tomato with mayo on thick-cut toasted bread.",
+      "section": "SANDWICHES & WRAPS",
+      "price": 14.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "22-18",
+      "restaurant_id": 22,
+      "name": "A.L.T.",
+      "description": "Avocado mash, lettuce and tomato with vegan mayo on thick-cut toasted bread.",
+      "section": "SANDWICHES & WRAPS",
+      "price": 14.0,
+      "price_known": true,
+      "dietary_text": "ve"
+    },
+    {
+      "dish_id": "22-19",
+      "restaurant_id": 22,
+      "name": "Texan",
+      "description": "Beer-braised pork, Texas BBQ sauce, slaw, and rodeo onions on a Harrison Bakery roll.",
+      "section": "SANDWICHES & WRAPS",
+      "price": 15.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "22-20",
+      "restaurant_id": 22,
+      "name": "Curry Chickpea Wrap",
+      "description": "House-made curry chickpea salad, served with lettuce and tomato in a garlic and herb wrap.",
+      "section": "SANDWICHES & WRAPS",
+      "price": 17.0,
+      "price_known": true,
+      "dietary_text": "ve/gf*"
+    },
+    {
+      "dish_id": "22-21",
+      "restaurant_id": 22,
+      "name": "Chicken Caesar Wrap",
+      "description": "Hand-breaded chicken, romaine lettuce, grana cheese and creamy caesar dressing in a garlic and herb wrap.",
+      "section": "SANDWICHES & WRAPS",
+      "price": 17.0,
+      "price_known": true,
+      "dietary_text": "gf*"
+    },
+    {
+      "dish_id": "22-22",
+      "restaurant_id": 22,
+      "name": "Chipotle Chicken Wrap",
+      "description": "Hand-breaded chicken, shredded cheddar, pico de gallo, candied jalapeños, romaine lettuce and chipotle aioli in a garlic and herb wrap.",
+      "section": "SANDWICHES & WRAPS",
+      "price": 18.0,
+      "price_known": true,
+      "dietary_text": "gf*"
+    },
+    {
+      "dish_id": "22-23",
+      "restaurant_id": 22,
+      "name": "Classic Burger",
+      "description": "8-ounce beef patty with lettuce, tomato, red onion, house pickles, American cheese.",
+      "section": "HOUSE BURGERS",
+      "price": 16.0,
+      "price_known": true,
+      "dietary_text": "gf*"
+    },
+    {
+      "dish_id": "22-24",
+      "restaurant_id": 22,
+      "name": "Smash Burger",
+      "description": "Two split patties, smashed on the griddle, double American cheese, bourbon bacon jam, and garlic aioli.",
+      "section": "HOUSE BURGERS",
+      "price": 15.0,
+      "price_known": true,
+      "dietary_text": "gf*"
+    },
+    {
+      "dish_id": "22-25",
+      "restaurant_id": 22,
+      "name": "Evergreen Burger",
+      "description": "8-ounce beef patty with bourbon bacon jam, arugula, whole grain horsey, Swiss cheese.",
+      "section": "HOUSE BURGERS",
+      "price": 17.0,
+      "price_known": true,
+      "dietary_text": "gf*"
+    },
+    {
+      "dish_id": "22-26",
+      "restaurant_id": 22,
+      "name": "Veggie Burger",
+      "description": "Grilled black bean, quinoa and veggie burger topped with avocado mash, cheddar cheese, arugula and chipotle aioli.",
+      "section": "HOUSE BURGERS",
+      "price": 17.0,
+      "price_known": true,
+      "dietary_text": "v/ve*"
+    },
+    {
+      "dish_id": "22-27",
+      "restaurant_id": 22,
+      "name": "Cheesy Mac",
+      "description": "Cavatappi pasta tossed in a creamy blend of smoked cheeses, topped with toasted garlic butter crumb & scallion.",
+      "section": "PLATES",
+      "price": 15.0,
+      "price_known": true,
+      "dietary_text": "v"
+    },
+    {
+      "dish_id": "22-28",
+      "restaurant_id": 22,
+      "name": "Creamy Cajun Pasta",
+      "description": "Cavatappi pasta tossed in a rich cajun cream sauce, topped with candied jalapeno, garlic chili crisp, and scallion.",
+      "section": "PLATES",
+      "price": 14.0,
+      "price_known": true,
+      "dietary_text": "v"
+    },
+    {
+      "dish_id": "22-29",
+      "restaurant_id": 22,
+      "name": "Tendies and Fries",
+      "description": "Fresh chicken cutlets, hand breaded and fried, served with herb fries & house ranch.",
+      "section": "PLATES",
+      "price": 16.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "22-30",
+      "restaurant_id": 22,
+      "name": "Crispy Brussels",
+      "description": "Mixed greens, pickled red onion, apple, goat cheese, honey dijon dressing",
+      "section": "GREENS & GRAINS",
+      "price": 17.0,
+      "price_known": true,
+      "dietary_text": "v"
+    },
+    {
+      "dish_id": "22-31",
+      "restaurant_id": 22,
+      "name": "Caesar",
+      "description": "Romaine lettuce, Bread Head sourdough croutons, and grana tossed in a creamy caesar dressing.",
+      "section": "GREENS & GRAINS",
+      "price": 13.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "22-32",
+      "restaurant_id": 22,
+      "name": "House",
+      "description": "Mixed greens, cucumber, tomato, red onion, and pickled carrots with our house lemon vinaigrette",
+      "section": "GREENS & GRAINS",
+      "price": 11.0,
+      "price_known": true,
+      "dietary_text": "v/gf"
+    },
+    {
+      "dish_id": "22-33",
+      "restaurant_id": 22,
+      "name": "Beet & Grain Bowl",
+      "description": "Chilled Quinoa, honey-roasted golden beets, arugula, toasted walnuts, crisp red apples, goat cheese, dressed in a white wine vinaigrette and a drizzle of balsamic glaze.",
+      "section": "GREENS & GRAINS",
+      "price": 17.0,
+      "price_known": true,
+      "dietary_text": "ve/gf"
+    },
+    {
+      "dish_id": "22-34",
+      "restaurant_id": 22,
+      "name": "Herb Fries",
+      "description": "",
+      "section": "SIDES",
+      "price": 5.0,
+      "price_known": true,
+      "dietary_text": "ve"
+    },
+    {
+      "dish_id": "22-35",
+      "restaurant_id": 22,
+      "name": "Sweet Potato Fries",
+      "description": "",
+      "section": "SIDES",
+      "price": 6.0,
+      "price_known": true,
+      "dietary_text": "ve"
+    },
+    {
+      "dish_id": "22-36",
+      "restaurant_id": 22,
+      "name": "Truffle Fries",
+      "description": "",
+      "section": "SIDES",
+      "price": 7.0,
+      "price_known": true,
+      "dietary_text": "v"
+    },
+    {
+      "dish_id": "22-37",
+      "restaurant_id": 22,
+      "name": "Tomato Cucumber Salad",
+      "description": "",
+      "section": "SIDES",
+      "price": 5.0,
+      "price_known": true,
+      "dietary_text": "ve/gf"
+    },
+    {
+      "dish_id": "22-38",
+      "restaurant_id": 22,
+      "name": "House Salad",
+      "description": "",
+      "section": "SIDES",
+      "price": 5.0,
+      "price_known": true,
+      "dietary_text": "ve/gf"
+    },
+    {
+      "dish_id": "22-39",
+      "restaurant_id": 22,
+      "name": "Caesar Salad",
+      "description": "",
+      "section": "SIDES",
+      "price": 6.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "22-40",
+      "restaurant_id": 22,
+      "name": "Seasonal Vegetable",
+      "description": "",
+      "section": "SIDES",
+      "price": 6.0,
+      "price_known": true,
+      "dietary_text": "ve/gf"
+    },
+    {
+      "dish_id": "22-41",
+      "restaurant_id": 22,
+      "name": "Curry Chickpea Salad",
+      "description": "",
+      "section": "SIDES",
+      "price": 6.0,
+      "price_known": true,
+      "dietary_text": "ve/gf*"
+    },
+    {
+      "dish_id": "22-42",
+      "restaurant_id": 22,
+      "name": "Butter Cake",
+      "description": "house-made, oven-warmed butter cake, topped with vanilla ice cream, vanilla syrup, & strawberry compote",
+      "section": "SWEETS",
+      "price": 9.0,
+      "price_known": true,
+      "dietary_text": "v"
+    },
+    {
+      "dish_id": "22-43",
+      "restaurant_id": 22,
+      "name": "Tiramisu",
+      "description": "Ladyfinger cookies soaked in fresh espresso and cappuccino rum, layered with cream cheese whipped cream and topped with cocoa.",
+      "section": "SWEETS",
+      "price": 9.0,
+      "price_known": true,
+      "dietary_text": "v"
+    }
+  ],
+  "rejected": []
+}

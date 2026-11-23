@@ -1,0 +1,1859 @@
+{
+  "restaurant_id": 6,
+  "restaurant_name": "Margaritas Mexican Cantina",
+  "model": "gpt-5-mini",
+  "extracted_at": "2026-11-22 20:06",
+  "dishes": [
+    {
+      "dish_id": "6-1",
+      "restaurant_id": 6,
+      "name": "Flautas (GF)",
+      "description": "Choice of shredded chicken or shredded beef rolled in corn tortillas and deep fried. Served with sour cream, guacamole and pico de gallo.",
+      "section": "Appetizers",
+      "price": 15.0,
+      "price_known": true,
+      "dietary_text": "(GF)"
+    },
+    {
+      "dish_id": "6-2",
+      "restaurant_id": 6,
+      "name": "Shrimp Cocktail (GF)",
+      "description": "Broiled shrimp with onions, tomatoes, cilantro, jalapeño, avocado and homemade cocktail sauce.",
+      "section": "Appetizers",
+      "price": 20.0,
+      "price_known": true,
+      "dietary_text": "(GF)"
+    },
+    {
+      "dish_id": "6-3",
+      "restaurant_id": 6,
+      "name": "Steak Fries (GF)",
+      "description": "French fries topped with steak and cheese dip | Make then supreme 4 (guacamole, sour cream, pico de gallo) $5.00",
+      "section": "Appetizers",
+      "price": 15.0,
+      "price_known": true,
+      "dietary_text": "(GF)"
+    },
+    {
+      "dish_id": "6-4",
+      "restaurant_id": 6,
+      "name": "Ceviche (GF)",
+      "description": "Chunks of fish marinated in citrus, served in onions, cilantro, jalapeño, avocado and tomato.",
+      "section": "Appetizers",
+      "price": 18.0,
+      "price_known": true,
+      "dietary_text": "(GF)"
+    },
+    {
+      "dish_id": "6-5",
+      "restaurant_id": 6,
+      "name": "Mini Chimichangas",
+      "description": "Five mini chimichangas, choice of shredded chicken or shredded beef. Served with cheese dip.",
+      "section": "Appetizers",
+      "price": 16.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-6",
+      "restaurant_id": 6,
+      "name": "Botana",
+      "description": "Platter served with quesadilla, flautas, cheese nachos, guacamole, pico de gallo, jalapenos, cheese dip and sour cream.",
+      "section": "Appetizers",
+      "price": 20.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-7",
+      "restaurant_id": 6,
+      "name": "Chori Papas (GF)",
+      "description": "French fries topped with chorizo and cheese dip | Make then supreme 4 (guacamole, sour cream, pico de gallo) $5.00",
+      "section": "Appetizers",
+      "price": 15.0,
+      "price_known": true,
+      "dietary_text": "(GF)"
+    },
+    {
+      "dish_id": "6-8",
+      "restaurant_id": 6,
+      "name": "Fiesta Quesadilla",
+      "description": "10-inch flour tortilla, grilled and folded with cheese inside. Served with guacamole, sour cream and pico de gallo.",
+      "section": "Appetizers",
+      "price": 12.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-9",
+      "restaurant_id": 6,
+      "name": "Cheese Only",
+      "description": "",
+      "section": "Appetizers",
+      "price": 12.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-10",
+      "restaurant_id": 6,
+      "name": "Shredded Chicken",
+      "description": "",
+      "section": "Appetizers",
+      "price": 15.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-11",
+      "restaurant_id": 6,
+      "name": "Ground Beef",
+      "description": "",
+      "section": "Appetizers",
+      "price": 15.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-12",
+      "restaurant_id": 6,
+      "name": "Refried or Black Bean",
+      "description": "",
+      "section": "Appetizers",
+      "price": 13.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-13",
+      "restaurant_id": 6,
+      "name": "Spinach",
+      "description": "",
+      "section": "Appetizers",
+      "price": 14.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-14",
+      "restaurant_id": 6,
+      "name": "Mushroom",
+      "description": "",
+      "section": "Appetizers",
+      "price": 14.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-15",
+      "restaurant_id": 6,
+      "name": "Grilled Chicken or Steak",
+      "description": "",
+      "section": "Appetizers",
+      "price": 16.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-16",
+      "restaurant_id": 6,
+      "name": "Shrimp",
+      "description": "",
+      "section": "Appetizers",
+      "price": 18.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-17",
+      "restaurant_id": 6,
+      "name": "Chicken Tortilla Soup (GF)",
+      "description": "Shredded chicken simmered with Mexican rice, pico de gallo, hot sauce and avocado. Topped with cheese and corn chips • Cup $7.00 | Bowl $10.00",
+      "section": "Soups",
+      "price": 7.0,
+      "price_known": true,
+      "dietary_text": "(GF)"
+    },
+    {
+      "dish_id": "6-18",
+      "restaurant_id": 6,
+      "name": "Black Bean Soup (GF)",
+      "description": "Black beans simmered with onions and green peppers, sprinkled with queso fresco • Cup $6.00 | Bowl $9.00",
+      "section": "Soups",
+      "price": 6.0,
+      "price_known": true,
+      "dietary_text": "(GF)"
+    },
+    {
+      "dish_id": "6-19",
+      "restaurant_id": 6,
+      "name": "Chicken Soup (GF)",
+      "description": "Shredded chicken simmered with Mexican rice, pico de gallo, avocado and fresh lime slice • Cup $6.00 | Bowl $9.00",
+      "section": "Soups",
+      "price": 6.0,
+      "price_known": true,
+      "dietary_text": "(GF)"
+    },
+    {
+      "dish_id": "6-20",
+      "restaurant_id": 6,
+      "name": "Tortilla Soup (GF, V)",
+      "description": "Classic Mexican tortilla soup, Mexican rice, pico de gallo and hot sauce. Topped with cheese and corn chips • Cup $6.00 | Bowl $9.00",
+      "section": "Soups",
+      "price": 6.0,
+      "price_known": true,
+      "dietary_text": "(GF, V)"
+    },
+    {
+      "dish_id": "6-21",
+      "restaurant_id": 6,
+      "name": "Guacamole Salad (GF)",
+      "description": "lCeberg lettuce, tomatoes, and guacamole.",
+      "section": "Salads",
+      "price": 8.0,
+      "price_known": true,
+      "dietary_text": "(GF)"
+    },
+    {
+      "dish_id": "6-22",
+      "restaurant_id": 6,
+      "name": "Charbroiled Chicken Salad (GF)",
+      "description": "Charbroiled chicken breast over a bed of spring mix, tomatoes and queso fresco.",
+      "section": "Salads",
+      "price": 18.0,
+      "price_known": true,
+      "dietary_text": "(GF)"
+    },
+    {
+      "dish_id": "6-23",
+      "restaurant_id": 6,
+      "name": "Taco Salad",
+      "description": "Crispy flour tortilla bowl, filled with iceberg lettuce, shredded cheese, tomatoes, sour cream and guacamole. Choice of chicken or beef.",
+      "section": "Salads",
+      "price": 16.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-24",
+      "restaurant_id": 6,
+      "name": "Avocado Salad (GF)",
+      "description": "Spring mix with cucumbers, avocados, tomatoes and queso fresco • Add: Chicken +$5.00 | Shrimp +$7.00",
+      "section": "Salads",
+      "price": 15.0,
+      "price_known": true,
+      "dietary_text": "(GF)"
+    },
+    {
+      "dish_id": "6-25",
+      "restaurant_id": 6,
+      "name": "Shrimp Salad (GF)",
+      "description": "Grilled shrimp over a bed of spring mix, tomatoes and queso fresco.",
+      "section": "Salads",
+      "price": 19.0,
+      "price_known": true,
+      "dietary_text": "(GF)"
+    },
+    {
+      "dish_id": "6-26",
+      "restaurant_id": 6,
+      "name": "Tropical Salad (GF)",
+      "description": "Spring mix, apples, mandarin oranges, pineapple, queso fresco and sliced almonds. Served with our mango chipotle dressing • Add: Chicken +$5.00 | Shrimp +$7.00",
+      "section": "Salads",
+      "price": 15.0,
+      "price_known": true,
+      "dietary_text": "(GF)"
+    },
+    {
+      "dish_id": "6-27",
+      "restaurant_id": 6,
+      "name": "Taco Fajita Salad",
+      "description": "Crispy flour tortilla bowl filled served with fajita-style chicken or steak, with grilled bell peppers and onions, lettuce, tomatoes and guacamole.",
+      "section": "Salads",
+      "price": 18.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-28",
+      "restaurant_id": 6,
+      "name": "Apple Salad (GF)",
+      "description": "Spring mix, apples, fried cranberries, queso fresco and sliced almonds. Served with our mango chipotle dressing • Add: Chicken +$5.00 | Shrimp +$7.00",
+      "section": "Salads",
+      "price": 15.0,
+      "price_known": true,
+      "dietary_text": "(GF)"
+    },
+    {
+      "dish_id": "6-29",
+      "restaurant_id": 6,
+      "name": "Cheese Only",
+      "description": "All nachos served with cheese dip.",
+      "section": "Nachos",
+      "price": 10.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-30",
+      "restaurant_id": 6,
+      "name": "Refried Beans",
+      "description": "All nachos served with cheese dip.",
+      "section": "Nachos",
+      "price": 11.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-31",
+      "restaurant_id": 6,
+      "name": "Beef",
+      "description": "All nachos served with cheese dip.",
+      "section": "Nachos",
+      "price": 13.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-32",
+      "restaurant_id": 6,
+      "name": "Shredded Chicken & Bean",
+      "description": "All nachos served with cheese dip.",
+      "section": "Nachos",
+      "price": 12.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-33",
+      "restaurant_id": 6,
+      "name": "Supreme Nachos",
+      "description": "Your choice of shredded chicken or ground beef nachos topped with cheese dip, beans, lettuce, pico de gallo, sour cream, and guacamole.",
+      "section": "Nachos",
+      "price": 17.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-34",
+      "restaurant_id": 6,
+      "name": "Fajita Nachos",
+      "description": "Nachos with a choice of grilled chicken or steak served with grilled onions, and peppers | Grilled chicken and steak mixed +$5.00",
+      "section": "Nachos",
+      "price": 18.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-35",
+      "restaurant_id": 6,
+      "name": "Nachos Vegetarianos",
+      "description": "Refried beans, black beans, spinach cream, lettuce, tomatoes and sour cream all over crispy tortilla chips and topped with cheese dip.",
+      "section": "Nachos",
+      "price": 16.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-36",
+      "restaurant_id": 6,
+      "name": "Queso Fundido",
+      "description": "Delicious cheese sauce with mexican chorizo. Served with corn tortillas (GF) or flour tortillas.",
+      "section": "Los Dips",
+      "price": 13.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-37",
+      "restaurant_id": 6,
+      "name": "Trio de Dips",
+      "description": "Guacamole, Queso and Bean Dip. Served with chips.",
+      "section": "Los Dips",
+      "price": 20.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-38",
+      "restaurant_id": 6,
+      "name": "Cantina Dip (GF)",
+      "description": "Delicious cheese sauce with ground beef and pico de gallo.",
+      "section": "Los Dips",
+      "price": 11.0,
+      "price_known": true,
+      "dietary_text": "(GF)"
+    },
+    {
+      "dish_id": "6-39",
+      "restaurant_id": 6,
+      "name": "Guacamole Azteca (GF)",
+      "description": "Diced fresh avocado mixed with onions, tomatoes, cilantro, jalapenos, lime and salt.",
+      "section": "Los Dips",
+      "price": 17.0,
+      "price_known": true,
+      "dietary_text": "(GF)"
+    },
+    {
+      "dish_id": "6-40",
+      "restaurant_id": 6,
+      "name": "Cheese Dip (GF)",
+      "description": "",
+      "section": "Los Dips",
+      "price": 8.5,
+      "price_known": true,
+      "dietary_text": "(GF)"
+    },
+    {
+      "dish_id": "6-41",
+      "restaurant_id": 6,
+      "name": "Bean Dip (GF)",
+      "description": "",
+      "section": "Los Dips",
+      "price": 8.5,
+      "price_known": true,
+      "dietary_text": "(GF)"
+    },
+    {
+      "dish_id": "6-42",
+      "restaurant_id": 6,
+      "name": "Guacamole Dip (GF)",
+      "description": "",
+      "section": "Los Dips",
+      "price": 10.0,
+      "price_known": true,
+      "dietary_text": "(GF)"
+    },
+    {
+      "dish_id": "6-43",
+      "restaurant_id": 6,
+      "name": "Jumbo Chimichanga",
+      "description": "Grilled chicken or steak, pico de gallo, sour cream and cheese rolled in a flour tortilla, deep fried. Topped with cheese dip and ranchero sauce. Served with rice, lettuce, tomatoes, and guacamole | With shrimp $3.00",
+      "section": "House Specialties - Mixed",
+      "price": 20.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-44",
+      "restaurant_id": 6,
+      "name": "Flautas Dinner (GF)",
+      "description": "Four rolled corn tortillas filled with shredded beef or shredded chicken. Deep fried to a crisp and served with Mexican rice, refried beans, lettuce, guacamole, sour cream and pico de gallo.",
+      "section": "House Specialties - Mixed",
+      "price": 20.0,
+      "price_known": true,
+      "dietary_text": "(GF)"
+    },
+    {
+      "dish_id": "6-45",
+      "restaurant_id": 6,
+      "name": "Molcajete",
+      "description": "Traditional Mexican dish served in a hot lava bowl containing grilled chicken, rib-eye steak, shrimp, chorizo, grilled jalapeños, onions, bell peppers, cactus, and queso fresco. Served with rice and beans.",
+      "section": "House Specialties - Mixed",
+      "price": 36.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-46",
+      "restaurant_id": 6,
+      "name": "Enchiladas Supreme",
+      "description": "Four enchiladas, one beef, one chicken, one cheese and one shredded beef. Covered with ranchero sauce and topped with lettuce, tomatoes, and sour cream.",
+      "section": "House Specialties - Mixed",
+      "price": 20.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-47",
+      "restaurant_id": 6,
+      "name": "Burritos Mexicanos",
+      "description": "Grilled chicken or grilled steak, peppers and onions rolled up in a 12-inch flour tortilla. Topped with cheese dip and pico de gallo. Served with Mexican rice.",
+      "section": "House Specialties - Mixed",
+      "price": 21.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-48",
+      "restaurant_id": 6,
+      "name": "Burrito San Jose",
+      "description": "Grilled chicken, chorizo, Mexican rice, refried beans and sour cream rolled up inside a 12-inch flour tortilla. Topped with cheese dip and pico de gallo and served with rice.",
+      "section": "House Specialties - Mixed",
+      "price": 21.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-49",
+      "restaurant_id": 6,
+      "name": "Burrito California",
+      "description": "Choice of ground beef, shredded chicken or carnitas with Mexican rice, refried beans, lettuce and sour cream rolled up in a 12-inch flour tortilla. Topped with cheese dip and our green tomatillo sauce.",
+      "section": "House Specialties - Mixed",
+      "price": 21.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-50",
+      "restaurant_id": 6,
+      "name": "Quesadillas Supreme",
+      "description": "One beef and one chicken quesadilla served with Mexican rice, beans, lettuce, sour cream, guacamole and tomatoes.",
+      "section": "House Specialties - Mixed",
+      "price": 20.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-51",
+      "restaurant_id": 6,
+      "name": "Quesadilla Roja",
+      "description": "Choice of grilled chicken or steak quesadilla. Served with lettuce, sour cream and Mexican rice, and topped with your choice of homemade sauce.",
+      "section": "House Specialties - Mixed",
+      "price": 20.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-52",
+      "restaurant_id": 6,
+      "name": "Quesadilla Verde",
+      "description": "Choice of grilled chicken or steak quesadilla. Served with lettuce, sour cream and Mexican rice, and topped with your choice of homemade sauce.",
+      "section": "House Specialties - Mixed",
+      "price": 20.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-53",
+      "restaurant_id": 6,
+      "name": "Hot Tamales",
+      "description": "Three tamales topped with cheese dip and your choice of mole or our green tomatillo sauce. Served with Mexican rice and beans.",
+      "section": "House Specialties - Mixed",
+      "price": 20.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-54",
+      "restaurant_id": 6,
+      "name": "Burrito Bandera",
+      "description": "Grilled chicken, steak, carnitas, rice, black beans, sour cream and guacamole rolled up in a 12-inch flour tortilla. Topped with red sauce, cheese dip and green tomatillo sauce.",
+      "section": "House Specialties - Mixed",
+      "price": 25.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-55",
+      "restaurant_id": 6,
+      "name": "Burritos Supreme",
+      "description": "One shredded beef and bean and one shredded chicken and bean burrito topped with red sauce, lettuce, tomato, guacamole and sour cream. Served with Mexican rice and beans.",
+      "section": "House Specialties - Mixed",
+      "price": 22.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-56",
+      "restaurant_id": 6,
+      "name": "Tour of Mexico",
+      "description": "Beef burrito, chicken enchilada, bean chalupa, beef taco and a tamal. Served with rice and beans.",
+      "section": "House Specialties - Mixed",
+      "price": 27.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-57",
+      "restaurant_id": 6,
+      "name": "Chimichanga Dinner",
+      "description": "Two shredded chicken or shredded beef chimichangas, lightly fried and topped with cheese dip and ranchero sauce. Served with Mexican rice, lettuce, tomatoes, guacamole and sour cream • Regular $19.00 | With Shrimp $23.00",
+      "section": "House Specialties - Mixed",
+      "price": 19.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-58",
+      "restaurant_id": 6,
+      "name": "Carne Asada",
+      "description": "Marinated steak tacos with cilantro and onion.",
+      "section": "Special Tacos",
+      "price": 20.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-59",
+      "restaurant_id": 6,
+      "name": "Pollo Asado",
+      "description": "Marinated chicken tacos with cilantro and onion.",
+      "section": "Special Tacos",
+      "price": 20.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-60",
+      "restaurant_id": 6,
+      "name": "Carnitas",
+      "description": "Marinated pork tacos with cilantro and onion.",
+      "section": "Special Tacos",
+      "price": 20.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-61",
+      "restaurant_id": 6,
+      "name": "Alambre",
+      "description": "Three chicken, bacon and chorizo tacos topped with shredded cheese, cilantro and onion.",
+      "section": "Special Tacos",
+      "price": 21.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-62",
+      "restaurant_id": 6,
+      "name": "Chorizo",
+      "description": "Mexican pork tacos with cilantro and onion.",
+      "section": "Special Tacos",
+      "price": 20.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-63",
+      "restaurant_id": 6,
+      "name": "Pescado",
+      "description": "Grilled fish tacos. Topped with lettuce, shredded cheese and pico de gallo.",
+      "section": "Special Tacos",
+      "price": 21.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-64",
+      "restaurant_id": 6,
+      "name": "Shrimp",
+      "description": "Grilled shrimp tacos with lettuce, shredded cheese and pico de gallo.",
+      "section": "Special Tacos",
+      "price": 22.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-65",
+      "restaurant_id": 6,
+      "name": "Baja Tacos",
+      "description": "Three ground beef or shredded chicken tacos. Topped with lettuce, pico de gallo, shredded cheese and sour cream.",
+      "section": "Special Tacos",
+      "price": 20.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-66",
+      "restaurant_id": 6,
+      "name": "Trio Tacos",
+      "description": "Your choice of any three tacos.",
+      "section": "Special Tacos",
+      "price": 21.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-67",
+      "restaurant_id": 6,
+      "name": "Al Pastor",
+      "description": "Marinated pork tacos with pineapple topped with cilantro and onion.",
+      "section": "Special Tacos",
+      "price": 20.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-68",
+      "restaurant_id": 6,
+      "name": "A La Diabla (H)",
+      "description": "Grilled steak, chorizo and jalapeños, topped with cilantro and onion.",
+      "section": "Special Tacos",
+      "price": 21.0,
+      "price_known": true,
+      "dietary_text": "(H)"
+    },
+    {
+      "dish_id": "6-69",
+      "restaurant_id": 6,
+      "name": "Single Fajitas",
+      "description": "Pick one meat: Steak, carnitas or chicken • Single $23.00 | Double $37.00",
+      "section": "Fajitas",
+      "price": 23.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-70",
+      "restaurant_id": 6,
+      "name": "Mixed Fajitas",
+      "description": "Pick two meats: grilled chicken, steak or carnitas • Single $26.00 | Double $39.00",
+      "section": "Fajitas",
+      "price": 26.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-71",
+      "restaurant_id": 6,
+      "name": "Fajitas Texanas",
+      "description": "Chicken, steak and shrimp • Single $29.00 | Double $40.00",
+      "section": "Fajitas",
+      "price": 29.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-72",
+      "restaurant_id": 6,
+      "name": "Fish Fajitas",
+      "description": "Single $26.00 | Double $39.00",
+      "section": "Fajitas",
+      "price": 26.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-73",
+      "restaurant_id": 6,
+      "name": "Shrimp Fajitas",
+      "description": "Single $31.00 | Double $41.00",
+      "section": "Fajitas",
+      "price": 31.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-74",
+      "restaurant_id": 6,
+      "name": "Fajita Volcan",
+      "description": "Bacon, chicken, shrimp, chorizo, nopales and queso fresco top with our special sauce.",
+      "section": "Fajitas",
+      "price": 32.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-75",
+      "restaurant_id": 6,
+      "name": "Margaritas Special Fajita",
+      "description": "Shrimp, chicken, steak & carnitas • Single $30.00 | Double $41.00",
+      "section": "Fajitas",
+      "price": 30.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-76",
+      "restaurant_id": 6,
+      "name": "Vegetarian Fajita",
+      "description": "Grilled broccoli, carrots, squash and cauliflower • Single $19.00 | Double $28.00",
+      "section": "Fajitas",
+      "price": 19.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-77",
+      "restaurant_id": 6,
+      "name": "Fajita Quesadilla",
+      "description": "Grilled chicken or steak with grilled bell peppers and onions in a flour tortilla with cheese. Served with lettuce, pico de gallo, guacamole salad, sour cream and rice.",
+      "section": "Fajitas",
+      "price": 21.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-78",
+      "restaurant_id": 6,
+      "name": "Fajita Veganas",
+      "description": "Grilled onions, bell peppers, spinach and mushrooms. Served with side salad, black beans, pico de gallo, guacamole, and flour tortillas • Single $20.00 | Double $35.00",
+      "section": "Fajitas",
+      "price": 20.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-79",
+      "restaurant_id": 6,
+      "name": "Birria Chimichanga",
+      "description": "Two crispy fried tortillas filled with birria meat, onions, and cilantro. Served with rice, beans, lettuce, pico de gallo, guacamole, sour cream, a side of consome and cheese sauce.",
+      "section": "Birria Specials",
+      "price": 20.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-80",
+      "restaurant_id": 6,
+      "name": "Birria Nachos",
+      "description": "Nachos topped with cheese dip, birria meat, onions, cilantro, pico de gallo, sour cream. Served with consume on the side.",
+      "section": "Birria Specials",
+      "price": 20.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-81",
+      "restaurant_id": 6,
+      "name": "Birria Burrito",
+      "description": "One large grilled burrito filled with birria meat, Oaxacan cheese, onions, cilantro, black beans, rice and guacamole. Served with consome and crispy fries.",
+      "section": "Birria Specials",
+      "price": 23.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-82",
+      "restaurant_id": 6,
+      "name": "Tacos De Birria",
+      "description": "Three corn tortillas filled with birria meat, Oaxacan cheese, cilantro, and onions. Topped with onions, cilantro, and radish. Served with rice, beans, and consume.",
+      "section": "Birria Specials",
+      "price": 22.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-83",
+      "restaurant_id": 6,
+      "name": "Birria Fries",
+      "description": "French fries topped with birria meat, sour cream, cheese dip, pico de gallo, onions, and cilantro.",
+      "section": "Birria Specials",
+      "price": 19.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-84",
+      "restaurant_id": 6,
+      "name": "Birria Quesadilla",
+      "description": "Quesadilla filled with birria meat, cilantro, onions, and Oaxacan cheese. Served with consume, rice, lettuce, sour cream, pico de gallo, and guacamole.",
+      "section": "Birria Specials",
+      "price": 24.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-85",
+      "restaurant_id": 6,
+      "name": "Birria Taco Salad",
+      "description": "A crispy flour tortilla bowl with birria meat, rice, lettuce, pico de gallo, onions, cilantro, sour cream, black beans, avocado, and queso fresco.",
+      "section": "Birria Specials",
+      "price": 21.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-86",
+      "restaurant_id": 6,
+      "name": "Pollo a La Parrilla",
+      "description": "Two grilled chicken breasts topped with grilled bell peppers and onions. Served with guacamole, sour cream, pico de gallo, shredded cheese, Mexican rice, refried beans and tortillas.",
+      "section": "Chicken Plates",
+      "price": 24.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-87",
+      "restaurant_id": 6,
+      "name": "Pollo Fundido (GF)",
+      "description": "Two grilled chicken breasts topped with grilled bell peppers and onion covered in cheese dip. Served with Mexican rice and refried beans.",
+      "section": "Chicken Plates",
+      "price": 22.0,
+      "price_known": true,
+      "dietary_text": "(GF)"
+    },
+    {
+      "dish_id": "6-88",
+      "restaurant_id": 6,
+      "name": "Fried Burritos",
+      "description": "Two fried burritos filled with shredded chicken, topped with cheese dip and pico de gallo. Served with Mexican rice and refried beans.",
+      "section": "Chicken Plates",
+      "price": 20.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-89",
+      "restaurant_id": 6,
+      "name": "Pollo Feliz",
+      "description": "Grilled chicken, shrimp, fish, bacon and chorizo cooked with grilled onions and mushrooms, topped with cheese dip. Served with Mexican rice and beans.",
+      "section": "Chicken Plates",
+      "price": 33.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-90",
+      "restaurant_id": 6,
+      "name": "Border Quesadilla",
+      "description": "Grilled chicken, cheese and onion inside a folded 10-inch flour tortilla. Topped with a creamy chipotle sauce. Served with Mexican rice and black beans.",
+      "section": "Chicken Plates",
+      "price": 21.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-91",
+      "restaurant_id": 6,
+      "name": "Pollo Chipotle",
+      "description": "Chicken breast grilled with onions, topped with a spicy chipotle sauce. Served with Mexican rice, beans and tortillas.",
+      "section": "Chicken Plates",
+      "price": 22.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-92",
+      "restaurant_id": 6,
+      "name": "Tex - Mex Burritos",
+      "description": "",
+      "section": "Chicken Plates",
+      "price": 20.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-93",
+      "restaurant_id": 6,
+      "name": "Pollo Popeye (GF)",
+      "description": "Grilled chicken breast topped with spinach, cheese dip and bacon. Served with Mexican rice, lettuce, tomatoes and sour cream.",
+      "section": "",
+      "price": 20.0,
+      "price_known": true,
+      "dietary_text": "(GF)"
+    },
+    {
+      "dish_id": "6-94",
+      "restaurant_id": 6,
+      "name": "Choripollo",
+      "description": "Grilled chicken breast topped with chorizo and cheese dip. Served with grilled onions, Mexican rice, refried beans, and tortillas.",
+      "section": "",
+      "price": 22.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-95",
+      "restaurant_id": 6,
+      "name": "Enchiladas Verdes",
+      "description": "Three corn chicken enchiladas, topped with tomatillo sauce and queso fresco. Served with Mexican rice, lettuce, tomatoes and sour cream.",
+      "section": "",
+      "price": 19.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-96",
+      "restaurant_id": 6,
+      "name": "Enchiladas San Miguel (GF)",
+      "description": "Three corn chicken enchiladas topped with a spicy chipotle sauce and pico de gallo. Served with Mexican rice.",
+      "section": "",
+      "price": 19.0,
+      "price_known": true,
+      "dietary_text": "(GF)"
+    },
+    {
+      "dish_id": "6-97",
+      "restaurant_id": 6,
+      "name": "Yolanda's (GF)",
+      "description": "Three corn chicken enchiladas topped with ranchero sauce and pico de gallo. Served with Mexican rice.",
+      "section": "",
+      "price": 19.0,
+      "price_known": true,
+      "dietary_text": "(GF)"
+    },
+    {
+      "dish_id": "6-98",
+      "restaurant_id": 6,
+      "name": "Pollo Con Mole",
+      "description": "Grilled chicken topped with mole sauce. Served with Mexican rice, beans and tortillas.",
+      "section": "",
+      "price": 21.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-99",
+      "restaurant_id": 6,
+      "name": "Enchiladas Con Mole",
+      "description": "Three corn chicken enchiladas topped with mole sauce, lettuce and sour cream. Served with Mexican rice.",
+      "section": "",
+      "price": 21.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-100",
+      "restaurant_id": 6,
+      "name": "Pollo Norteño",
+      "description": "Served in a pineapple, grilled chicken and shrimp topped with pineapple, pico de gallo and cheese dip. Served with Mexican rice, beans and tortillas.",
+      "section": "",
+      "price": 33.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-101",
+      "restaurant_id": 6,
+      "name": "Quesadillas Texanas",
+      "description": "10-inch tortilla filled with chicken, and spinach. Served with Mexican rice, beans, lettuce, guacamole, sour cream and tomatoes.",
+      "section": "",
+      "price": 20.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-102",
+      "restaurant_id": 6,
+      "name": "Pollo Hawaiano",
+      "description": "Served in a pineapple, with grilled chicken, onions, mushrooms, pineapple, bacon and rice. Topped with cheese dip and served with Mexican rice and beans.",
+      "section": "",
+      "price": 25.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-103",
+      "restaurant_id": 6,
+      "name": "Carne a La Diabla (H)",
+      "description": "Steak grilled with onions, mushrooms and spicy chipotle sauce. Served with Mexican rice, refried beans and tortillas.",
+      "section": "Steak Plates",
+      "price": 22.0,
+      "price_known": true,
+      "dietary_text": "(H)"
+    },
+    {
+      "dish_id": "6-104",
+      "restaurant_id": 6,
+      "name": "Steak Burritos",
+      "description": "Two steak burritos topped with cheese dip and pico de gallo. Served with Mexican rice and black beans.",
+      "section": "Steak Plates",
+      "price": 21.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-105",
+      "restaurant_id": 6,
+      "name": "Carne Asada",
+      "description": "Grilled steak with sliced avocado, sour cream, and pico de gallo. Served with Mexican rice, refried beans and tortillas.",
+      "section": "Steak Plates",
+      "price": 25.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-106",
+      "restaurant_id": 6,
+      "name": "Chile Colorado",
+      "description": "Steak cooked in our home-made hot sauce. Served with Mexican rice, refried beans and flour tortillas.",
+      "section": "Steak Plates",
+      "price": 22.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-107",
+      "restaurant_id": 6,
+      "name": "Steak Special",
+      "description": "A 10 oz steak cooked with onions and mushrooms. Served with Mexican rice, refried beans, guacamole salad and tortillas.",
+      "section": "Steak Plates",
+      "price": 36.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-108",
+      "restaurant_id": 6,
+      "name": "Dos Amigos",
+      "description": "Grilled chicken and steak on top of chorizo, onions and grilled bell peppers. Served with mexican rice, refried beans, guacamole, sour cream, pico de gallo and tortillas.",
+      "section": "Steak Plates",
+      "price": 33.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-109",
+      "restaurant_id": 6,
+      "name": "Mar y Tierra",
+      "description": "10 oz ribeye steak topped with shrimp and served with lettuce, pico de gallo, avocado slices, jalapeños, Mexican rice and refried beans.",
+      "section": "Steak Plates",
+      "price": 40.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-110",
+      "restaurant_id": 6,
+      "name": "Rio Grande Burrito",
+      "description": "Carnitas, black beans, Mexican rice, guacamole and sour cream, wrapped in a 12-inch tortilla. Topped with cheese dip and pico de gallo.",
+      "section": "Pork Plates",
+      "price": 21.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-111",
+      "restaurant_id": 6,
+      "name": "Chile Verde",
+      "description": "Pulled pork cooked with our green tomatillo sauce and served with Mexican rice, refried beans and tortillas.",
+      "section": "Pork Plates",
+      "price": 21.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-112",
+      "restaurant_id": 6,
+      "name": "Carnitas Dinner",
+      "description": "Tender pulled pork served with Mexican rice, refried beans, tomatoes, guacamole, jalapeños, lime slices and tortillas.",
+      "section": "Pork Plates",
+      "price": 22.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-113",
+      "restaurant_id": 6,
+      "name": "Carnitas Mexicanas",
+      "description": "Pulled pork with cactus and pico de gallo. Served with Mexican rice, beans, our green tomatillo sauce and tortillas.",
+      "section": "Pork Plates",
+      "price": 22.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-114",
+      "restaurant_id": 6,
+      "name": "Camarones Con Arroz",
+      "description": "Shrimp grilled with peppers, onions, mushrooms, squash, carrots, cauliflower and broccoli. Served with Mexican rice.",
+      "section": "Seafood Plates",
+      "price": 20.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-115",
+      "restaurant_id": 6,
+      "name": "Camarones Con Hongos",
+      "description": "Shrimp sautéed with a garlic sauce, cooked with squash and mushrooms. Served with Mexican rice and tossed salad.",
+      "section": "Seafood Plates",
+      "price": 20.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-116",
+      "restaurant_id": 6,
+      "name": "Alejandro Special",
+      "description": "Grilled shrimp quesadilla topped with cheese dip and served with Mexican rice, guacamole, pico de gallo and sour cream.",
+      "section": "Seafood Plates",
+      "price": 22.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-117",
+      "restaurant_id": 6,
+      "name": "Camarones Fundidos",
+      "description": "Grilled shrimp with butter sauce cooked with squash and pineapple on Mexican rice topped with cheese.",
+      "section": "Seafood Plates",
+      "price": 21.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-118",
+      "restaurant_id": 6,
+      "name": "Burrito De Camarón",
+      "description": "Grilled shrimp, Mexican rice, black beans, sour cream, pico de gallo, and jalapeños rolled up in a 12-inch flour tortilla. Topped with salsa verde and cheese dip",
+      "section": "Seafood Plates",
+      "price": 23.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-119",
+      "restaurant_id": 6,
+      "name": "Camarones Cancún",
+      "description": "Shrimp sautéed with a butter sauce, cooked with peppers, onions and pineapple. Topped with cheese dip and served with guacamole, lettuce, tomatoes, and Mexican rice.",
+      "section": "Seafood Plates",
+      "price": 21.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-120",
+      "restaurant_id": 6,
+      "name": "Enchiladas De Camarones",
+      "description": "Three shrimp enchiladas topped with lettuce, tomato, sour cream, sliced avocado and queso fresco with your choice of salsa verde or chipotle sauce. Served with Mexican rice.",
+      "section": "Seafood Plates",
+      "price": 21.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-121",
+      "restaurant_id": 6,
+      "name": "Camarones Al Mojo De Ajo",
+      "description": "Shrimp grilled simmered in a garlic butter sauce. Served with Mexican rice, lettuce, pico de gallo, and sliced avocado.",
+      "section": "Seafood Plates",
+      "price": 21.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-122",
+      "restaurant_id": 6,
+      "name": "Camarones a La Diabla (H)",
+      "description": "Shrimp sautéed in our home-made hot sauce served with Mexican rice, refried beans, guacamole salad and tortillas.",
+      "section": "Seafood Plates",
+      "price": 21.0,
+      "price_known": true,
+      "dietary_text": "(H)"
+    },
+    {
+      "dish_id": "6-123",
+      "restaurant_id": 6,
+      "name": "Camarones Chipotle",
+      "description": "Shrimp sautéed in onions and our spicy chipotle sauce. Served with Mexican rice, beans and tortillas.",
+      "section": "Seafood Plates",
+      "price": 21.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-124",
+      "restaurant_id": 6,
+      "name": "Vegetarian Taco Salad",
+      "description": "A crispy flour tortilla bowl filled with bell peppers, onions, spinach, mushrooms, Mexican rice, black beans, topped with lettuce, shredded cheese, sour cream, guacamole and tomatoes.",
+      "section": "Vegetarian Specials",
+      "price": 15.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-125",
+      "restaurant_id": 6,
+      "name": "El Patio",
+      "description": "Two black bean burrito and one chile poblano served with Mexican rice.",
+      "section": "Vegetarian Specials",
+      "price": 17.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-126",
+      "restaurant_id": 6,
+      "name": "Spinach Cream Burritos",
+      "description": "Two black bean burritos topped with grilled spinach, cheese dip, lettuce, tomatoes and sour cream. Served with Mexican rice.",
+      "section": "Vegetarian Specials",
+      "price": 20.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-127",
+      "restaurant_id": 6,
+      "name": "Enchiladas Mexicanas (GF)",
+      "description": "Three enchiladas, one spinach, one cheese and one refried beans, topped with lettuce, sour cream, tomatoes, shredded cheese and ranchero sauce. Served with Mexican rice.",
+      "section": "Vegetarian Specials",
+      "price": 19.0,
+      "price_known": true,
+      "dietary_text": "(GF)"
+    },
+    {
+      "dish_id": "6-128",
+      "restaurant_id": 6,
+      "name": "El Trio",
+      "description": "One cheese chile poblano, one cheese enchilada and one bean taco. Served with Mexican rice.",
+      "section": "Vegetarian Specials",
+      "price": 18.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-129",
+      "restaurant_id": 6,
+      "name": "Spinach Quesadillas",
+      "description": "Two quesadillas filled with spinach and cheese, served with lettuce, guacamole, sour cream, and tomatoes. Served with Mexican rice and beans.",
+      "section": "Vegetarian Specials",
+      "price": 18.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-130",
+      "restaurant_id": 6,
+      "name": "El Vegetariano",
+      "description": "One spinach and cheese burrito and one cheese enchilada served with Mexican rice, refried beans and sour cream.",
+      "section": "Vegetarian Specials",
+      "price": 17.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-131",
+      "restaurant_id": 6,
+      "name": "Chiles Poblanos",
+      "description": "Two chile poblanos topped with ranchero sauce and sour cream. Served with Mexican rice and refried beans.",
+      "section": "Vegetarian Specials",
+      "price": 20.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-132",
+      "restaurant_id": 6,
+      "name": "El Jardín",
+      "description": "One black bean burrito, one bean chalupa and one cheese quesadilla. Served with Mexican rice.",
+      "section": "Vegetarian Specials",
+      "price": 17.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-133",
+      "restaurant_id": 6,
+      "name": "Flautas De Papa",
+      "description": "Four rolled corn tortillas filled with our potato mix and deep fried. Served with Mexican rice, refried beans and guacamole.",
+      "section": "La Vegana",
+      "price": 19.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-134",
+      "restaurant_id": 6,
+      "name": "Burrito Vegano",
+      "description": "Grilled vegetables, Mexican rice, black beans, and guacamole rolled up in a 12- inch flour tortilla. Topped with ranchero sauce and pico de gallo.",
+      "section": "La Vegana",
+      "price": 20.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-135",
+      "restaurant_id": 6,
+      "name": "Enchiladas De Espinaca Y Papa",
+      "description": "Three spinach and potato enchiladas covered with ranchero sauce and pico de gallo. Served with lettuce, tomatoes and guacamole. Served with Mexican rice.",
+      "section": "La Vegana",
+      "price": 19.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-136",
+      "restaurant_id": 6,
+      "name": "Tacos Veganos",
+      "description": "Three tacos with your choice of flour or corn tortillas filled with bell peppers, onions, squash, mushrooms topped with onions and cilantro. Served with our homemade hot salsa, Mexican rice and beans.",
+      "section": "La Vegana",
+      "price": 20.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-137",
+      "restaurant_id": 6,
+      "name": "Combo of Two",
+      "description": "• Steak or Grilled Chicken +$2.00\n• Chile Poblano +$3.00",
+      "section": "Combos",
+      "price": 15.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-138",
+      "restaurant_id": 6,
+      "name": "Combo of Three",
+      "description": "• Steak or Grilled Chicken +$2.00\n• Chile Poblano +$3.00",
+      "section": "Combos",
+      "price": 17.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-139",
+      "restaurant_id": 6,
+      "name": "Order of Crispy Tacos (3)",
+      "description": "",
+      "section": "A La Carte",
+      "price": 10.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-140",
+      "restaurant_id": 6,
+      "name": "Order of Soft Tacos (3)",
+      "description": "",
+      "section": "A La Carte",
+      "price": 11.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-141",
+      "restaurant_id": 6,
+      "name": "Order of Enchiladas (3)",
+      "description": "",
+      "section": "A La Carte",
+      "price": 11.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-142",
+      "restaurant_id": 6,
+      "name": "Order of Chiles Poblanos (2)",
+      "description": "",
+      "section": "A La Carte",
+      "price": 14.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-143",
+      "restaurant_id": 6,
+      "name": "Order of Burritos (2)",
+      "description": "",
+      "section": "A La Carte",
+      "price": 14.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-144",
+      "restaurant_id": 6,
+      "name": "Order of Quesadillas (2)",
+      "description": "",
+      "section": "A La Carte",
+      "price": 10.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-145",
+      "restaurant_id": 6,
+      "name": "Fried Ice Cream",
+      "description": "",
+      "section": "Desserts",
+      "price": 8.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-146",
+      "restaurant_id": 6,
+      "name": "Tres Leches Cake",
+      "description": "",
+      "section": "Desserts",
+      "price": 8.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-147",
+      "restaurant_id": 6,
+      "name": "Churros",
+      "description": "",
+      "section": "Desserts",
+      "price": 7.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-148",
+      "restaurant_id": 6,
+      "name": "Caramel Churros",
+      "description": "",
+      "section": "Desserts",
+      "price": 8.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-149",
+      "restaurant_id": 6,
+      "name": "Sopapillas",
+      "description": "",
+      "section": "Desserts",
+      "price": 6.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-150",
+      "restaurant_id": 6,
+      "name": "Flan",
+      "description": "",
+      "section": "Desserts",
+      "price": 8.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-151",
+      "restaurant_id": 6,
+      "name": "Kids Tenders",
+      "description": "For kids 12 and under.",
+      "section": "Kids Menu",
+      "price": 8.99,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-152",
+      "restaurant_id": 6,
+      "name": "Kids Taco",
+      "description": "2 tacos\n• Grilled Chicken $2.00 Extra\n• Steak $2.00 Extra\n• Ground Beef\n• Refried Beans\n• Shredded Chicken",
+      "section": "Kids Menu",
+      "price": 9.99,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-153",
+      "restaurant_id": 6,
+      "name": "Kids Quesadilla",
+      "description": "• Grilled Chicken $2.00 Extra\n• Ground Beef\n• Black Beans\n• Shredded Chicken",
+      "section": "Kids Menu",
+      "price": 8.99,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-154",
+      "restaurant_id": 6,
+      "name": "Kids Burrito",
+      "description": "• Grilled Chicken $2.00 Extra\n• Steak $2.00 Extra\n• Ground Beef\n• Refried Beans\n• Shredded Chicken",
+      "section": "Kids Menu",
+      "price": 8.99,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-155",
+      "restaurant_id": 6,
+      "name": "Kids Enchilada",
+      "description": "• Ground Beef\n• Black or Refried Beans\n• Shredded Chicken",
+      "section": "Kids Menu",
+      "price": 8.99,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-156",
+      "restaurant_id": 6,
+      "name": "Mexican Rice | Beans | Apple Slices | French Fries | Avocado Slices",
+      "description": "",
+      "section": "Sides",
+      "price": 1.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-157",
+      "restaurant_id": 6,
+      "name": "Mexican Rice and Beans",
+      "description": "",
+      "section": "Sides",
+      "price": 5.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-158",
+      "restaurant_id": 6,
+      "name": "Pickled Jalapeños",
+      "description": "",
+      "section": "Sides",
+      "price": 3.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-159",
+      "restaurant_id": 6,
+      "name": "Homemade Hot Sauce",
+      "description": "",
+      "section": "Sides",
+      "price": 2.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-160",
+      "restaurant_id": 6,
+      "name": "Salsa Verde",
+      "description": "",
+      "section": "Sides",
+      "price": 2.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-161",
+      "restaurant_id": 6,
+      "name": "Chipotle Sauce",
+      "description": "",
+      "section": "Sides",
+      "price": 2.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-162",
+      "restaurant_id": 6,
+      "name": "Burrito Sauce",
+      "description": "",
+      "section": "Sides",
+      "price": 2.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-163",
+      "restaurant_id": 6,
+      "name": "Mole Sauce",
+      "description": "",
+      "section": "Sides",
+      "price": 2.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-164",
+      "restaurant_id": 6,
+      "name": "Sour Cream",
+      "description": "",
+      "section": "Sides",
+      "price": 2.5,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-165",
+      "restaurant_id": 6,
+      "name": "Chopped Tomatoes",
+      "description": "",
+      "section": "Sides",
+      "price": 2.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-166",
+      "restaurant_id": 6,
+      "name": "Chopped Onions",
+      "description": "",
+      "section": "Sides",
+      "price": 2.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-167",
+      "restaurant_id": 6,
+      "name": "Lettuce",
+      "description": "",
+      "section": "Sides",
+      "price": 2.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-168",
+      "restaurant_id": 6,
+      "name": "Pico De Gallo",
+      "description": "",
+      "section": "Sides",
+      "price": 2.5,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-169",
+      "restaurant_id": 6,
+      "name": "Rice",
+      "description": "",
+      "section": "Sides",
+      "price": 4.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-170",
+      "restaurant_id": 6,
+      "name": "Beans",
+      "description": "",
+      "section": "Sides",
+      "price": 3.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-171",
+      "restaurant_id": 6,
+      "name": "French Fries",
+      "description": "",
+      "section": "Sides",
+      "price": 6.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-172",
+      "restaurant_id": 6,
+      "name": "Shredded Cheese",
+      "description": "",
+      "section": "Sides",
+      "price": 2.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-173",
+      "restaurant_id": 6,
+      "name": "Corn Tortillas",
+      "description": "",
+      "section": "Sides",
+      "price": 2.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-174",
+      "restaurant_id": 6,
+      "name": "Flour Tortillas",
+      "description": "",
+      "section": "Sides",
+      "price": 2.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-175",
+      "restaurant_id": 6,
+      "name": "Cilantro",
+      "description": "",
+      "section": "Sides",
+      "price": 2.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-176",
+      "restaurant_id": 6,
+      "name": "Jalapeños",
+      "description": "",
+      "section": "Sides",
+      "price": 3.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-177",
+      "restaurant_id": 6,
+      "name": "Cheese Dip",
+      "description": "",
+      "section": "Sides",
+      "price": 4.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-178",
+      "restaurant_id": 6,
+      "name": "Guacamole",
+      "description": "",
+      "section": "Sides",
+      "price": 5.5,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-179",
+      "restaurant_id": 6,
+      "name": "Taco",
+      "description": "Chicken or Beef",
+      "section": "Sides",
+      "price": 4.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-180",
+      "restaurant_id": 6,
+      "name": "Taco Loco Quesadilla",
+      "description": "Chicken or Beef",
+      "section": "Sides",
+      "price": 6.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-181",
+      "restaurant_id": 6,
+      "name": "Tamale",
+      "description": "",
+      "section": "Sides",
+      "price": 5.5,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-182",
+      "restaurant_id": 6,
+      "name": "Chili Poblano",
+      "description": "",
+      "section": "Sides",
+      "price": 6.5,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-183",
+      "restaurant_id": 6,
+      "name": "Chalupa",
+      "description": "",
+      "section": "Sides",
+      "price": 4.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-184",
+      "restaurant_id": 6,
+      "name": "Black Beans",
+      "description": "",
+      "section": "Sides",
+      "price": 4.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "6-185",
+      "restaurant_id": 6,
+      "name": "Rice and Beans",
+      "description": "",
+      "section": "Sides",
+      "price": 5.0,
+      "price_known": true,
+      "dietary_text": ""
+    }
+  ],
+  "rejected": []
+}

@@ -1,0 +1,269 @@
+{
+  "restaurant_id": 3,
+  "restaurant_name": "Eden",
+  "model": "gpt-5-mini",
+  "extracted_at": "2026-11-22 20:04",
+  "dishes": [
+    {
+      "dish_id": "3-1",
+      "restaurant_id": 3,
+      "name": "Mushroom Toast",
+      "description": "Fruit of the Fungi · Lebanon, NY\nBacon, poached egg, chives",
+      "section": "Small Plates",
+      "price": 18.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "3-2",
+      "restaurant_id": 3,
+      "name": "Beef Tartare",
+      "description": "Hillside Farm · Truxton, NY\nEgg yolk, shallot, parsley, toast points, cornichons",
+      "section": "Small Plates",
+      "price": 18.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "3-3",
+      "restaurant_id": 3,
+      "name": "Green Lentil Salad",
+      "description": "Sorrel Hill Farm · Baldwinsville, NY\nBraised leeks, fried halloumi, confit garlic",
+      "section": "Small Plates",
+      "price": 16.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "3-4",
+      "restaurant_id": 3,
+      "name": "Braised Short Rib",
+      "description": "Hillside Farm · Truxton, NY\nBlue corn grits, fried egg, pickled red onions",
+      "section": "Small Plates",
+      "price": 18.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "3-5",
+      "restaurant_id": 3,
+      "name": "Beet and Carrot Salad",
+      "description": "Grindstone Farm · Pulaski, NY\nGoat cheese, oranges, almond brittle, arugula",
+      "section": "Small Plates",
+      "price": 15.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "3-6",
+      "restaurant_id": 3,
+      "name": "Pan Seared Salmon",
+      "description": "Wester Ross · Scotland\nIsraeli couscous, charred tomatillo, grilled radicchio, caramelized onions",
+      "section": "Large Plates",
+      "price": 48.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "3-7",
+      "restaurant_id": 3,
+      "name": "Goat Cheese Cappelletti",
+      "description": "Sorrel Hill Farm · Baldwinsville, NY\nHeirloom tomatoes, olives, roasted garlic, bread crumbs, basil salsa verde",
+      "section": "Large Plates",
+      "price": 38.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "3-8",
+      "restaurant_id": 3,
+      "name": "Tandoori Chicken",
+      "description": "Hillside Farm · Truxton, NY\nBasmati rice, marinated cucumbers, arugula, raita, house naan",
+      "section": "Large Plates",
+      "price": 38.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "3-9",
+      "restaurant_id": 3,
+      "name": "Ember Roasted NY Strip",
+      "description": "Certified Angus Beef\nSmashed potatoes, chimichurri, kale, crème fraîche",
+      "section": "Large Plates",
+      "price": 48.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "3-10",
+      "restaurant_id": 3,
+      "name": "Market",
+      "description": "Listed above the hearth",
+      "section": "Specialty Cuts",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "3-11",
+      "restaurant_id": 3,
+      "name": "Flourless Chocolate Torte",
+      "description": "Nostalgia Chocolate · Syracuse, NY\nChantilly cream, seasonal fruit",
+      "section": "Dessert",
+      "price": 12.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "3-12",
+      "restaurant_id": 3,
+      "name": "Buttermilk Panna Cotta",
+      "description": "Upstate Farms · Buffalo, NY\nShortbread cookie, seasonal topping, mint",
+      "section": "Dessert",
+      "price": 10.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "3-13",
+      "restaurant_id": 3,
+      "name": "Grilled Endive",
+      "description": "Ember-roasted carrot, yogurt, dukkah, beet syrup",
+      "section": "The Menu",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "3-14",
+      "restaurant_id": 3,
+      "name": "Pan-Seared Scallops",
+      "description": "Radish, apple, radicchio, ginger, charred lemon vinegar",
+      "section": "The Menu",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "3-15",
+      "restaurant_id": 3,
+      "name": "Dayboat Halibut",
+      "description": "Delicata squash, Marcona almonds, fennel, bonito vinaigrette",
+      "section": "The Menu",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "3-16",
+      "restaurant_id": 3,
+      "name": "Mushroom Pâté",
+      "description": "Pickled grapes, caraway crisps",
+      "section": "The Menu",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "3-17",
+      "restaurant_id": 3,
+      "name": "Beef Tartare",
+      "description": "Pickled farm vegetables, cured egg yolk, marrow toast",
+      "section": "The Menu",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "3-18",
+      "restaurant_id": 3,
+      "name": "Duck Confit",
+      "description": "Sweet potato, mustard spaetzle, collard greens, apple agrodolce",
+      "section": "The Menu",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "3-19",
+      "restaurant_id": 3,
+      "name": "Sweet Corn Ice Cream",
+      "description": "Tomato jam, basil",
+      "section": "The Menu",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "3-20",
+      "restaurant_id": 3,
+      "name": "A Taste of New York Maple Syrup",
+      "description": "Maple popcorn, maple crème brûlée, maple toffee",
+      "section": "The Menu",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "3-21",
+      "restaurant_id": 3,
+      "name": "Chef-attended stations",
+      "description": "A $150 chef attendant fee applies for every 35 guests at each station.",
+      "section": "STEP 4",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "3-22",
+      "restaurant_id": 3,
+      "name": "In-suite dining",
+      "description": "10-guest minimum",
+      "section": "STEP 4",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "3-23",
+      "restaurant_id": 3,
+      "name": "Breakfast and brunch buffet",
+      "description": "25-guest minimum\nIncludes a coffee station and chilled juices.",
+      "section": "STEP 4",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "3-24",
+      "restaurant_id": 3,
+      "name": "Carving station protein",
+      "description": "",
+      "section": "STEP 4",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "3-25",
+      "restaurant_id": 3,
+      "name": "NY strip loin",
+      "description": "",
+      "section": "Carving station protein",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "3-26",
+      "restaurant_id": 3,
+      "name": "Pork loin",
+      "description": "",
+      "section": "Carving station protein",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": ""
+    }
+  ],
+  "rejected": []
+}

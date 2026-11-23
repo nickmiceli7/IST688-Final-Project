@@ -1,0 +1,919 @@
+{
+  "restaurant_id": 2,
+  "restaurant_name": "Inka’s",
+  "model": "gpt-5-mini",
+  "extracted_at": "2026-11-22 20:03",
+  "dishes": [
+    {
+      "dish_id": "2-1",
+      "restaurant_id": 2,
+      "name": "Ceviche Clasico",
+      "description": "Our signature ceviche features the seasonal catch of the day, marinated in \"leche de tigre,\" with crispy red onions and spicy aji rocoto peppers, served with crunchy canchas, chulpe corn, and a sweet potato wedge.",
+      "section": "Apps",
+      "price": 18.0,
+      "price_known": true,
+      "dietary_text": "(GF, Raw)"
+    },
+    {
+      "dish_id": "2-2",
+      "restaurant_id": 2,
+      "name": "Ceviche de Hongos",
+      "description": "Fresh mushrooms chopped with red onions, spicy aji rocoto peppers, in a vibrant citrus-based marinade.",
+      "section": "Apps",
+      "price": 12.0,
+      "price_known": true,
+      "dietary_text": "(V, GF)"
+    },
+    {
+      "dish_id": "2-3",
+      "restaurant_id": 2,
+      "name": "Tiradito Nikkei",
+      "description": "Tuna in a Japanese soy sauce (shoyu), topped with lime, cilantro, fried spring onion, avocado, and crispy leek.",
+      "section": "Apps",
+      "price": 16.0,
+      "price_known": true,
+      "dietary_text": "(Raw)"
+    },
+    {
+      "dish_id": "2-4",
+      "restaurant_id": 2,
+      "name": "Anticuchos",
+      "description": "Charcoal-grilled skewer of either octopus, steak, chicken, or mushrooms in our house Peruvian marinade, served with Peruvian corn, potato wedges, and creamy aji Amarillo sauce.",
+      "section": "Apps",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": "(GF)"
+    },
+    {
+      "dish_id": "2-5",
+      "restaurant_id": 2,
+      "name": "Mushrooms (Veg)",
+      "description": "",
+      "section": "Apps",
+      "price": 8.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "2-6",
+      "restaurant_id": 2,
+      "name": "Chicken",
+      "description": "",
+      "section": "Apps",
+      "price": 12.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "2-7",
+      "restaurant_id": 2,
+      "name": "Steak",
+      "description": "",
+      "section": "Apps",
+      "price": 14.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "2-8",
+      "restaurant_id": 2,
+      "name": "Octopus",
+      "description": "",
+      "section": "Apps",
+      "price": 18.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "2-9",
+      "restaurant_id": 2,
+      "name": "Papa a la Huancaina",
+      "description": "Tender potatoes served with a creamy, spicy Huancaina sauce.",
+      "section": "Apps",
+      "price": 9.0,
+      "price_known": true,
+      "dietary_text": "(Veg, GF)"
+    },
+    {
+      "dish_id": "2-10",
+      "restaurant_id": 2,
+      "name": "Saltado",
+      "description": "Medallions with onions and tomatoes in a soy reduction, served with white rice and crispy fries.",
+      "section": "Entrees",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": "(GF)"
+    },
+    {
+      "dish_id": "2-11",
+      "restaurant_id": 2,
+      "name": "Cauliflower (Veg)",
+      "description": "",
+      "section": "Entrees",
+      "price": 18.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "2-12",
+      "restaurant_id": 2,
+      "name": "Chicken",
+      "description": "",
+      "section": "Entrees",
+      "price": 22.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "2-13",
+      "restaurant_id": 2,
+      "name": "Steak",
+      "description": "",
+      "section": "Entrees",
+      "price": 25.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "2-14",
+      "restaurant_id": 2,
+      "name": "Arroz Chaufa",
+      "description": "Wok-fried rice cooked to perfection with your choice of seafood, chicken, or mushrooms, finished with spring onions and a sweet and spicy sauce.",
+      "section": "Entrees",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "2-15",
+      "restaurant_id": 2,
+      "name": "Mushrooms (Veg)",
+      "description": "",
+      "section": "Entrees",
+      "price": 18.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "2-16",
+      "restaurant_id": 2,
+      "name": "Chicken",
+      "description": "",
+      "section": "Entrees",
+      "price": 20.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "2-17",
+      "restaurant_id": 2,
+      "name": "Seafood",
+      "description": "",
+      "section": "Entrees",
+      "price": 28.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "2-18",
+      "restaurant_id": 2,
+      "name": "Pollo A La Brasa",
+      "description": "Peruvian marinated chicken, slow roasted over wood and charcoal flame, served with our fresh house salad, crispy fries, and ají pollero sauce.",
+      "section": "Entrees",
+      "price": 18.0,
+      "price_known": true,
+      "dietary_text": "(GF)"
+    },
+    {
+      "dish_id": "2-19",
+      "restaurant_id": 2,
+      "name": "Ensalada de Quinoa y Manzana",
+      "description": "White and red quinoa, grated apple and arugula, topped with pecans, raisins, almonds, and freshly grated blue cheese, served with a homemade Dijon mustard vinaigrette.",
+      "section": "Entrees",
+      "price": 17.0,
+      "price_known": true,
+      "dietary_text": "(Veg, GF, Nuts)"
+    },
+    {
+      "dish_id": "2-20",
+      "restaurant_id": 2,
+      "name": "Chupe de Camarones",
+      "description": "Shrimp soup, made with tender shrimp, potatoes, rice, vegetables, and a touch of aji for gentle spice, in a savory broth.",
+      "section": "Entrees",
+      "price": 24.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "2-21",
+      "restaurant_id": 2,
+      "name": "Yuca Fritas",
+      "description": "",
+      "section": "Sides",
+      "price": 8.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "2-22",
+      "restaurant_id": 2,
+      "name": "Ensalada Verde",
+      "description": "",
+      "section": "Sides",
+      "price": 7.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "2-23",
+      "restaurant_id": 2,
+      "name": "Ceviche Clasico",
+      "description": "Fresh catch of the day fish marinated in lime juice, leche de tigre and cilantro, garnished with red onions, served with chulpi corn, Peruvian corn, and sweet potato.",
+      "section": "Appetizers",
+      "price": 35.0,
+      "price_known": true,
+      "dietary_text": "(GF)"
+    },
+    {
+      "dish_id": "2-24",
+      "restaurant_id": 2,
+      "name": "Ceviche Mixto",
+      "description": "Fresh catch of the day fish and seafood (shrimp, octopus, and squid) mixed with Peruvian rocoto chili and fresh cilantro. Served with red onions, cancha chulpi, Peruvian corn, and sweet potato.",
+      "section": "Appetizers",
+      "price": 38.0,
+      "price_known": true,
+      "dietary_text": "(GF)"
+    },
+    {
+      "dish_id": "2-25",
+      "restaurant_id": 2,
+      "name": "Ceviche De Mango",
+      "description": "Fresh shrimp and catch of the day fish marinated in lime juice and leche de tigre, mixed with a mango, passion fruit reduction, onions, and cilantro. Garnished with chulpi corn and topped with crispy fried wonton. (Ask for GF)",
+      "section": "Appetizers",
+      "price": 36.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "2-26",
+      "restaurant_id": 2,
+      "name": "Ceviche De Hongos",
+      "description": "Freshly sliced button mushrooms marinated with lime juice and leche de tigre, garnished with red onions and served with sweet potato, cancha chulpi, and Peruvian corn.",
+      "section": "Appetizers",
+      "price": 21.0,
+      "price_known": true,
+      "dietary_text": "(V, GF)"
+    },
+    {
+      "dish_id": "2-27",
+      "restaurant_id": 2,
+      "name": "Ceviche Trio",
+      "description": "A trio of classic and modern ceviches, each highlighting a distinct leche de tigre made with a different Peruvian pepper—classic, ají amarillo, and rocoto. Accompanied by sweet potato, Peruvian corn, red onions, and a touch of cilantro.",
+      "section": "Appetizers",
+      "price": 42.0,
+      "price_known": true,
+      "dietary_text": "(GF)"
+    },
+    {
+      "dish_id": "2-28",
+      "restaurant_id": 2,
+      "name": "Leche De Tigre",
+      "description": "A refreshing and flavorful blend of bright citrus, cilantro, and a touch of spice, topped with crispy fried fish.",
+      "section": "Appetizers",
+      "price": 14.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "2-29",
+      "restaurant_id": 2,
+      "name": "Inkas Ceviche",
+      "description": "Fresh shrimp and catch of the day marinated in lime juice and Peruvian yellow chili leche de Tigre, served with red onions and crunchy calamari, garnished with cilantro, chulpi corn, and Peruvian Corn.",
+      "section": "Appetizers",
+      "price": 38.0,
+      "price_known": true,
+      "dietary_text": "(GF)"
+    },
+    {
+      "dish_id": "2-30",
+      "restaurant_id": 2,
+      "name": "Tiradito Mediterráneo",
+      "description": "Thinly sliced catch of the day marinated in leche de tigre and olive oil, finished with Parmesan cheese, cilantro, Botija olives, and avocado.",
+      "section": "Appetizers",
+      "price": 26.0,
+      "price_known": true,
+      "dietary_text": "(GF, RAW)"
+    },
+    {
+      "dish_id": "2-31",
+      "restaurant_id": 2,
+      "name": "Mushrooms",
+      "description": "",
+      "section": "Appetizers",
+      "price": 14.0,
+      "price_known": true,
+      "dietary_text": "(Vegetarian)"
+    },
+    {
+      "dish_id": "2-32",
+      "restaurant_id": 2,
+      "name": "Chicken",
+      "description": "",
+      "section": "Appetizers",
+      "price": 16.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "2-33",
+      "restaurant_id": 2,
+      "name": "Steak",
+      "description": "",
+      "section": "Appetizers",
+      "price": 18.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "2-34",
+      "restaurant_id": 2,
+      "name": "Shrimp",
+      "description": "",
+      "section": "Appetizers",
+      "price": 18.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "2-35",
+      "restaurant_id": 2,
+      "name": "Octopus",
+      "description": "",
+      "section": "Appetizers",
+      "price": 26.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "2-36",
+      "restaurant_id": 2,
+      "name": "Croquetas De Yuca",
+      "description": "Crispy, golden-fried yuca croquettes with a creamy mashed yuca center, served with ají pollero sauce.",
+      "section": "Appetizers",
+      "price": 16.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "2-37",
+      "restaurant_id": 2,
+      "name": "Papa a La Huancaína",
+      "description": "Sautéed baby potatoes served with a classic Peruvian Huancaína sauce made with yellow chili, queso fresco, crackers, and a touch of cream.",
+      "section": "Appetizers",
+      "price": 16.0,
+      "price_known": true,
+      "dietary_text": "(Veg)"
+    },
+    {
+      "dish_id": "2-38",
+      "restaurant_id": 2,
+      "name": "Chicharrones De Calamar",
+      "description": "Crispy, marinated calamari, deep-fried until golden and served with homemade tartar sauce, fresh criolla, and lime. (Ask for GF)",
+      "section": "Appetizers",
+      "price": 25.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "2-39",
+      "restaurant_id": 2,
+      "name": "Causa Limeña",
+      "description": "Layers of whipped yellow potato, sliced avocado, and shredded chicken mixed with mayonnaise, onions, and chopped lettuce. Garnished with a sliced egg.",
+      "section": "Appetizers",
+      "price": 18.0,
+      "price_known": true,
+      "dietary_text": "(GF)"
+    },
+    {
+      "dish_id": "2-40",
+      "restaurant_id": 2,
+      "name": "Causa De Cocktail De Langostinos",
+      "description": "Whipped potato seasoned with Peruvian yellow chili and lime juice, layered with sliced avocado and chopped shrimp tossed in a homemade cocktail sauce. Garnished with chalaquita onion.",
+      "section": "Appetizers",
+      "price": 25.0,
+      "price_known": true,
+      "dietary_text": "(GF)"
+    },
+    {
+      "dish_id": "2-41",
+      "restaurant_id": 2,
+      "name": "Tiradito Nikkei Inkas Style",
+      "description": "Thinly sliced tuna topped with a Nikkei sauce made with soy sauce, lime juice, togarashi, oyster sauce, sesame seeds, and sesame oil. Served with diced avocado, lime, cilantro and wakame seaweed.",
+      "section": "Nikkei (Japanese Peruvian Fusion)",
+      "price": 29.0,
+      "price_known": true,
+      "dietary_text": "(GF)"
+    },
+    {
+      "dish_id": "2-42",
+      "restaurant_id": 2,
+      "name": "Tartar De Atún Y Salmón",
+      "description": "Diced fresh tuna and salmon marinated in a Nikkei sauce (ginger, soy sauce, citrus, and hondashi), garnished with fresh arugula, walnuts, and almonds. (Ask for GF)",
+      "section": "Nikkei (Japanese Peruvian Fusion)",
+      "price": 28.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "2-43",
+      "restaurant_id": 2,
+      "name": "Inka Maki",
+      "description": "Japanese sushi rice and nori seaweed rolled with fresh tuna, avocado, and cream cheese, topped with sesame seeds.",
+      "section": "Nikkei (Japanese Peruvian Fusion)",
+      "price": 16.0,
+      "price_known": true,
+      "dietary_text": "(GF, Raw)"
+    },
+    {
+      "dish_id": "2-44",
+      "restaurant_id": 2,
+      "name": "Maki Acevichado",
+      "description": "Crispy panko-shrimp and avocado rolled in Japanese sushi rice and nori seaweed, topped with thinly sliced tuna and acevichado sauce (leche de tigre, togarashi, and homemade mayonnaise).",
+      "section": "Nikkei (Japanese Peruvian Fusion)",
+      "price": 18.0,
+      "price_known": true,
+      "dietary_text": "(Raw)"
+    },
+    {
+      "dish_id": "2-45",
+      "restaurant_id": 2,
+      "name": "Machu Pichu Maki",
+      "description": "Inka’s signature roll featuring crispy panko-fried shrimp, creamy avocado, and mildly spicy salmon tartare, topped with eel sauce and crispy wontons.",
+      "section": "Nikkei (Japanese Peruvian Fusion)",
+      "price": 20.0,
+      "price_known": true,
+      "dietary_text": "(Raw)"
+    },
+    {
+      "dish_id": "2-46",
+      "restaurant_id": 2,
+      "name": "Ensalada De Quinoa Y Manzana",
+      "description": "A blend of white, black and red Peruvian quinoa, grated apple, and arugula, topped with toasted pecans, raisins, and almonds. Tossed in a homemade Dijon mustard vinaigrette and finished with crumbled blue cheese.",
+      "section": "Vegan / Vegetarian",
+      "price": 23.0,
+      "price_known": true,
+      "dietary_text": "(GF, Veg, Nuts)"
+    },
+    {
+      "dish_id": "2-47",
+      "restaurant_id": 2,
+      "name": "Hongos Saltados",
+      "description": "Stir-fried button and shiitake mushrooms with red onions and tomatoes in a gluten-free soy sauce reduction with a touch of cilantro. Served with crispy fries and white rice.",
+      "section": "Vegan / Vegetarian",
+      "price": 24.0,
+      "price_known": true,
+      "dietary_text": "(GF, V)"
+    },
+    {
+      "dish_id": "2-48",
+      "restaurant_id": 2,
+      "name": "Coliflor a La Brasa",
+      "description": "Tender roasted cauliflower marinated in Peruvian spices, topped with ají amarillo sauce and chimichurri. Accompanied by sautéed bell peppers, zucchini, asparagus, mushrooms, and baby potato flambéed with white wine.",
+      "section": "Vegan / Vegetarian",
+      "price": 24.0,
+      "price_known": true,
+      "dietary_text": "(V, GF)"
+    },
+    {
+      "dish_id": "2-49",
+      "restaurant_id": 2,
+      "name": "Peruvian Ratatouille",
+      "description": "Roasted zucchini, tomatoes, white onions, bell peppers, and garlic, tossed with mixed quinoa and fresh parsley. Finished with a balsamic reduction, ají amarillo chimichurri, and crispy sweet potato threads.",
+      "section": "Vegan / Vegetarian",
+      "price": 25.0,
+      "price_known": true,
+      "dietary_text": "(V, GF)"
+    },
+    {
+      "dish_id": "2-50",
+      "restaurant_id": 2,
+      "name": "Lomo Saltado",
+      "description": "Tender filet mignon stir-fried with red onions and tomato in a soy sauce reduction, finished with a touch of cilantro. Served with crispy fries and white rice.",
+      "section": "Classics and Creations",
+      "price": 42.0,
+      "price_known": true,
+      "dietary_text": "(GF)"
+    },
+    {
+      "dish_id": "2-51",
+      "restaurant_id": 2,
+      "name": "Ají De Gallina",
+      "description": "Shredded chicken breast simmered in a creamy Peruvian yellow chilli sauce, served with boiled potatoes and white rice, topped with an egg slice and nuts. (Ask for Nut Free)",
+      "section": "Classics and Creations",
+      "price": 28.0,
+      "price_known": true,
+      "dietary_text": "(Nuts)"
+    },
+    {
+      "dish_id": "2-52",
+      "restaurant_id": 2,
+      "name": "Seco De Asado De Tira",
+      "description": "Slow-cooked short ribs in a cilantro sauce with peas and carrots, served with a seared tacu tacu (Peruvianstyle blend of chickpeas and white rice), garnished with fresh criolla onion.",
+      "section": "Classics and Creations",
+      "price": 39.0,
+      "price_known": true,
+      "dietary_text": "(GF)"
+    },
+    {
+      "dish_id": "2-53",
+      "restaurant_id": 2,
+      "name": "Fetuccini Al Pesto",
+      "description": "Fettuccine tossed in our homemade Peruvian pesto sauce (basil, spinach, confit garlic, and cream), finished with shredded Parmesan cheese. Grilled Chicken +$14 | Grilled Shrimp +$16 | Lomo Saltado +$24",
+      "section": "Classics and Creations",
+      "price": 24.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "2-54",
+      "restaurant_id": 2,
+      "name": "Risotto Al Aji Amarillo",
+      "description": "Creamy Arborio rice slowly cooked with white wine and Peruvian yellow chili sauce, finished with cream, butter, and shredded Parmesan cheese. Grilled Mushroom +$10 (vegetarian) | Grilled Chicken +$14 | Grilled Shrimp +$16 | Lomo Saltado +$24",
+      "section": "Classics and Creations",
+      "price": 20.0,
+      "price_known": true,
+      "dietary_text": "(GF, Veg)"
+    },
+    {
+      "dish_id": "2-55",
+      "restaurant_id": 2,
+      "name": "Pasta a La Huancaina",
+      "description": "Fettuccine pasta tossed in a creamy Huancaína sauce (Peruvian yellow chili, queso fresco, and cream), topped with shredded Parmesan cheese. Mushroom Saltado +$10 | Chicken Saltado +$14 | Lomo Saltado +$24",
+      "section": "Classics and Creations",
+      "price": 24.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "2-56",
+      "restaurant_id": 2,
+      "name": "Arroz Con Pollo",
+      "description": "A classic homemade dish of cilantro-infused green rice mixed with peas and carrots, served with chicken breast, huancaína sauce, and fresh criolla. (Ask for GF)",
+      "section": "Classics and Creations",
+      "price": 34.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "2-57",
+      "restaurant_id": 2,
+      "name": "Mushrooms",
+      "description": "",
+      "section": "Classics and Creations",
+      "price": 22.0,
+      "price_known": true,
+      "dietary_text": "(Vegetarian)"
+    },
+    {
+      "dish_id": "2-58",
+      "restaurant_id": 2,
+      "name": "Chicken",
+      "description": "",
+      "section": "Classics and Creations",
+      "price": 26.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "2-59",
+      "restaurant_id": 2,
+      "name": "Seafood (Fried)",
+      "description": "(Calamari, Fish, Shrimp) (Ask for GF Seafood)",
+      "section": "Classics and Creations",
+      "price": 36.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "2-60",
+      "restaurant_id": 2,
+      "name": "Arroz Con Mariscos",
+      "description": "Peruvian-style rice sauteed with fresh seafood (Shrimp, scallops, octopus, and calamari) white wine reduction, tossed with salsa madre, garnished with cilantro and served with fresh criolla onion.",
+      "section": "Classics and Creations",
+      "price": 46.0,
+      "price_known": true,
+      "dietary_text": "(GF)"
+    },
+    {
+      "dish_id": "2-61",
+      "restaurant_id": 2,
+      "name": "Pollo a La Brasa",
+      "description": "Peruvian marinated chicken, slow roasted and served with crispy fries, a fresh salad, and our signature ají pollero sauce.",
+      "section": "Land & Ocean",
+      "price": 29.0,
+      "price_known": true,
+      "dietary_text": "(GF)"
+    },
+    {
+      "dish_id": "2-62",
+      "restaurant_id": 2,
+      "name": "Salmón Con Mantequilla De Naranja",
+      "description": "Seared salmon glazed with orange butter, served over a whipped lúcuma and sweet potato purée, accompanied by grilled asparagus. Topped with crispy sweet potato threads.",
+      "section": "Land & Ocean",
+      "price": 36.0,
+      "price_known": true,
+      "dietary_text": "(GF)"
+    },
+    {
+      "dish_id": "2-63",
+      "restaurant_id": 2,
+      "name": "Pulpo a La Parrilla",
+      "description": "Tender grilled octopus served with baby potatoes, asparagus, zucchinni, complemented by house-made chimichurri, ají pollero, and fresh lime.",
+      "section": "Land & Ocean",
+      "price": 38.0,
+      "price_known": true,
+      "dietary_text": "(GF)"
+    },
+    {
+      "dish_id": "2-64",
+      "restaurant_id": 2,
+      "name": "Skirt Steak",
+      "description": "Grilled outside skirt steak served with roasted baby potatoes, smoky chimichurri, and ají amarillo. Served with (sautéed) seasonal vegetables.",
+      "section": "Land & Ocean",
+      "price": 58.0,
+      "price_known": true,
+      "dietary_text": "(GF)"
+    },
+    {
+      "dish_id": "2-65",
+      "restaurant_id": 2,
+      "name": "Raviolis De Langosta",
+      "description": "Handmade raviolis filled with tender lobster and ricotta, topped with creamy salsa madre. Finished with fresh chimichurri-infused lobster, parsley, and Parmesan cheese.",
+      "section": "Land & Ocean",
+      "price": 56.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "2-66",
+      "restaurant_id": 2,
+      "name": "Pescado Entero",
+      "description": "Whole red snapper marinated in Peruvian spices and deep-fried until golden and crispy, served with tostones and fresh criolla onion.",
+      "section": "Land & Ocean",
+      "price": 55.0,
+      "price_known": true,
+      "dietary_text": "(GF)"
+    },
+    {
+      "dish_id": "2-67",
+      "restaurant_id": 2,
+      "name": "Chuleta a La Parrilla",
+      "description": "Slow-cooked pork chop, finished on the grill and topped with rosemary and confit garlic butter. Served with passion fruit-infused mashed sweet potatoes and fresh arugula.",
+      "section": "Land & Ocean",
+      "price": 34.0,
+      "price_known": true,
+      "dietary_text": "(GF)"
+    },
+    {
+      "dish_id": "2-68",
+      "restaurant_id": 2,
+      "name": "Filete De Pescado",
+      "description": "Catch of the day fish filet served with seasonal vegetables, olive oil and white wine, finished with a drizzle of ají amarillo, leche de tigre, and arugula.",
+      "section": "Land & Ocean",
+      "price": 52.0,
+      "price_known": true,
+      "dietary_text": "(GF)"
+    },
+    {
+      "dish_id": "2-69",
+      "restaurant_id": 2,
+      "name": "Platanos Dulce Fritos",
+      "description": "Fried sweet plantains drizzled with honey.",
+      "section": "Sides",
+      "price": 6.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "2-70",
+      "restaurant_id": 2,
+      "name": "Camote Frito",
+      "description": "Sweet potato fries.",
+      "section": "Sides",
+      "price": 6.0,
+      "price_known": true,
+      "dietary_text": "(GF)"
+    },
+    {
+      "dish_id": "2-71",
+      "restaurant_id": 2,
+      "name": "Ensalada Fresca",
+      "description": "Fresh lettuce, tomato, avocado, onions, and homemade vinaigrette on the side.",
+      "section": "Sides",
+      "price": 7.0,
+      "price_known": true,
+      "dietary_text": "(GF, Veg)"
+    },
+    {
+      "dish_id": "2-72",
+      "restaurant_id": 2,
+      "name": "Sautéed Vegetables",
+      "description": "Seasonal vegetables sautéed in olive oil and white wine.",
+      "section": "Sides",
+      "price": 7.0,
+      "price_known": true,
+      "dietary_text": "(GF, Veg)"
+    },
+    {
+      "dish_id": "2-73",
+      "restaurant_id": 2,
+      "name": "Yuca Frita",
+      "description": "Crispy fried cassava sticks.",
+      "section": "Sides",
+      "price": 8.0,
+      "price_known": true,
+      "dietary_text": "(Veg, GF)"
+    },
+    {
+      "dish_id": "2-74",
+      "restaurant_id": 2,
+      "name": "Tacu Tacu",
+      "description": "Golden-seared blend of rice and chickpeas, served with a side of criolla onion.",
+      "section": "Sides",
+      "price": 8.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "2-75",
+      "restaurant_id": 2,
+      "name": "Scallops",
+      "description": "Sauteed in butter, white wine, and finished with grated parmesan (2 per order).",
+      "section": "Bar Bites",
+      "price": 5.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "2-76",
+      "restaurant_id": 2,
+      "name": "Shot De Leche De Tigre",
+      "description": "A fresh, flavorful shot of fluke, marinated in a zesty homemade \"leche de tigre\".",
+      "section": "Bar Bites",
+      "price": 3.0,
+      "price_known": true,
+      "dietary_text": "(Raw)"
+    },
+    {
+      "dish_id": "2-77",
+      "restaurant_id": 2,
+      "name": "Mini Causas",
+      "description": "Two mini causes filled with chicken, yellow potatos and avocado.",
+      "section": "Bar Bites",
+      "price": 7.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "2-78",
+      "restaurant_id": 2,
+      "name": "Inka Maki",
+      "description": "Tuna, avocado, cream cheese, sesame seeds.",
+      "section": "Bar Bites",
+      "price": 8.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "2-79",
+      "restaurant_id": 2,
+      "name": "Empanadas",
+      "description": "Choice of cheese, beef, or chicken (3 per order).",
+      "section": "Bar Bites",
+      "price": 6.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "2-80",
+      "restaurant_id": 2,
+      "name": "Chicken Wontons",
+      "description": "Fried wonton filled with chicken and served with our homemade sweet and sour sauce (3 per order).",
+      "section": "Bar Bites",
+      "price": 5.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "2-81",
+      "restaurant_id": 2,
+      "name": "Mushroom",
+      "description": "",
+      "section": "Bar Bites",
+      "price": 3.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "2-82",
+      "restaurant_id": 2,
+      "name": "Chicken",
+      "description": "",
+      "section": "Bar Bites",
+      "price": 4.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "2-83",
+      "restaurant_id": 2,
+      "name": "Steak",
+      "description": "",
+      "section": "Bar Bites",
+      "price": 5.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "2-84",
+      "restaurant_id": 2,
+      "name": "Alfajor",
+      "description": "Two homemade shortbread cookies sandwiched between a manjar center.",
+      "section": "House Favorites",
+      "price": 8.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "2-85",
+      "restaurant_id": 2,
+      "name": "Crema Volteada",
+      "description": "A Peruvian take on flan, this smooth and creamy dessert features a rich caramel glaze and a delicate custard base.",
+      "section": "House Favorites",
+      "price": 12.0,
+      "price_known": true,
+      "dietary_text": "(GF)"
+    },
+    {
+      "dish_id": "2-86",
+      "restaurant_id": 2,
+      "name": "Tarta De Manzana",
+      "description": "",
+      "section": "House Favorites",
+      "price": 12.0,
+      "price_known": true,
+      "dietary_text": "(Vegan)"
+    },
+    {
+      "dish_id": "2-87",
+      "restaurant_id": 2,
+      "name": "Tres Leches Del Día",
+      "description": "A rotating selection of our summer inspired Homemade Tres Leches, a moist, fluffy sponge cake, soaked in a blend of evaporated milk, condensed milk, and whole milk.",
+      "section": "",
+      "price": 12.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "2-88",
+      "restaurant_id": 2,
+      "name": "Dessert Maki",
+      "description": "A traditional Nikkei maki turned into dessert, 5 sweet rice makis with our seasonal fresh fruit.",
+      "section": "",
+      "price": 14.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "2-89",
+      "restaurant_id": 2,
+      "name": "Tarta De Calabaza",
+      "description": "A crisp, cookie-like crust filled with a tangy homemade pumpkin cream, topped with a lightly torched meringue.",
+      "section": "",
+      "price": 14.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "2-90",
+      "restaurant_id": 2,
+      "name": "Suspiro Caliente",
+      "description": "A silky caramel-like custard nestled in a moist dulce de leche and vanilla cake, topped with a delicate meringue, a touch of cinnamon, and served with vanilla ice cream. (20 minute bake time)",
+      "section": "",
+      "price": 15.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "2-91",
+      "restaurant_id": 2,
+      "name": "Crocante De Lucuma (Nuts)",
+      "description": "Our homemade Lucuma ice cream with a butterscotch pecan brownie, layered with meringue, chocolate ganache, butterscotch, and a pecan praline.",
+      "section": "",
+      "price": 16.0,
+      "price_known": true,
+      "dietary_text": "(Nuts)"
+    }
+  ],
+  "rejected": []
+}

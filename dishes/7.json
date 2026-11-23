@@ -1,0 +1,859 @@
+{
+  "restaurant_id": 7,
+  "restaurant_name": "Byblos Mediterranean Cafe",
+  "model": "gpt-5-mini",
+  "extracted_at": "2026-11-22 20:07",
+  "dishes": [
+    {
+      "dish_id": "7-1",
+      "restaurant_id": 7,
+      "name": "Hummus",
+      "description": "Chickpeas, tahini, lemon juice and garlic garnished with olive oil",
+      "section": "Mazza (Appetizers)",
+      "price": 7.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-2",
+      "restaurant_id": 7,
+      "name": "Baba Ghanuj \"Eggplant Dip\"",
+      "description": "Eggplant puree with tahini, lemon juice, garlic garnished with olive oil",
+      "section": "Mazza (Appetizers)",
+      "price": 9.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-3",
+      "restaurant_id": 7,
+      "name": "Falafel \"Vegetable Patties\"",
+      "description": "Chickpea and fava bean mixed with herbs and exotic spices fried golden brown; topped with diced tomatoes, parsley, radishes, and tahini sauce",
+      "section": "Mazza (Appetizers)",
+      "price": 7.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-4",
+      "restaurant_id": 7,
+      "name": "Labneh",
+      "description": "Lebanese creamy farmer's cheese dip made from strained yogurt garnished with olive oil",
+      "section": "Mazza (Appetizers)",
+      "price": 9.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-5",
+      "restaurant_id": 7,
+      "name": "Grape Leaves \"Dolma\"",
+      "description": "Meat stuffed or meatless, please specify. Finely ground lamb combined with rice, spices, rolled in grape leaves",
+      "section": "Mazza (Appetizers)",
+      "price": 10.99,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-6",
+      "restaurant_id": 7,
+      "name": "Mujadara",
+      "description": "Mixture of rice and perfectly cooked lentils, topped with caramelized onions and spices",
+      "section": "Mazza (Appetizers)",
+      "price": 9.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-7",
+      "restaurant_id": 7,
+      "name": "Foul Medammas",
+      "description": "Fava beans seasoned with lemon juice, garlic and olive oil",
+      "section": "Mazza (Appetizers)",
+      "price": 10.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-8",
+      "restaurant_id": 7,
+      "name": "Fried Kibbeh Balls",
+      "description": "Ground sirloin beef, crushed wheat, stuffed with onions, pine nuts and spices",
+      "section": "Mazza (Appetizers)",
+      "price": 13.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-9",
+      "restaurant_id": 7,
+      "name": "Sambousek \"Fried Meat Pies\"",
+      "description": "Ground sirloin beef, onions and pine nuts wrapped in homemade dough and fried",
+      "section": "Mazza (Appetizers)",
+      "price": 10.99,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-10",
+      "restaurant_id": 7,
+      "name": "Spanakopita",
+      "description": "A delicately spiced mixture of spinach, onions, feta cheese, and spices wrapped in phyllo dough and baked to perfection",
+      "section": "Mazza (Appetizers)",
+      "price": 11.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-11",
+      "restaurant_id": 7,
+      "name": "Byblos Homemade Garlic Sauce",
+      "description": "Toum is a Lebanese garlic sauce, known for its bold, garlicky flavor and creamy, spreadable texture. Basic ingredients - oil and garlic.",
+      "section": "Mazza (Appetizers)",
+      "price": 7.99,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-12",
+      "restaurant_id": 7,
+      "name": "Za'atar and Zeit",
+      "description": "A blend of powdered herbs, white sesame seeds, ground sumac, thyme and salt mixed with olive oil. Served with pita bread",
+      "section": "Mazza (Appetizers)",
+      "price": 7.99,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-13",
+      "restaurant_id": 7,
+      "name": "Falafel Poppers",
+      "description": "Falafel poppers",
+      "section": "Mazza (Appetizers)",
+      "price": 17.99,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-14",
+      "restaurant_id": 7,
+      "name": "Traditional Lamb Gyro",
+      "description": "Traditional lamb, slow roasted on our vertical rotisserie, sliced thin; topped with lettuce, tomatoes, onions and tzatziki sauce. Make it a deluxe for an extra charge. Deluxe meals include a choice of side & can of soda or water",
+      "section": "Gyros",
+      "price": 13.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-15",
+      "restaurant_id": 7,
+      "name": "Chicken Gyro",
+      "description": "Chicken seasoned and sliced thin; topped with lettuce, tomatoes, onions and tzatziki sauce. Make it a deluxe for an extra charge. Deluxe meals include a choice of side & can of soda or water",
+      "section": "Gyros",
+      "price": 13.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-16",
+      "restaurant_id": 7,
+      "name": "Chicken Bacon and Ranch Gyro",
+      "description": "Chicken, Bacon & Ranch topped with lettuce, Tomatoes & onions.",
+      "section": "Gyros",
+      "price": 13.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-17",
+      "restaurant_id": 7,
+      "name": "Falafel Gyro",
+      "description": "Falafel patties served with lettuce, tomatoes, onions and taziki sauce.",
+      "section": "Gyros",
+      "price": 13.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-18",
+      "restaurant_id": 7,
+      "name": "Falafel Wrap",
+      "description": "Vegetable patties deep fried drizzled with tahini sauce topped with tomatoes, radishes, and parsley. Make it a deluxe for an extra charge. Deluxe meals include a choice of side & can of soda or water",
+      "section": "Pita Wraps",
+      "price": 11.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-19",
+      "restaurant_id": 7,
+      "name": "Chicken Kabob Wrap",
+      "description": "Charbroiled chicken topped with lettuce, tomatoes and our homemade famous garlic sauce. Make it a deluxe for an extra charge. Deluxe meals include a choice of side & can of soda or water",
+      "section": "Pita Wraps",
+      "price": 13.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-20",
+      "restaurant_id": 7,
+      "name": "Kafta Wrap",
+      "description": "Ground beef and parsley patties topped with hummus, lettuce, tomatoes and onions. Make it a deluxe for an extra charge. Deluxe meals include a choice of side & can of soda or water",
+      "section": "Pita Wraps",
+      "price": 13.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-21",
+      "restaurant_id": 7,
+      "name": "Shish Kabob Wrap",
+      "description": "Charbroiled beef topped with hummus, lettuce, tomatoes and onions. Make it a deluxe for an extra charge. Deluxe meals include a choice of side & can of soda or water",
+      "section": "Pita Wraps",
+      "price": 14.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-22",
+      "restaurant_id": 7,
+      "name": "Hummus Wrap",
+      "description": "Hummus topped with lettuce, tomatoes, cucumbers, and onions drizzled with olive oil. Make it a deluxe for an extra charge. Deluxe meals include a choice of side & can of soda or water",
+      "section": "Pita Wraps",
+      "price": 11.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-23",
+      "restaurant_id": 7,
+      "name": "Baba Ghanouj Wrap",
+      "description": "Eggplant dip topped with lettuce, tomatoes, and onions drizzled with olive oil. Make it a deluxe for an extra charge. Deluxe meals include a choice of side & can of soda or water",
+      "section": "Pita Wraps",
+      "price": 11.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-24",
+      "restaurant_id": 7,
+      "name": "Mujadara Wrap",
+      "description": "Mixture of rice and perfectly cooked lentils, topped with caramelized onions, lettuce and tomatoes. Make it a deluxe for an extra charge. Deluxe meals include a choice of side & can of soda or water",
+      "section": "Pita Wraps",
+      "price": 11.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-25",
+      "restaurant_id": 7,
+      "name": "Labne Wrap",
+      "description": "Lebanese creamy farmer's cheese topped with mint, cucumbers, lettuce, and scallions and drizzled with olive oil. Make it a deluxe for an extra charge. Deluxe meals include a choice of side & can of soda or water",
+      "section": "Pita Wraps",
+      "price": 11.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-26",
+      "restaurant_id": 7,
+      "name": "Jibne \"Cheese Wrap",
+      "description": "Feta cheese, black olives, cucumber, and lettuce. Make it a deluxe for an extra charge. Deluxe meals include a choice of side & can of soda or water",
+      "section": "Pita Wraps",
+      "price": 11.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-27",
+      "restaurant_id": 7,
+      "name": "Chicken Shawarma Wrap",
+      "description": "",
+      "section": "Pita Wraps",
+      "price": 14.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-28",
+      "restaurant_id": 7,
+      "name": "Gyro Bowl \"Traditional\"",
+      "description": "All bowls served with rice, salad, pita bread Protein & sauce. Add extra Protein $4.",
+      "section": "Gyro Bowls",
+      "price": 14.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-29",
+      "restaurant_id": 7,
+      "name": "Chicken Bowl",
+      "description": "All bowls served with rice, salad, pita bread Protein & sauce. Add extra Protein $4.",
+      "section": "Gyro Bowls",
+      "price": 14.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-30",
+      "restaurant_id": 7,
+      "name": "Falafel Bowl",
+      "description": "All bowls served with rice, salad, pita bread Protein & sauce. Add extra Protein $4.",
+      "section": "Gyro Bowls",
+      "price": 14.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-31",
+      "restaurant_id": 7,
+      "name": "Gyro & Chicken Combo Bowl",
+      "description": "All bowls served with rice, salad, pita bread Protein & sauce. Add extra Protein $4.",
+      "section": "Gyro Bowls",
+      "price": 14.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-32",
+      "restaurant_id": 7,
+      "name": "Chicken Kabob \"Shish Taook\" (Two Skewers)",
+      "description": "Boneless, skinless chicken cut, seasoned & charbroiled with tomatoes, green peppers and onions, and side of homemade garlic sauce.",
+      "section": "From the Grill",
+      "price": 23.99,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-33",
+      "restaurant_id": 7,
+      "name": "Beef Kabob \"Shish Kabob\" (Two Skewers)",
+      "description": "Premium beef sirloin, seasoned and charbroiled with tomatoes, green peppers and onions.",
+      "section": "From the Grill",
+      "price": 26.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-34",
+      "restaurant_id": 7,
+      "name": "Kafta Kabob (Two Skewers)",
+      "description": "Ground beef, mixed with onions, parsley, tasty spices, wrapped around a skewer & chargrilled.",
+      "section": "From the Grill",
+      "price": 23.99,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-35",
+      "restaurant_id": 7,
+      "name": "Veggie Kabob (Two Skewers)",
+      "description": "Mixed vegetables seasoned and charbroiled.",
+      "section": "From the Grill",
+      "price": 23.99,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-36",
+      "restaurant_id": 7,
+      "name": "Kabob Combination",
+      "description": "Choice of any three skewers.",
+      "section": "From the Grill",
+      "price": 28.99,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-37",
+      "restaurant_id": 7,
+      "name": "Gyro Entree",
+      "description": "Choice of lamb or chicken. Kronos \"worlds best gyros\" slow roasted on our vertical rotisserie, sliced thin; served over a bed of rice pilaf and a side of tzatziki sauce.",
+      "section": "Entr��es",
+      "price": 23.99,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-38",
+      "restaurant_id": 7,
+      "name": "Chicken Shawarma",
+      "description": "Marinated chicken rubbed with a mixture of exotic herbs, slowly roasted. Served over a bed of rice pilaf and topped with tahini sauce",
+      "section": "Entr��es",
+      "price": 23.99,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-39",
+      "restaurant_id": 7,
+      "name": "Kibbeh",
+      "description": "Beef ground to a fine p��t��, and mixed with cracked wheat; it forms two layers encasing a filling of seasoned ground sirloin beef, onions and pine nuts. The dish is then baked to perfection and served over a bed of rice pilaf.",
+      "section": "Entr��es",
+      "price": 26.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-40",
+      "restaurant_id": 7,
+      "name": "Falafel",
+      "description": "Vegetable patties topped with diced tomatoes, parsley, radishes, lettuce and tahini sauce.",
+      "section": "Entr��es",
+      "price": 22.99,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-41",
+      "restaurant_id": 7,
+      "name": "Vegetarian Platter",
+      "description": "Choose any four of these favorites: hummus, baba ghanuj, rice pilaf, mujadarah, grape leaves, falafel, tabbouleh, labneh, yogurt salad, or spanakopita. Includes pita bread",
+      "section": "Entr��es",
+      "price": 22.99,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-42",
+      "restaurant_id": 7,
+      "name": "Beef Shawarma",
+      "description": "",
+      "section": "Entr��es",
+      "price": 26.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-43",
+      "restaurant_id": 7,
+      "name": "Byblos \"House Salad\"",
+      "description": "Crisp lettuce, freshly cut tomatoes, cucumber, onions, radishes, parsley, mint, and tossed in our homemade dressing",
+      "section": "Salads",
+      "price": 10.99,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-44",
+      "restaurant_id": 7,
+      "name": "Jerusalem Salad",
+      "description": "Diced tomatoes, parsley, radish, lettuce and tahini sauce",
+      "section": "Salads",
+      "price": 10.99,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-45",
+      "restaurant_id": 7,
+      "name": "Cucumber and Yogurt Salad",
+      "description": "Chickpea and fava bean mixed with herbs and exotic spices fried golden brown; topped with diced tomatoes, parsley, radishes, and tahini sauce",
+      "section": "Salads",
+      "price": 9.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-46",
+      "restaurant_id": 7,
+      "name": "Tabbouleh Salad",
+      "description": "Chopped parsley, cracked wheat, freshly cut tomatoes, onions and fresh mint in an extra virgin olive oil and lemon juice dressing",
+      "section": "Salads",
+      "price": 11.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-47",
+      "restaurant_id": 7,
+      "name": "Fattoush \"Peasant Salad\"",
+      "description": "Crisp lettuce, onions, freshly cut tomatoes, cucumber, pita chips, radishes, parsley, mint, tossed in an extra virgin olive oil dressing",
+      "section": "Salads",
+      "price": 11.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-48",
+      "restaurant_id": 7,
+      "name": "Mediterranean Salad",
+      "description": "Crisp lettuce, freshly cut tomatoes, feta and black olives, radishes, parsley, mint, and tossed with our homemade dressing",
+      "section": "Salads",
+      "price": 11.99,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-49",
+      "restaurant_id": 7,
+      "name": "Loaded Gyros",
+      "description": "Include fries, a selected protein. Includes 3 Apple Baklava.",
+      "section": "Lunch Special",
+      "price": 16.99,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-50",
+      "restaurant_id": 7,
+      "name": "Chicken Spicy Wrap",
+      "description": "",
+      "section": "Lunch Special",
+      "price": 13.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-51",
+      "restaurant_id": 7,
+      "name": "Walnut Baklava",
+      "description": "",
+      "section": "Today's Specials",
+      "price": 3.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-52",
+      "restaurant_id": 7,
+      "name": "Cheese Baklava",
+      "description": "",
+      "section": "Today's Specials",
+      "price": 3.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-53",
+      "restaurant_id": 7,
+      "name": "Spinach and Lentil Soup - Bowl",
+      "description": "",
+      "section": "Soups",
+      "price": 8.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-54",
+      "restaurant_id": 7,
+      "name": "Soup of the Day - Bowl",
+      "description": "",
+      "section": "Soups",
+      "price": 8.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-55",
+      "restaurant_id": 7,
+      "name": "Fries",
+      "description": "",
+      "section": "Byblos Sides",
+      "price": 5.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-56",
+      "restaurant_id": 7,
+      "name": "Hummus",
+      "description": "",
+      "section": "Byblos Sides",
+      "price": 5.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-57",
+      "restaurant_id": 7,
+      "name": "Baba Ghanuj",
+      "description": "",
+      "section": "Byblos Sides",
+      "price": 5.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-58",
+      "restaurant_id": 7,
+      "name": "Rice Pilaf",
+      "description": "",
+      "section": "Byblos Sides",
+      "price": 5.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-59",
+      "restaurant_id": 7,
+      "name": "House Salad",
+      "description": "",
+      "section": "Byblos Sides",
+      "price": 5.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-60",
+      "restaurant_id": 7,
+      "name": "Yogurt Salad",
+      "description": "",
+      "section": "Byblos Sides",
+      "price": 5.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-61",
+      "restaurant_id": 7,
+      "name": "Byblos Meat Lovers Super Sampler",
+      "description": "Kabobs (beef, chicken, and kafta) served over a bed of rice pilaf with grilled vegetables. Also includes sambousek, grape leaves, hummus, baba ganuj, falafel, pita bread, baklava, and choice of salad. Only available after 4pm until closure.",
+      "section": "Super Samplers",
+      "price": 47.99,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-62",
+      "restaurant_id": 7,
+      "name": "Vegetarian Super Sampler",
+      "description": "Six falafel patties, served over diced tomatoes, parsley, radish and tahini sauce. Also includes hummus, baba ganuj, grape leaves, spanakopita, labneh \"Lebanese cream cheese\", pita bread, baklava, and choice of salad. Only available after 4pm until closure.",
+      "section": "Super Samplers",
+      "price": 45.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-63",
+      "restaurant_id": 7,
+      "name": "Pita Bread",
+      "description": "",
+      "section": "Extras",
+      "price": 1.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-64",
+      "restaurant_id": 7,
+      "name": "Salad Dressing",
+      "description": "",
+      "section": "Extras",
+      "price": 1.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-65",
+      "restaurant_id": 7,
+      "name": "Byblos Garlic Sauce",
+      "description": "",
+      "section": "Extras",
+      "price": 1.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-66",
+      "restaurant_id": 7,
+      "name": "Byblos Spicy Zesty Sauce",
+      "description": "",
+      "section": "Extras",
+      "price": 1.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-67",
+      "restaurant_id": 7,
+      "name": "Red Sauce",
+      "description": "",
+      "section": "Extras",
+      "price": 1.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-68",
+      "restaurant_id": 7,
+      "name": "Tahini Sauce",
+      "description": "",
+      "section": "Extras",
+      "price": 1.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-69",
+      "restaurant_id": 7,
+      "name": "Kabis \"Assorted Homemade Pickles\"",
+      "description": "",
+      "section": "Extras",
+      "price": 1.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-70",
+      "restaurant_id": 7,
+      "name": "Tzatziki Sauce",
+      "description": "",
+      "section": "Extras",
+      "price": 1.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-71",
+      "restaurant_id": 7,
+      "name": "Feta Cheese",
+      "description": "",
+      "section": "Extras",
+      "price": 1.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-72",
+      "restaurant_id": 7,
+      "name": "Olives",
+      "description": "",
+      "section": "Extras",
+      "price": 1.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-73",
+      "restaurant_id": 7,
+      "name": "Jalapenos",
+      "description": "",
+      "section": "Extras",
+      "price": 1.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-74",
+      "restaurant_id": 7,
+      "name": "Za'atar \"Mankoushe\" Pizza",
+      "description": "A blend of powdered herbs, white sesame seeds, ground sumac, thyme and salt mixed with olive oil",
+      "section": "Byblos Style Pizza",
+      "price": 8.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-75",
+      "restaurant_id": 7,
+      "name": "Half & Half Pizza",
+      "description": "Half Cheese & za'atar",
+      "section": "Byblos Style Pizza",
+      "price": 8.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-76",
+      "restaurant_id": 7,
+      "name": "Cheese Pie Pizza",
+      "description": "Mozzarella cheese, spices and parsley",
+      "section": "Byblos Style Pizza",
+      "price": 8.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-77",
+      "restaurant_id": 7,
+      "name": "Feta Pie Pizza",
+      "description": "Feta cheese, olives, tomato, spices and parsley",
+      "section": "Byblos Style Pizza",
+      "price": 8.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-78",
+      "restaurant_id": 7,
+      "name": "Labneh Pie Pizza",
+      "description": "Lebanese creamy farmers cheese, tomatoes, parsley, & spices",
+      "section": "Byblos Style Pizza",
+      "price": 8.49,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-79",
+      "restaurant_id": 7,
+      "name": "Walnut Baklava",
+      "description": "",
+      "section": "Byblos Pastries",
+      "price": 5.99,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-80",
+      "restaurant_id": 7,
+      "name": "Cheese Baklava (Limited Availability)",
+      "description": "Available occasionally ��� please call the restaurant to confirm availability before placing order",
+      "section": "Byblos Pastries",
+      "price": 5.99,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-81",
+      "restaurant_id": 7,
+      "name": "Apple Baklava (Limited Availability)",
+      "description": "",
+      "section": "Byblos Pastries",
+      "price": 5.99,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-82",
+      "restaurant_id": 7,
+      "name": "Pumpkin Baklava (Limited Availability)",
+      "description": "",
+      "section": "Byblos Pastries",
+      "price": 5.99,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-83",
+      "restaurant_id": 7,
+      "name": "Kataifi (Limited Availability)",
+      "description": "Available occasionally ��� please call the restaurant to confirm availability before placing order",
+      "section": "Byblos Pastries",
+      "price": 5.99,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-84",
+      "restaurant_id": 7,
+      "name": "Harissa (Limited Availability)",
+      "description": "Available occasionally ��� please call the restaurant to confirm availability before placing order",
+      "section": "Byblos Pastries",
+      "price": 5.99,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "7-85",
+      "restaurant_id": 7,
+      "name": "Knafeh with Cheese (Limited Availability)",
+      "description": "Available occasionally ��� please call the restaurant to confirm availability before placing order. Very popular Lebanese pastry. Shredded kataifi dough filled with cheese based cream and drizzled with rosewater syrup. Served warm. A guaranteed favorite!",
+      "section": "Byblos Pastries",
+      "price": 8.49,
+      "price_known": true,
+      "dietary_text": ""
+    }
+  ],
+  "rejected": []
+}

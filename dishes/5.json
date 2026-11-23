@@ -1,0 +1,369 @@
+{
+  "restaurant_id": 5,
+  "restaurant_name": "Three Lives",
+  "model": "gpt-5-mini",
+  "extracted_at": "2026-11-22 20:05",
+  "dishes": [
+    {
+      "dish_id": "5-1",
+      "restaurant_id": 5,
+      "name": "CHOCOBO WINGS [5pc]",
+      "description": "",
+      "section": "MultiplayerShareable options for 2-4 players",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "5-2",
+      "restaurant_id": 5,
+      "name": "CHOCOBO NUGGETS [12oz]",
+      "description": "",
+      "section": "MultiplayerShareable options for 2-4 players",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "5-3",
+      "restaurant_id": 5,
+      "name": "DORITO LOADED TOTS",
+      "description": "Seasoned tater tots with nacho cheese, Dorito dust, pickled jalapenos and garlic basil aioli",
+      "section": "MultiplayerShareable options for 2-4 players",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "5-4",
+      "restaurant_id": 5,
+      "name": "VEGAN LOADED TOTS",
+      "description": "Seasoned tater tots with house vegan “cheese” sauce, chopped onion, chopped tomato and house pickled jalapenos",
+      "section": "MultiplayerShareable options for 2-4 players",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "5-5",
+      "restaurant_id": 5,
+      "name": "SUPER NINTENDIES [5pc]",
+      "description": "Chicken thighs marinated in buttermilk & pickle juice, dredged in seasoned corn starch. Choice of dipping sauce.",
+      "section": "MultiplayerShareable options for 2-4 players",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "5-6",
+      "restaurant_id": 5,
+      "name": "8-BIT BURGER*D,G",
+      "description": "Beef, Secret Sauce, Pickle, Lettuce, Tomato, Onion, American Cheese",
+      "section": "sliders",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "5-7",
+      "restaurant_id": 5,
+      "name": "WARIO BREATH*D,G",
+      "description": "Beef, Garlic Basil Aioli, Mozzarella, Caramelized Onion",
+      "section": "sliders",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "5-8",
+      "restaurant_id": 5,
+      "name": "MARIO’S MEATBALL*D,G",
+      "description": "Housemade Meatball, Marinara, Mozzarella, Garlic Basil Aoili",
+      "section": "sliders",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "5-9",
+      "restaurant_id": 5,
+      "name": "DR. DOOM*G",
+      "description": "Slow Cooked Beef Brisket, Apple Ginger Slaw, Pickled Jalapenos, Nuka-BBQ",
+      "section": "sliders",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "5-10",
+      "restaurant_id": 5,
+      "name": "NIGHTCRAWLER*G",
+      "description": "Super Nintendie breaded in Panko, BangBang sauce, Apple Ginger Slaw, Pickles",
+      "section": "sliders",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "5-11",
+      "restaurant_id": 5,
+      "name": "THE RED GUARDIAN*D,G",
+      "description": "Sliced Turkey, Swiss Cheese, Bacon, Lettuce, Tomato, Mayo",
+      "section": "sliders",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "5-12",
+      "restaurant_id": 5,
+      "name": "SEASONAL ICECREAM",
+      "description": "Please ask your server for our special flavors",
+      "section": "DESSERT",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "5-13",
+      "restaurant_id": 5,
+      "name": "THE CAKE IS A LIE",
+      "description": "Chocolate cake, luxardo cherries & whipped cream",
+      "section": "DESSERT",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "5-14",
+      "restaurant_id": 5,
+      "name": "French Fries",
+      "description": "",
+      "section": "sides & sauces",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "5-15",
+      "restaurant_id": 5,
+      "name": "Tater Tots",
+      "description": "",
+      "section": "sides & sauces",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "5-16",
+      "restaurant_id": 5,
+      "name": "Sweet Potato Fries",
+      "description": "",
+      "section": "sides & sauces",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "5-17",
+      "restaurant_id": 5,
+      "name": "Mac Salad",
+      "description": "",
+      "section": "sides & sauces",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "5-18",
+      "restaurant_id": 5,
+      "name": "Mac & Cheese",
+      "description": "",
+      "section": "sides & sauces",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "5-19",
+      "restaurant_id": 5,
+      "name": "Farore’s Salad",
+      "description": "",
+      "section": "sides & sauces",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "5-20",
+      "restaurant_id": 5,
+      "name": "Metroid Bites",
+      "description": "",
+      "section": "sides & sauces",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "5-21",
+      "restaurant_id": 5,
+      "name": "3-Pepper",
+      "description": "",
+      "section": "sides & sauces",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "5-22",
+      "restaurant_id": 5,
+      "name": "Buffalo Sauce",
+      "description": "",
+      "section": "sides & sauces",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "5-23",
+      "restaurant_id": 5,
+      "name": "Garlic Basil Aioli",
+      "description": "",
+      "section": "sides & sauces",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "5-24",
+      "restaurant_id": 5,
+      "name": "Honey Lime Chipotle",
+      "description": "",
+      "section": "sides & sauces",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "5-25",
+      "restaurant_id": 5,
+      "name": "Honey Mustard",
+      "description": "",
+      "section": "sides & sauces",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "5-26",
+      "restaurant_id": 5,
+      "name": "Maple Icing Aioli",
+      "description": "",
+      "section": "sides & sauces",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "5-27",
+      "restaurant_id": 5,
+      "name": "Nacho Cheese",
+      "description": "",
+      "section": "sides & sauces",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "5-28",
+      "restaurant_id": 5,
+      "name": "Nuka Cola BBQ",
+      "description": "",
+      "section": "sides & sauces",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "5-29",
+      "restaurant_id": 5,
+      "name": "Secret Sauce",
+      "description": "",
+      "section": "sides & sauces",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "5-30",
+      "restaurant_id": 5,
+      "name": "Vegan “Cheese”",
+      "description": "",
+      "section": "sides & sauces",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "5-31",
+      "restaurant_id": 5,
+      "name": "Green Goddess",
+      "description": "",
+      "section": "sides & sauces",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "5-32",
+      "restaurant_id": 5,
+      "name": "Blue Cheese",
+      "description": "",
+      "section": "sides & sauces",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "5-33",
+      "restaurant_id": 5,
+      "name": "Ranch",
+      "description": "",
+      "section": "sides & sauces",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "5-34",
+      "restaurant_id": 5,
+      "name": "Ketchup",
+      "description": "",
+      "section": "sides & sauces",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "5-35",
+      "restaurant_id": 5,
+      "name": "Mustard",
+      "description": "",
+      "section": "sides & sauces",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "5-36",
+      "restaurant_id": 5,
+      "name": "Mayo",
+      "description": "",
+      "section": "sides & sauces",
+      "price": 0.0,
+      "price_known": false,
+      "dietary_text": ""
+    }
+  ],
+  "rejected": []
+}

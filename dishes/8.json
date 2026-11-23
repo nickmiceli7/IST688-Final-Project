@@ -1,0 +1,1929 @@
+{
+  "restaurant_id": 8,
+  "restaurant_name": "Sakana-Ya Sushi Bar",
+  "model": "gpt-5-mini",
+  "extracted_at": "2026-11-22 20:09",
+  "dishes": [
+    {
+      "dish_id": "8-1",
+      "restaurant_id": 8,
+      "name": "L. Bulgoli Box",
+      "description": "Sliced tender beef marinated in Korean BBQ sauce. Comes with white rice, salad, edamame, gyoza, and miso soup",
+      "section": "Lunch Box Special",
+      "price": 14.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-2",
+      "restaurant_id": 8,
+      "name": "L. California Box",
+      "description": "California roll with a kappa roll (3 pieces cucumber, 3 piece tuna). Comes with salad, edamame, gyoza, and miso soup",
+      "section": "Lunch Box Special",
+      "price": 14.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-3",
+      "restaurant_id": 8,
+      "name": "L. Chicken Box",
+      "description": "Sliced boneless chicken breast in teriyaki sauce. Comes with white rice, salad, edamame, gyoza, and miso soup",
+      "section": "Lunch Box Special",
+      "price": 14.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-4",
+      "restaurant_id": 8,
+      "name": "L. Combination Box",
+      "description": "Spicy tuna and 3 pieces nigiri. Come with salad, edamame, gyoza, and miso soup",
+      "section": "Lunch Box Special",
+      "price": 14.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-5",
+      "restaurant_id": 8,
+      "name": "L. Salmon Box",
+      "description": "Grilled salmon in teriyaki sauce. Comes with white rice, salad, edamame, gyoza, and miso soup",
+      "section": "Lunch Box Special",
+      "price": 14.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-6",
+      "restaurant_id": 8,
+      "name": "L. Spicy Tuna Box",
+      "description": "Spicy tuna roll with a kappa roll (3 pieces cucumber, 3 pieces tuna). Comes with salad, edamame, gyoza, and miso soup",
+      "section": "Lunch Box Special",
+      "price": 14.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-7",
+      "restaurant_id": 8,
+      "name": "L. Sushi Box",
+      "description": "5 pieces of nigiri sushi. Chef's choice. Comes with salad, edamame, gyoza, and miso soup",
+      "section": "Lunch Box Special",
+      "price": 14.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-8",
+      "restaurant_id": 8,
+      "name": "L. Veggie Box",
+      "description": "Vegetable roll and 3 pieces cucumber, 3 pieces oshinko (pickled Japanese radish) roll. Comes with salad, edamame, gyoza, and miso soup",
+      "section": "Lunch Box Special",
+      "price": 14.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-9",
+      "restaurant_id": 8,
+      "name": "L. Broccoli Stir Fry",
+      "description": "Choice of protein sauteed with broccoli in brown sauce",
+      "section": "Lunch Special",
+      "price": 11.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-10",
+      "restaurant_id": 8,
+      "name": "L. Chow Fun",
+      "description": "",
+      "section": "Lunch Special",
+      "price": 11.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-11",
+      "restaurant_id": 8,
+      "name": "L. Fried Rice",
+      "description": "White rice w. vegetables & egg",
+      "section": "Lunch Special",
+      "price": 11.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-12",
+      "restaurant_id": 8,
+      "name": "L. General Tso's Chicken",
+      "description": "Chunks of chicken sauteed in special hot Hunan sauce served with steamed broccoli",
+      "section": "Lunch Special",
+      "price": 11.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-13",
+      "restaurant_id": 8,
+      "name": "L. Gop Dol Bi Bim Bab",
+      "description": "Vegetables, ground beef, & fried egg topped on crispy steamed rice in stone hot pot",
+      "section": "Lunch Special",
+      "price": 11.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-14",
+      "restaurant_id": 8,
+      "name": "L. Kung Pao Chicken",
+      "description": "Diced chicken with celery, carrots & roasted peanuts",
+      "section": "Lunch Special",
+      "price": 11.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-15",
+      "restaurant_id": 8,
+      "name": "L. Lo Mein",
+      "description": "Vegetables and egg noodles stir fried in brown sauce",
+      "section": "Lunch Special",
+      "price": 11.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-16",
+      "restaurant_id": 8,
+      "name": "L. Mixed Vegetables",
+      "description": "Stir-fried Chinese vegetables in a brown sauce",
+      "section": "Lunch Special",
+      "price": 11.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-17",
+      "restaurant_id": 8,
+      "name": "L. Mongolian Beef",
+      "description": "Sliced tender beef stir fried with scallions, onions, and peppers",
+      "section": "Lunch Special",
+      "price": 11.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-18",
+      "restaurant_id": 8,
+      "name": "L. Mongolian Chicken",
+      "description": "Sliced tender chicken stir fried with scallions, onions, and peppers",
+      "section": "Lunch Special",
+      "price": 11.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-19",
+      "restaurant_id": 8,
+      "name": "L. Orange Chicken",
+      "description": "Crispy boneless chicken bites sauteed in a sweet and tangy brown sauce",
+      "section": "Lunch Special",
+      "price": 11.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-20",
+      "restaurant_id": 8,
+      "name": "L. Pad Thai",
+      "description": "Rice noodles sauteed w. fresh bean sprout, red onion, roasted ground peanuts, & egg",
+      "section": "Lunch Special",
+      "price": 11.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-21",
+      "restaurant_id": 8,
+      "name": "L. Prik Pao",
+      "description": "Roasted chili sauce sauteed w. fresh garlic & mixed vegetables",
+      "section": "Lunch Special",
+      "price": 11.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-22",
+      "restaurant_id": 8,
+      "name": "L. Thai Curry",
+      "description": "Curry paste sauteed with coconut milk, onions, bell peppers & basil",
+      "section": "Lunch Special",
+      "price": 11.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-23",
+      "restaurant_id": 8,
+      "name": "L. Thai Fried Rice",
+      "description": "",
+      "section": "Lunch Special",
+      "price": 11.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-24",
+      "restaurant_id": 8,
+      "name": "L. Thai Tamarind",
+      "description": "Dried tamarind fused w. spices to create an exotic sweet & sour sauce",
+      "section": "Lunch Special",
+      "price": 11.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-25",
+      "restaurant_id": 8,
+      "name": "L. Udon Soup",
+      "description": "Your choice of chicken or shrimp with mixed vegetables",
+      "section": "Lunch Special",
+      "price": 11.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-26",
+      "restaurant_id": 8,
+      "name": "L.Yoki Soba",
+      "description": "Sauteed beef, chicken or shrimp with vegetables",
+      "section": "Lunch Special",
+      "price": 11.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-27",
+      "restaurant_id": 8,
+      "name": "Crab",
+      "description": "Kani",
+      "section": "Dinner Sushi and Sashimi a la Carte",
+      "price": 6.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-28",
+      "restaurant_id": 8,
+      "name": "Eel",
+      "description": "Unagi",
+      "section": "Dinner Sushi and Sashimi a la Carte",
+      "price": 7.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-29",
+      "restaurant_id": 8,
+      "name": "Egg",
+      "description": "Tomago",
+      "section": "Dinner Sushi and Sashimi a la Carte",
+      "price": 6.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-30",
+      "restaurant_id": 8,
+      "name": "Flying Fish Roe",
+      "description": "Tobiko",
+      "section": "Dinner Sushi and Sashimi a la Carte",
+      "price": 8.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-31",
+      "restaurant_id": 8,
+      "name": "Mackerel",
+      "description": "Saba",
+      "section": "Dinner Sushi and Sashimi a la Carte",
+      "price": 7.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-32",
+      "restaurant_id": 8,
+      "name": "Octopus",
+      "description": "Tako",
+      "section": "Dinner Sushi and Sashimi a la Carte",
+      "price": 7.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-33",
+      "restaurant_id": 8,
+      "name": "Red Snapper",
+      "description": "Tai",
+      "section": "Dinner Sushi and Sashimi a la Carte",
+      "price": 7.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-34",
+      "restaurant_id": 8,
+      "name": "Salmon",
+      "description": "Sake",
+      "section": "Dinner Sushi and Sashimi a la Carte",
+      "price": 7.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-35",
+      "restaurant_id": 8,
+      "name": "Salmon Roe",
+      "description": "Ikura",
+      "section": "Dinner Sushi and Sashimi a la Carte",
+      "price": 9.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-36",
+      "restaurant_id": 8,
+      "name": "Scallop",
+      "description": "Hotate",
+      "section": "Dinner Sushi and Sashimi a la Carte",
+      "price": 8.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-37",
+      "restaurant_id": 8,
+      "name": "Shrimp",
+      "description": "Ebi",
+      "section": "Dinner Sushi and Sashimi a la Carte",
+      "price": 7.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-38",
+      "restaurant_id": 8,
+      "name": "Smelt Roe",
+      "description": "Masago",
+      "section": "Dinner Sushi and Sashimi a la Carte",
+      "price": 8.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-39",
+      "restaurant_id": 8,
+      "name": "Smoked Salmon",
+      "description": "",
+      "section": "Dinner Sushi and Sashimi a la Carte",
+      "price": 7.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-40",
+      "restaurant_id": 8,
+      "name": "Squid",
+      "description": "Ika",
+      "section": "Dinner Sushi and Sashimi a la Carte",
+      "price": 7.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-41",
+      "restaurant_id": 8,
+      "name": "Surf Clam",
+      "description": "Hokki gai",
+      "section": "Dinner Sushi and Sashimi a la Carte",
+      "price": 7.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-42",
+      "restaurant_id": 8,
+      "name": "Sweet Shrimp",
+      "description": "Ama ebi",
+      "section": "Dinner Sushi and Sashimi a la Carte",
+      "price": 7.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-43",
+      "restaurant_id": 8,
+      "name": "Tuna",
+      "description": "Maguro",
+      "section": "Dinner Sushi and Sashimi a la Carte",
+      "price": 7.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-44",
+      "restaurant_id": 8,
+      "name": "White Tuna",
+      "description": "Shiro maguro",
+      "section": "Dinner Sushi and Sashimi a la Carte",
+      "price": 7.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-45",
+      "restaurant_id": 8,
+      "name": "Yellowtail",
+      "description": "Hamachi",
+      "section": "Dinner Sushi and Sashimi a la Carte",
+      "price": 8.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-46",
+      "restaurant_id": 8,
+      "name": "Chirashi",
+      "description": "Chef's choice of an assortment of sashimi on a bed of sushi rice",
+      "section": "Dinner Sushi and Sashimi Entree",
+      "price": 25.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-47",
+      "restaurant_id": 8,
+      "name": "Hwe Dup Bap Dinner",
+      "description": "An assortment of sashimi on a bed of lettuce. Served with steamed rice on the side. Side of Korean chili pepper sauce to mix in",
+      "section": "Dinner Sushi and Sashimi Entree",
+      "price": 25.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-48",
+      "restaurant_id": 8,
+      "name": "Sakana-Ya Deluxe",
+      "description": "Sakana-ya roll, 4 pieces of tuna sushi, & 4 pieces of salmon sushi",
+      "section": "Dinner Sushi and Sashimi Entree",
+      "price": 29.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-49",
+      "restaurant_id": 8,
+      "name": "Sake Don",
+      "description": "Salmon sashimi on a bed of sushi rice",
+      "section": "Dinner Sushi and Sashimi Entree",
+      "price": 25.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-50",
+      "restaurant_id": 8,
+      "name": "Sashimi Deluxe",
+      "description": "Chef's choice of 21 pieces of sashimi",
+      "section": "Dinner Sushi and Sashimi Entree",
+      "price": 34.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-51",
+      "restaurant_id": 8,
+      "name": "Sashimi Regular",
+      "description": "Chef's choice of 16 pieces of sashimi",
+      "section": "Dinner Sushi and Sashimi Entree",
+      "price": 28.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-52",
+      "restaurant_id": 8,
+      "name": "Sushi & Sashimi Deluxe",
+      "description": "California roll, chef's choice of 7 pieces of sushi & 16 pieces of sashimi",
+      "section": "Dinner Sushi and Sashimi Entree",
+      "price": 37.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-53",
+      "restaurant_id": 8,
+      "name": "Sushi & Sashimi Regular",
+      "description": "California roll, chef's choice of 5 pieces of sushi & 12 pieces of sashimi",
+      "section": "Dinner Sushi and Sashimi Entree",
+      "price": 31.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-54",
+      "restaurant_id": 8,
+      "name": "Sushi Deluxe",
+      "description": "California roll, chef's choice of 10 pieces of sushi",
+      "section": "Dinner Sushi and Sashimi Entree",
+      "price": 28.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-55",
+      "restaurant_id": 8,
+      "name": "Sushi Regular",
+      "description": "California roll, chef's choice of 7 pieces of sushi",
+      "section": "Dinner Sushi and Sashimi Entree",
+      "price": 23.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-56",
+      "restaurant_id": 8,
+      "name": "Tekka Don",
+      "description": "Tuna sashimi on a bed of sushi rice",
+      "section": "Dinner Sushi and Sashimi Entree",
+      "price": 25.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-57",
+      "restaurant_id": 8,
+      "name": "Unagi Don",
+      "description": "Grilled barbeque eel w. eel sauce on a bed of sushi rice",
+      "section": "Dinner Sushi and Sashimi Entree",
+      "price": 25.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-58",
+      "restaurant_id": 8,
+      "name": "Beef Gyoza",
+      "description": "Fried dumplings",
+      "section": "Dinner Appetizer",
+      "price": 6.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-59",
+      "restaurant_id": 8,
+      "name": "Crab Rangoon",
+      "description": "Cream cheese mix w. scallions & kani wrapped in wonton skin, served w. sweet chili sauce",
+      "section": "Dinner Appetizer",
+      "price": 6.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-60",
+      "restaurant_id": 8,
+      "name": "Edamame",
+      "description": "Steamed soybean pods served warm & tossed with sea salt",
+      "section": "Dinner Appetizer",
+      "price": 5.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-61",
+      "restaurant_id": 8,
+      "name": "Fried Calamari",
+      "description": "Battered & fried calamari served w. spicy mayo",
+      "section": "Dinner Appetizer",
+      "price": 7.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-62",
+      "restaurant_id": 8,
+      "name": "Fried Shumai",
+      "description": "Shrimp dumplings",
+      "section": "Dinner Appetizer",
+      "price": 6.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-63",
+      "restaurant_id": 8,
+      "name": "Korean Pancakes",
+      "description": "Onion, scallions, zucchini, broccoli, coated with batter & pan-fried. Choice of Vegetable or Seafood",
+      "section": "Dinner Appetizer",
+      "price": 16.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-64",
+      "restaurant_id": 8,
+      "name": "Rock Shrimp Tempura App",
+      "description": "Tempura battered and fried shrimp tossed in a homemade spicy mayo sauce",
+      "section": "Dinner Appetizer",
+      "price": 8.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-65",
+      "restaurant_id": 8,
+      "name": "Sashimi App",
+      "description": "Chef's choice six pieces of sashimi",
+      "section": "Dinner Appetizer",
+      "price": 14.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-66",
+      "restaurant_id": 8,
+      "name": "Shrimp & Vegetable Tempura App",
+      "description": "Served w. homemade tempura sauce",
+      "section": "Dinner Appetizer",
+      "price": 8.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-67",
+      "restaurant_id": 8,
+      "name": "Spring Rolls",
+      "description": "Spring vegetables wrapped in rice paper, deep fried & served w. a sweet chili sauce",
+      "section": "Dinner Appetizer",
+      "price": 5.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-68",
+      "restaurant_id": 8,
+      "name": "Steamed Shumai",
+      "description": "Shrimp dumplings",
+      "section": "Dinner Appetizer",
+      "price": 6.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-69",
+      "restaurant_id": 8,
+      "name": "Summer Rolls",
+      "description": "Avocado, lettuce, kani, and steamed shrimp rolled in fresh rice paper",
+      "section": "Dinner Appetizer",
+      "price": 5.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-70",
+      "restaurant_id": 8,
+      "name": "Sushi App",
+      "description": "Chef's chocie of five pieces of sushi (raw fish over rice)",
+      "section": "Dinner Appetizer",
+      "price": 13.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-71",
+      "restaurant_id": 8,
+      "name": "Tuna Tartare",
+      "description": "Chopped raw tuna, avocado, mango in tangy tartare sauce",
+      "section": "Dinner Appetizer",
+      "price": 12.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-72",
+      "restaurant_id": 8,
+      "name": "Tuna Tataki",
+      "description": "Seared tuna served w. ponzu sauce",
+      "section": "Dinner Appetizer",
+      "price": 12.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-73",
+      "restaurant_id": 8,
+      "name": "Vegetable Gyoza",
+      "description": "Fried dumplings",
+      "section": "Dinner Appetizer",
+      "price": 6.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-74",
+      "restaurant_id": 8,
+      "name": "Vegetable Tempura App",
+      "description": "Served w. homemade tempura sauce",
+      "section": "Dinner Appetizer",
+      "price": 6.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-75",
+      "restaurant_id": 8,
+      "name": "Gyoza Soup",
+      "description": "Beef dumplings, egg, & scallions in a savory broth",
+      "section": "Dinner Soups",
+      "price": 4.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-76",
+      "restaurant_id": 8,
+      "name": "Hot & Sour Soup",
+      "description": "Tofu, egg, wood ear mushrooms, & vegetables",
+      "section": "Dinner Soups",
+      "price": 4.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-77",
+      "restaurant_id": 8,
+      "name": "Miso Soup",
+      "description": "Soybean paste soup w. tofu, seaweed & scallions",
+      "section": "Dinner Soups",
+      "price": 2.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-78",
+      "restaurant_id": 8,
+      "name": "Seafood Vegetable Soup",
+      "description": "Shrimp, crabmeat, squid, mussels, and vegetables",
+      "section": "Dinner Soups",
+      "price": 5.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-79",
+      "restaurant_id": 8,
+      "name": "Tom Yum Soup",
+      "description": "Lemon grass, tomato, mushrooms, & galangal in a shrimp broth. Choice of shrimp, chicken, or tofu",
+      "section": "Dinner Soups",
+      "price": 4.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-80",
+      "restaurant_id": 8,
+      "name": "Avocado Salad",
+      "description": "Sliced avocado over a bed of greens w. ponzu sauce",
+      "section": "Dinner Salads",
+      "price": 5.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-81",
+      "restaurant_id": 8,
+      "name": "Chef Sashimi Salad",
+      "description": "Assortment of sashimi over a bed of greens w. chef's special dressing",
+      "section": "Dinner Salads",
+      "price": 11.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-82",
+      "restaurant_id": 8,
+      "name": "House Salad",
+      "description": "Served w. ginger dressing",
+      "section": "Dinner Salads",
+      "price": 3.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-83",
+      "restaurant_id": 8,
+      "name": "Ika Salad",
+      "description": "Seasoned smoked squid",
+      "section": "Dinner Salads",
+      "price": 6.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-84",
+      "restaurant_id": 8,
+      "name": "Seaweed Salad",
+      "description": "Green seaweed salad w. sesame seeds",
+      "section": "Dinner Salads",
+      "price": 5.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-85",
+      "restaurant_id": 8,
+      "name": "Spicy Kani Salad",
+      "description": "Shredded kani over a bed of greens w. spicy dressing",
+      "section": "Dinner Salads",
+      "price": 7.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-86",
+      "restaurant_id": 8,
+      "name": "Beef w. Broccoli",
+      "description": "Beef sauteed with broccoli and carrots in brown sauce",
+      "section": "Dinner Stir-Fry",
+      "price": 16.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-87",
+      "restaurant_id": 8,
+      "name": "Black Pepper Shrimp",
+      "description": "Jumbo shrimp sauteed in a wok chef's special seasoning served with steamed broccoli and white rice",
+      "section": "Dinner Stir-Fry",
+      "price": 17.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-88",
+      "restaurant_id": 8,
+      "name": "Bul Go Ki",
+      "description": "Thinly sliced beef in a sweet Korean BBQ sauce w. sauteed scallions & onions",
+      "section": "Dinner Stir-Fry",
+      "price": 20.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-89",
+      "restaurant_id": 8,
+      "name": "Chicken Soba Soup",
+      "description": "Aromatic savory broth with mixed vegetables",
+      "section": "Dinner Stir-Fry",
+      "price": 15.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-90",
+      "restaurant_id": 8,
+      "name": "Chicken Udon Soup",
+      "description": "Aromatic savory broth with mixed vegetables",
+      "section": "Dinner Stir-Fry",
+      "price": 15.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-91",
+      "restaurant_id": 8,
+      "name": "Chicken w. Broccoli",
+      "description": "White meat chicken sauteed with broccoli and carrots in brown sauce",
+      "section": "Dinner Stir-Fry",
+      "price": 16.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-92",
+      "restaurant_id": 8,
+      "name": "Chow Fun",
+      "description": "Wide rice noodles and fresh mixed vegetables sauteed in oyster, and soy reduction sauce",
+      "section": "Dinner Stir-Fry",
+      "price": 16.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-93",
+      "restaurant_id": 8,
+      "name": "Donkatsu",
+      "description": "Crispy fried pork. Tangy sweet soy sauce drizzled on top. Served with salad",
+      "section": "Dinner Stir-Fry",
+      "price": 16.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-94",
+      "restaurant_id": 8,
+      "name": "Fried Rice",
+      "description": "White rice w. vegetables & egg",
+      "section": "Dinner Stir-Fry",
+      "price": 16.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-95",
+      "restaurant_id": 8,
+      "name": "Fried Tofu w. Broccoli",
+      "description": "Fried tofu sauteed with broccoli in brown sauce",
+      "section": "Dinner Stir-Fry",
+      "price": 16.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-96",
+      "restaurant_id": 8,
+      "name": "General Tso's Chicken",
+      "description": "Chunks of chicken sauteed in special hot Hunan sauce served with steamed broccoli",
+      "section": "Dinner Stir-Fry",
+      "price": 16.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-97",
+      "restaurant_id": 8,
+      "name": "Gop Dol Bi Bim Bap",
+      "description": "A bowl of warm rice topped w. beef, an assortment of vegetables & a fried egg served in a sizzling stone pot. Chili pepper sauce on the side",
+      "section": "Dinner Stir-Fry",
+      "price": 16.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-98",
+      "restaurant_id": 8,
+      "name": "Kung Pao Chicken",
+      "description": "Diced chicken with celery, carrots & roasted peanuts",
+      "section": "Dinner Stir-Fry",
+      "price": 16.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-99",
+      "restaurant_id": 8,
+      "name": "Lamb Chop",
+      "description": "Grilled lamb chops seasoned w. black pepper, sauteed chef's special savory sauce. Served w. steamed broccoli",
+      "section": "Dinner Stir-Fry",
+      "price": 19.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-100",
+      "restaurant_id": 8,
+      "name": "Mixed Vegetables",
+      "description": "Stir fried Chinese vegetables in a brown sauce",
+      "section": "Dinner Stir-Fry",
+      "price": 16.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-101",
+      "restaurant_id": 8,
+      "name": "Mongolian Beef",
+      "description": "Sliced tender beef stir fried with scallions, onions, and peppers",
+      "section": "Dinner Stir-Fry",
+      "price": 18.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-102",
+      "restaurant_id": 8,
+      "name": "Mongolian Chicken",
+      "description": "Sliced tender chicken stir fried with scallions, onions, and peppers",
+      "section": "Dinner Stir-Fry",
+      "price": 17.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-103",
+      "restaurant_id": 8,
+      "name": "Orange Chicken",
+      "description": "Crispy boneless chicken bites sauteed in a sweet and tangy brown sauce",
+      "section": "Dinner Stir-Fry",
+      "price": 16.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-104",
+      "restaurant_id": 8,
+      "name": "Pad Thai",
+      "description": "Rice noodles sauteed w. fresh bean sprout, red onion, roasted ground peanuts, & egg",
+      "section": "Dinner Stir-Fry",
+      "price": 16.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-105",
+      "restaurant_id": 8,
+      "name": "Prik Pao",
+      "description": "Roasted chili sauce sauteed w. fresh garlic & mixed vegetables",
+      "section": "Dinner Stir-Fry",
+      "price": 16.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-106",
+      "restaurant_id": 8,
+      "name": "Ramen",
+      "description": "Japanese ramen noodles in a miso broth topped w. pork, vegetables, & boiled egg",
+      "section": "Dinner Stir-Fry",
+      "price": 15.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-107",
+      "restaurant_id": 8,
+      "name": "Seafood Soba Soup",
+      "description": "Aromatic savory broth with mixed vegetables",
+      "section": "Dinner Stir-Fry",
+      "price": 16.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-108",
+      "restaurant_id": 8,
+      "name": "Seafood Udon Soup",
+      "description": "Aromatic savory broth with mixed vegetables",
+      "section": "Dinner Stir-Fry",
+      "price": 16.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-109",
+      "restaurant_id": 8,
+      "name": "Shrimp w. Broccoli",
+      "description": "Jumbo shrimp sauteed with broccoli and carrots in brown sauce",
+      "section": "Dinner Stir-Fry",
+      "price": 18.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-110",
+      "restaurant_id": 8,
+      "name": "Spicy Chicken BBQ",
+      "description": "Chicken marinated in spicy Korean BBQ sauce stir fried w. vegetables",
+      "section": "Dinner Stir-Fry",
+      "price": 16.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-111",
+      "restaurant_id": 8,
+      "name": "Tempura Entree",
+      "description": "Fried shrimp and vegetables served with homemade tempura sauce",
+      "section": "Dinner Stir-Fry",
+      "price": 15.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-112",
+      "restaurant_id": 8,
+      "name": "Teriyaki Chicken",
+      "description": "A sweet soy based sauce served with mixed vegetables",
+      "section": "Dinner Stir-Fry",
+      "price": 17.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-113",
+      "restaurant_id": 8,
+      "name": "Teriyaki Salmon",
+      "description": "A sweet soy based sauce served with mixed vegetables",
+      "section": "Dinner Stir-Fry",
+      "price": 18.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-114",
+      "restaurant_id": 8,
+      "name": "Teriyaki Shrimp",
+      "description": "A sweet soy based sauce served with mixed vegetables",
+      "section": "Dinner Stir-Fry",
+      "price": 17.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-115",
+      "restaurant_id": 8,
+      "name": "Teriyaki Tofu",
+      "description": "A sweet soy based sauce served with mixed vegetables",
+      "section": "Dinner Stir-Fry",
+      "price": 17.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-116",
+      "restaurant_id": 8,
+      "name": "Thai Curry",
+      "description": "Curry paste sautted with coconut milk, onions, bell peppers",
+      "section": "Dinner Stir-Fry",
+      "price": 16.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-117",
+      "restaurant_id": 8,
+      "name": "Thai Tamarind",
+      "description": "Dried tamarind fused w. spices to create an exotic sweet & sour sauce",
+      "section": "Dinner Stir-Fry",
+      "price": 16.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-118",
+      "restaurant_id": 8,
+      "name": "Yaki Soba",
+      "description": "Noodles w. vegetables sauteed in savory soy based sauce served on a sizzling skillet",
+      "section": "Dinner Stir-Fry",
+      "price": 16.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-119",
+      "restaurant_id": 8,
+      "name": "Yaki Udon",
+      "description": "Noodles w. vegetables sauteed in savory soy based sauce served on a sizzling skillet",
+      "section": "Dinner Stir-Fry",
+      "price": 16.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-120",
+      "restaurant_id": 8,
+      "name": "Asparagus Roll",
+      "description": "Asparagus",
+      "section": "Dinner Vegetarian Sushi Rolls",
+      "price": 6.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-121",
+      "restaurant_id": 8,
+      "name": "Avocado & Cucumber Roll",
+      "description": "Avocado, cucumber",
+      "section": "Dinner Vegetarian Sushi Rolls",
+      "price": 7.5,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-122",
+      "restaurant_id": 8,
+      "name": "Avocado Roll",
+      "description": "Avocado",
+      "section": "Dinner Vegetarian Sushi Rolls",
+      "price": 6.5,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-123",
+      "restaurant_id": 8,
+      "name": "Cucumber Roll",
+      "description": "Cucumber",
+      "section": "Dinner Vegetarian Sushi Rolls",
+      "price": 6.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-124",
+      "restaurant_id": 8,
+      "name": "Oshinko Roll",
+      "description": "Pickled Japanese radish",
+      "section": "Dinner Vegetarian Sushi Rolls",
+      "price": 6.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-125",
+      "restaurant_id": 8,
+      "name": "Sweet Potato Tempura Roll",
+      "description": "Sweet potato tempura, eel sauce",
+      "section": "Dinner Vegetarian Sushi Rolls",
+      "price": 7.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-126",
+      "restaurant_id": 8,
+      "name": "Vegetable Roll",
+      "description": "Avocado, cucumber, asparagus, oshinko",
+      "section": "Dinner Vegetarian Sushi Rolls",
+      "price": 7.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-127",
+      "restaurant_id": 8,
+      "name": "Alaskan Roll",
+      "description": "Salmon, avocado, cucumber, salmon roe",
+      "section": "Dinner Basic Sushi Rolls",
+      "price": 10.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-128",
+      "restaurant_id": 8,
+      "name": "Boston Roll",
+      "description": "Shrimp, cucumber, lettuce, mayo",
+      "section": "Dinner Basic Sushi Rolls",
+      "price": 8.5,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-129",
+      "restaurant_id": 8,
+      "name": "California Roll",
+      "description": "Avocado, kani, cucumber",
+      "section": "Dinner Basic Sushi Rolls",
+      "price": 6.5,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-130",
+      "restaurant_id": 8,
+      "name": "Crab Roll",
+      "description": "Imitation crab",
+      "section": "Dinner Basic Sushi Rolls",
+      "price": 6.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-131",
+      "restaurant_id": 8,
+      "name": "Eel Avocado Roll",
+      "description": "Eel, avocado, & eel sauce",
+      "section": "Dinner Basic Sushi Rolls",
+      "price": 9.5,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-132",
+      "restaurant_id": 8,
+      "name": "Eel Cucumber Roll",
+      "description": "Eel, cucumber, & eel sauce",
+      "section": "Dinner Basic Sushi Rolls",
+      "price": 9.5,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-133",
+      "restaurant_id": 8,
+      "name": "Philadelphia Roll",
+      "description": "Smoked salmon, avocado, cream cheese",
+      "section": "Dinner Basic Sushi Rolls",
+      "price": 9.5,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-134",
+      "restaurant_id": 8,
+      "name": "Salmon Avocado Roll",
+      "description": "Salmon, avocado",
+      "section": "Dinner Basic Sushi Rolls",
+      "price": 9.5,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-135",
+      "restaurant_id": 8,
+      "name": "Salmon Roll",
+      "description": "Salmon",
+      "section": "Dinner Basic Sushi Rolls",
+      "price": 7.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-136",
+      "restaurant_id": 8,
+      "name": "Shrimp Tempura Roll",
+      "description": "Shrimp tempura, cucumber & eel sauce",
+      "section": "Dinner Basic Sushi Rolls",
+      "price": 9.5,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-137",
+      "restaurant_id": 8,
+      "name": "Spicy Salmon Roll",
+      "description": "",
+      "section": "Dinner Basic Sushi Rolls",
+      "price": 9.5,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-138",
+      "restaurant_id": 8,
+      "name": "Spicy Tuna Roll",
+      "description": "Chopped salmon in a spicy mayo, cucumber, & spicy mayo",
+      "section": "Dinner Basic Sushi Rolls",
+      "price": 9.5,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-139",
+      "restaurant_id": 8,
+      "name": "Spider Roll",
+      "description": "Soft shell crab battered & deep fried, cucumber, avocado, kani, masago, & eel sauce",
+      "section": "Dinner Basic Sushi Rolls",
+      "price": 13.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-140",
+      "restaurant_id": 8,
+      "name": "Tuna Avocado Roll",
+      "description": "Tuna, avocado",
+      "section": "Dinner Basic Sushi Rolls",
+      "price": 9.5,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-141",
+      "restaurant_id": 8,
+      "name": "Tuna Roll",
+      "description": "Tuna",
+      "section": "Dinner Basic Sushi Rolls",
+      "price": 7.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-142",
+      "restaurant_id": 8,
+      "name": "White Tuna Roll",
+      "description": "",
+      "section": "Dinner Basic Sushi Rolls",
+      "price": 7.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-143",
+      "restaurant_id": 8,
+      "name": "Yellowtail Scallion Roll",
+      "description": "Yellowtail, scallion",
+      "section": "Dinner Basic Sushi Rolls",
+      "price": 7.5,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-144",
+      "restaurant_id": 8,
+      "name": "007 Roll",
+      "description": "Spicy tuna and avocado roll deep fried, topped with spicy kani salad and seaweed salad mixture, crunch, spicy mayo and eel sauce",
+      "section": "Dinner House Special Sushi Rolls",
+      "price": 16.5,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-145",
+      "restaurant_id": 8,
+      "name": "American Dream Roll",
+      "description": "Shrimp tempura, cucumber, topped with spicy tuna, spicy mayo, and crunch",
+      "section": "Dinner House Special Sushi Rolls",
+      "price": 14.5,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-146",
+      "restaurant_id": 8,
+      "name": "Craw House Roll",
+      "description": "Shrimp tempura, cucumber, topped with crawfish, spicy mayo, eel sauce, and soft shell crab",
+      "section": "Dinner House Special Sushi Rolls",
+      "price": 17.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-147",
+      "restaurant_id": 8,
+      "name": "Crazy Spider",
+      "description": "Deep fried soft shell crab, masago, avocado, kani (crab) topped with avocado, spicy tuna, spicy mayo, wasabi mayo, and tobiko",
+      "section": "Dinner House Special Sushi Rolls",
+      "price": 18.5,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-148",
+      "restaurant_id": 8,
+      "name": "Cupcake Roll",
+      "description": "Kani, asparagus, avocado wrapped in seaweed and deep-fried, topped with spicy tuna, mango, tobiko, spicy mayo, eel sauce & crunch (4 pieces)",
+      "section": "Dinner House Special Sushi Rolls",
+      "price": 9.5,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-149",
+      "restaurant_id": 8,
+      "name": "Double Shrimp Roll",
+      "description": "Shrimp tempura, cream cheese and avocado roll deep fried and topped with eel sauce",
+      "section": "Dinner House Special Sushi Rolls",
+      "price": 13.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-150",
+      "restaurant_id": 8,
+      "name": "Dragon Chad Roll",
+      "description": "Spicy tuna, avocado, topped with eel, eel sauce and more avocado",
+      "section": "Dinner House Special Sushi Rolls",
+      "price": 16.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-151",
+      "restaurant_id": 8,
+      "name": "Dragon Roll",
+      "description": "Kani (crab), avocado, cucumber, and topped with eel and eel sauce",
+      "section": "Dinner House Special Sushi Rolls",
+      "price": 16.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-152",
+      "restaurant_id": 8,
+      "name": "Dynamite Roll",
+      "description": "Baked tuna, baked salmon, and baked yellowtail, topped with sweet mayo, masago and crunch",
+      "section": "Dinner House Special Sushi Rolls",
+      "price": 14.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-153",
+      "restaurant_id": 8,
+      "name": "Ebi-Ebi Roll",
+      "description": "Shrimp tempura, cucumber, topped with steamed shrimp, sweet mayo, and crunch",
+      "section": "Dinner House Special Sushi Rolls",
+      "price": 13.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-154",
+      "restaurant_id": 8,
+      "name": "Firefly Roll",
+      "description": "Kani salad, avocado, spicy tuna, & cucumber topped w. seared salmon, wasabi mayo, wasabi tobiko, scallions & eel sauce",
+      "section": "Dinner House Special Sushi Rolls",
+      "price": 17.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-155",
+      "restaurant_id": 8,
+      "name": "Flying Dragon Roll",
+      "description": "Shrimp tempura, cucumber, topped with avocado, spicy mayo and crunch",
+      "section": "Dinner House Special Sushi Rolls",
+      "price": 14.5,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-156",
+      "restaurant_id": 8,
+      "name": "Kani (crab), avocado, and cucumber topped with mango, mango sauce, strawberry sauce, and slices of kiwi and strawberry",
+      "description": "",
+      "section": "",
+      "price": 12.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-157",
+      "restaurant_id": 8,
+      "name": "Green Eye Roll",
+      "description": "Spicy crab salad, cucumber, topped with seared salmon, jalapenos, wasabi mayo, and sriracha",
+      "section": "",
+      "price": 16.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-158",
+      "restaurant_id": 8,
+      "name": "Heartbreak Roll",
+      "description": "Spicy tuna, salmon, mango, avocadeo, cucumber wrapped in soy paper with spicy mayo",
+      "section": "",
+      "price": 16.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-159",
+      "restaurant_id": 8,
+      "name": "Lasagna Roll",
+      "description": "Avocado, kani, cucumber topped with torched mozzarella cheese and kani mixture",
+      "section": "",
+      "price": 13.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-160",
+      "restaurant_id": 8,
+      "name": "Mango Roll",
+      "description": "Spicy tuna, cucumber, topped with mango slices and sweet mango sauce",
+      "section": "",
+      "price": 13.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-161",
+      "restaurant_id": 8,
+      "name": "Menage a Trois Roll",
+      "description": "White tuna, salmon, avocado, topped with spicy tuna, spicy mayo, eel sauce, and seaweed salad",
+      "section": "",
+      "price": 17.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-162",
+      "restaurant_id": 8,
+      "name": "Naruto Roll",
+      "description": "Yellowtail, salmon, tuna, white tuna, and asparagus wrapped in cucumber with ponzu dressing (6 pieces)",
+      "section": "",
+      "price": 16.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-163",
+      "restaurant_id": 8,
+      "name": "Oh My Ebi Roll",
+      "description": "Kani (crab) salad, topped with steamed shrimp",
+      "section": "",
+      "price": 12.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-164",
+      "restaurant_id": 8,
+      "name": "Orange Roll",
+      "description": "Salmon, tuna, white tuna, and avocado, topped with masago",
+      "section": "",
+      "price": 17.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-165",
+      "restaurant_id": 8,
+      "name": "Out of Control Roll",
+      "description": "Spicy tuna, avocado, topped with salmon, eel and eel sauce",
+      "section": "",
+      "price": 17.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-166",
+      "restaurant_id": 8,
+      "name": "Phoenix Roll",
+      "description": "Shrimp tempura, cream cheese, topped with seared crab salad, eel sauce, spicy mayo, and scallions",
+      "section": "",
+      "price": 15.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-167",
+      "restaurant_id": 8,
+      "name": "Rainbow Roll",
+      "description": "Kani (crab), cucumber, and avocado, topped with an assortment of fish",
+      "section": "",
+      "price": 16.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-168",
+      "restaurant_id": 8,
+      "name": "Red Eye Roll",
+      "description": "Spicy tuna topped with salmon, avocado, wasabi mayo and sriracha",
+      "section": "",
+      "price": 16.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-169",
+      "restaurant_id": 8,
+      "name": "Rose Garden Roll",
+      "description": "Spicy tuna, cucumber, topped with tuna and kani (crab) salad",
+      "section": "",
+      "price": 17.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-170",
+      "restaurant_id": 8,
+      "name": "Sakana-Ya Roll",
+      "description": "Salmon, tuna, red snapper, avocado, cucumber and masago",
+      "section": "",
+      "price": 15.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-171",
+      "restaurant_id": 8,
+      "name": "Spicy Ebi-Ebi Roll",
+      "description": "Shrimp tempura, cucumber, topped with steamed shrimp, spicy mayo and crunch",
+      "section": "",
+      "price": 13.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-172",
+      "restaurant_id": 8,
+      "name": "Spicy Girl Roll",
+      "description": "Spicy salmon, topped with salmon, spicy tuna, spicy mayo, wasabi mayo, and 3 types of tobiko",
+      "section": "",
+      "price": 18.5,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-173",
+      "restaurant_id": 8,
+      "name": "Sunset Roll",
+      "description": "Crabmeat, avocado, cucumber, topped with spicy tuna, eel sauce, and spicy mayo",
+      "section": "",
+      "price": 14.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-174",
+      "restaurant_id": 8,
+      "name": "Super Spider Roll",
+      "description": "Spicy tuna roll deep-fried and topped with spicy soft shell crab mixture",
+      "section": "",
+      "price": 15.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-175",
+      "restaurant_id": 8,
+      "name": "Sweetheart Roll",
+      "description": "Sweet potato tempura, topped with spicy knai salad, tobiko, eel sauce, and spicy mayo",
+      "section": "",
+      "price": 13.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-176",
+      "restaurant_id": 8,
+      "name": "Tataki Roll Roll",
+      "description": "Seared tuna, avocado, topped with seared tuna and avocado, wasabi mayo and masago",
+      "section": "",
+      "price": 17.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-177",
+      "restaurant_id": 8,
+      "name": "Volcano Roll",
+      "description": "Tuna, salmon, avocado roll fried topped with spicy tuna, spicy mayo, eel sauce, and seaweed salad",
+      "section": "",
+      "price": 15.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-178",
+      "restaurant_id": 8,
+      "name": "Bul Go Ki Bento",
+      "description": "Thinly sliced beef in a sweet Korean BBQ sauce w. sauteed scallions & onions",
+      "section": "Bento Box",
+      "price": 24.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-179",
+      "restaurant_id": 8,
+      "name": "Chicken w. Broccoli Bento",
+      "description": "White meat chicken sauteed with broccoli in brown sauce",
+      "section": "Bento Box",
+      "price": 24.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-180",
+      "restaurant_id": 8,
+      "name": "Prik Pao Chicken Bento",
+      "description": "Roasted chili sauce sauteed w. fresh garlic, & mixed vegetables",
+      "section": "Bento Box",
+      "price": 24.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-181",
+      "restaurant_id": 8,
+      "name": "Prik Pao Shrimp Bento",
+      "description": "Roasted chili sauce sauteed w. fresh garlic, & mixed vegetables",
+      "section": "Bento Box",
+      "price": 24.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-182",
+      "restaurant_id": 8,
+      "name": "Prik Pao Tofu Bento",
+      "description": "Roasted chili sauce sauteed w. fresh garlic, & mixed vegetables",
+      "section": "Bento Box",
+      "price": 24.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-183",
+      "restaurant_id": 8,
+      "name": "Teriyaki Chicken Bento",
+      "description": "A sweet soy based sauce served with mixed vegetables",
+      "section": "Bento Box",
+      "price": 24.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-184",
+      "restaurant_id": 8,
+      "name": "Teriyaki Shrimp Bento",
+      "description": "A sweet soy based sauce served with mixed vegetables",
+      "section": "Bento Box",
+      "price": 24.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-185",
+      "restaurant_id": 8,
+      "name": "Teriyaki Tofu Bento",
+      "description": "A sweet soy based sauce served with mixed vegetables",
+      "section": "Bento Box",
+      "price": 24.95,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-186",
+      "restaurant_id": 8,
+      "name": "Bowl of White Rice",
+      "description": "",
+      "section": "Sides",
+      "price": 3.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-187",
+      "restaurant_id": 8,
+      "name": "Brown Rice",
+      "description": "",
+      "section": "Sides",
+      "price": 3.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-188",
+      "restaurant_id": 8,
+      "name": "Side of Eel Sauce",
+      "description": "",
+      "section": "Sides",
+      "price": 1.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-189",
+      "restaurant_id": 8,
+      "name": "Side of Ginger Dressing",
+      "description": "",
+      "section": "Sides",
+      "price": 1.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-190",
+      "restaurant_id": 8,
+      "name": "Side of Ponzu Dressing",
+      "description": "",
+      "section": "Sides",
+      "price": 1.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-191",
+      "restaurant_id": 8,
+      "name": "Side of Spicy Mayo",
+      "description": "",
+      "section": "Sides",
+      "price": 1.0,
+      "price_known": true,
+      "dietary_text": ""
+    },
+    {
+      "dish_id": "8-192",
+      "restaurant_id": 8,
+      "name": "Side of Teriyaki Sauce",
+      "description": "",
+      "section": "Sides",
+      "price": 3.25,
+      "price_known": true,
+      "dietary_text": ""
+    }
+  ],
+  "rejected": []
+}
