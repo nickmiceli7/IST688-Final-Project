@@ -14,7 +14,8 @@ DAYS = {"monday": 0, "mon": 0, "tuesday": 1, "tue": 1, "tues": 1, "wednesday": 2
         "saturday": 5, "sat": 5, "sunday": 6, "sun": 6}
 DAY_NAMES = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 
-_TIME_RE = re.compile(r"\b(\d{1,2})(?::(\d{2}))?\s*(a\.?m\.?|p\.?m\.?)?(?![\w:])")
+# A clock time, but not a number inside a date such as "11/27".
+_TIME_RE = re.compile(r"(?<![\d/])\b(\d{1,2})(?::(\d{2}))?\s*(a\.?m\.?|p\.?m\.?)?(?![\w:/])")
 
 
 # ---------- the Host's "when" text ----------

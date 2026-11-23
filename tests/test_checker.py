@@ -93,6 +93,7 @@ class ParseWhen(unittest.TestCase):
         self.check("now", NOW)
         self.check("Saturday 19:00", datetime(2026, 11, 28, 19, 0, tzinfo=TZ))
         self.check("Friday 7:30 pm", datetime(2026, 11, 27, 19, 30, tzinfo=TZ))
+        self.check("Fri 11/27 7pm", FRIDAY_7PM)          # the date's numbers aren't a time
 
     def test_bare_hour_is_read_as_pm_and_said(self):
         got, note = parse_when("Friday at 7", NOW)
