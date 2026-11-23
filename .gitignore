@@ -1,4 +1,22 @@
-profiles.json
+# Secrets: never commit API keys (OpenAI, Google Places, Supabase)
+.streamlit/secrets.toml
+secrets.toml
 .env
+.env.*
+!.env.example
+
+# Local user data (the Host's local profile store)
+profiles.json
+
+# Python
 __pycache__/
-.streamlit/secrets.toml.DS_Store
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
